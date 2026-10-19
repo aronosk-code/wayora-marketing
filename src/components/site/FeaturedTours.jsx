@@ -28,11 +28,11 @@ export default function FeaturedTours() {
           </p>
         </Reveal>
 
-        <div className="mt-6 grid grid-cols-2 gap-2.5 sm:mt-14 sm:gap-6 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-6 lg:grid-cols-3">
           {TOURS.map((tour, i) => (
             <Reveal key={tour.id} delay={(i % 3) * 0.08}>
               <article className="group overflow-hidden rounded-2xl border border-border bg-card shadow-[0_20px_50px_-40px_rgba(18,18,18,0.45)] sm:rounded-[1.75rem]">
-                <div className="relative h-24 overflow-hidden sm:h-56">
+                <div className="relative aspect-[4/3] overflow-hidden sm:aspect-auto sm:h-56">
                   <img
                     src={tour.image}
                     alt={TITLES[tour.id]}
@@ -40,7 +40,7 @@ export default function FeaturedTours() {
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                   />
                 </div>
-                <div className="p-2.5 transition-transform duration-500 group-hover:-translate-y-0.5 sm:p-6">
+                <div className="p-3 transition-transform duration-500 group-hover:-translate-y-0.5 sm:p-6">
                   <p className="text-[9px] font-semibold uppercase tracking-[0.12em] text-accent sm:text-xs sm:tracking-[0.18em]">
                     {tour.city}
                   </p>

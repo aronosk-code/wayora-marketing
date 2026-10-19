@@ -1,15 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Globe, Menu, X } from "lucide-react";
 import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
 import ComingSoonButton from "./ComingSoonButton";
 import LogoMark from "./Logo";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const LINKS = [
   { to: "/how-it-works", key: "nav.howItWorks" },
   { to: "/pricing", key: "nav.pricing" },
   { to: "/for-creators", key: "nav.forCreators" },
   { to: "/about", key: "nav.about" },
+];
+
+const SECONDARY_LINKS = [
+  { to: "/contact", key: "nav.contact" },
+  { to: "/privacy", key: "pages.privacyTitle" },
+  { to: "/terms", key: "pages.termsTitle" },
 ];
 
 function Logo({ light }) {
@@ -97,31 +110,34 @@ export default function SiteNav() {
                 {t(l.key)}
               </Link>
             ))}
+
+            <div className="mt-1 flex flex-col gap-3 border-t border-border pt-4">
+              {SECONDARY_LINKS.map((l) => (
+                <Link key={l.to} to={l.to} className="text-sm text-muted-foreground">
+                  {t(l.key)}
+                </Link>
+              ))}
+            </div>
+
+            <div className="mt-1 flex items-center gap-3">
+              <Globe className="h-4 w-4 shrink-0 text-muted-foreground" />
+              <Select value={lang} onValueChange={setLang}>
+                <SelectTrigger className="h-11 w-full rounded-full border-border bg-card text-sm text-foreground">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {LANGUAGES.map((l) => (
+                    <SelectItem key={l.code} value={l.code}>
+                      {l.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
             <ComingSoonButton className="mt-1 w-full rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
               {t("nav.getApp")}
             </ComingSoonButton>
-          </div>
-
-          <div className="mt-6 border-t border-border pt-5">
-            <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
-              {t("footer.language")}
-            </p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {LANGUAGES.map((l) => (
-                <button
-                  key={l.code}
-                  type="button"
-                  onClick={() => setLang(l.code)}
-                  className={`rounded-full border px-3 py-1.5 text-sm transition-colors ${
-                    lang === l.code
-                      ? "border-primary bg-primary/10 font-semibold text-primary"
-                      : "border-border text-muted-foreground"
-                  }`}
-                >
-                  {l.label}
-                </button>
-              ))}
-            </div>
           </div>
         </div>
       )}

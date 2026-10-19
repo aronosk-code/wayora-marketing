@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
+import { useI18n } from "@/lib/i18n/LanguageContext";
 import LogoMark from "./Logo";
 
 export default function SiteFooter() {
-  const { t, lang, setLang } = useI18n();
+  const { t } = useI18n();
 
   const columns = [
     {
@@ -68,35 +68,7 @@ export default function SiteFooter() {
           ))}
         </div>
 
-        <div className="mt-14 hidden border-t border-border pt-8 lg:block">
-          <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
-            {t("footer.language")}
-          </p>
-          <ul className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2">
-            {LANGUAGES.map((l, i) => (
-              <li key={l.code} className="flex items-center gap-4">
-                <button
-                  type="button"
-                  onClick={() => setLang(l.code)}
-                  className={`text-sm transition-colors ${
-                    lang === l.code
-                      ? "font-semibold text-primary"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
-                >
-                  {l.label}
-                </button>
-                {i < LANGUAGES.length - 1 && (
-                  <span className="text-border" aria-hidden="true">
-                    ·
-                  </span>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <p className="mt-10 text-xs text-muted-foreground">
+        <p className="mt-14 border-t border-border pt-8 text-xs text-muted-foreground">
           © {new Date().getFullYear()} Wayora. {t("footer.rights")}
         </p>
       </div>

@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useI18n } from "@/lib/i18n/LanguageContext";
 import ComingSoonButton from "./ComingSoonButton";
+import LogoMark from "./Logo";
 
 const LINKS = [
   { to: "/how-it-works", key: "nav.howItWorks" },
@@ -14,18 +15,7 @@ const LINKS = [
 function Logo({ light }) {
   return (
     <span className="flex items-center gap-2.5">
-      <svg viewBox="0 0 32 32" className="h-8 w-8" aria-hidden="true">
-        <circle cx="16" cy="16" r="15" fill={light ? "rgba(255,255,255,0.16)" : "#1A7A6C"} />
-        <path
-          d="M8 22c3.5-1 5-5 7.5-6.5S22 14 24 10"
-          fill="none"
-          stroke={light ? "#ffffff" : "#FDFCF8"}
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeDasharray="3 3"
-        />
-        <circle cx="24" cy="10" r="2.6" fill="#E05738" />
-      </svg>
+      <LogoMark className="h-9 w-9" />
       <span
         className={`font-heading text-2xl font-semibold tracking-tight ${
           light ? "text-white" : "text-foreground"

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
+import LogoMark from "./Logo";
 
 export default function SiteFooter() {
   const { t, lang, setLang } = useI18n();
@@ -35,8 +36,11 @@ export default function SiteFooter() {
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <Link to="/" className="font-heading text-3xl font-semibold text-foreground">
-              Wayora
+            <Link to="/" className="flex items-center gap-3">
+              <LogoMark className="h-10 w-10" />
+              <span className="font-heading text-3xl font-semibold text-foreground">
+                Wayora
+              </span>
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
               {t("footer.tagline")}

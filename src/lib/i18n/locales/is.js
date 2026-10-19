@@ -28,7 +28,7 @@ export default {
   },
   story: {
     eyebrow: "Fyrstu fimm mínúturnar",
-    title: "Lentu, gakktu út og ferðin bíður þegar þín",
+    title: "Lentu, gakktu út og ferðin bíður þín",
     subtitle:
       "Engin leit, engin skipulagning. Wayora veit hvar þú ert og segir þér hvað er framundan.",
     c1: "Þú lentir og gengur út í komusalinn",
@@ -50,7 +50,7 @@ export default {
     },
     walk: {
       title: "Gakktu, og það leiðir þig",
-      text: "Skref fyrir skref að falnum gersemum, saga bíður á hverri stöð.",
+      text: "Skref fyrir skref að földum gersemum, saga bíður á hverri stöð.",
     },
     eyes: {
       title: "Augun uppi, síminn í burtu",

@@ -14,9 +14,6 @@ export default function TravelerStory() {
     return () => clearTimeout(timer);
   }, [beat]);
 
-  const captions = [t("story.c1"), t("story.c2"), t("story.c3")];
-  const active = beat === 0 ? 0 : beat === 1 ? 1 : 2;
-
   return (
     <section className="bg-background py-24">
       <div className="mx-auto max-w-6xl px-6">
@@ -35,32 +32,6 @@ export default function TravelerStory() {
         <Reveal delay={0.1} className="mt-12">
           <StoryStage beat={beat} />
         </Reveal>
-
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
-          {captions.map((caption, i) => (
-            <div
-              key={i}
-              className={`rounded-2xl border px-5 py-4 transition-colors duration-500 ${
-                i === active ? "border-primary bg-secondary" : "border-border bg-card"
-              }`}
-            >
-              <span
-                className={`text-xs font-semibold ${
-                  i === active ? "text-primary" : "text-muted-foreground"
-                }`}
-              >
-                0{i + 1}
-              </span>
-              <p
-                className={`mt-1 text-sm leading-relaxed ${
-                  i === active ? "text-foreground" : "text-muted-foreground"
-                }`}
-              >
-                {caption}
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

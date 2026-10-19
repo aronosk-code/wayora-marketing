@@ -22,11 +22,11 @@ export default function LegalContent({
   const [beforeEmail, afterEmail] = (questionsText || "").split("{email}");
 
   return (
-    <section className="bg-background py-12 sm:py-20">
+    <section className="bg-background py-10 sm:py-20">
       <div className="mx-auto max-w-3xl px-6">
         <p className="text-sm text-muted-foreground">{updated}</p>
 
-        <div className="mt-8 space-y-10 sm:mt-14 sm:space-y-14">
+        <div className="mt-6 space-y-8 sm:mt-14 sm:space-y-14">
           {sections.map((s) => (
             <div key={s.title}>
               <h2 className="font-heading text-xl text-foreground sm:text-3xl">{s.title}</h2>

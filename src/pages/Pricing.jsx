@@ -27,7 +27,7 @@ export default function Pricing() {
         </div>
       </section>
 
-      <section className="bg-card py-12 sm:py-20">
+      <section className="bg-card py-10 sm:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <Reveal>
             <PricingTable />

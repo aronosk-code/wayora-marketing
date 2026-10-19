@@ -10,7 +10,7 @@ export default function CreatorSteps() {
   const steps = t("pages.creators.steps") || [];
 
   return (
-    <section className="bg-card py-12 sm:py-24">
+    <section className="bg-card py-10 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <h2 className="font-heading text-2xl text-foreground sm:text-4xl lg:text-5xl">

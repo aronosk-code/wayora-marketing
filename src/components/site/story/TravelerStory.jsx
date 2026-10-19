@@ -15,7 +15,7 @@ export default function TravelerStory() {
   }, [beat]);
 
   return (
-    <section className="bg-background py-16 sm:py-24">
+    <section className="bg-background py-10 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-accent">
@@ -29,7 +29,7 @@ export default function TravelerStory() {
           </p>
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 sm:mt-12">
+        <Reveal delay={0.1} className="mt-6 sm:mt-12">
           <StoryStage beat={beat} />
         </Reveal>
       </div>

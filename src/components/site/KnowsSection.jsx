@@ -13,7 +13,7 @@ export default function KnowsSection() {
   ];
 
   return (
-    <section className="bg-background py-16 sm:py-24">
+    <section className="bg-background py-10 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <h2 className="max-w-2xl font-heading text-2xl text-foreground sm:text-4xl lg:text-5xl">

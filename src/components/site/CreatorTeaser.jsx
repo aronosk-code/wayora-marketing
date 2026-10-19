@@ -8,10 +8,10 @@ export default function CreatorTeaser() {
   const { t } = useI18n();
 
   return (
-    <section className="bg-background py-16 sm:py-24">
+    <section className="bg-background py-10 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
-          <div className="overflow-hidden rounded-3xl bg-accent px-6 py-10 sm:rounded-[2.5rem] sm:px-14 sm:py-16 lg:px-20">
+          <div className="overflow-hidden rounded-2xl bg-accent px-5 py-8 sm:rounded-[2.5rem] sm:px-14 sm:py-16 lg:px-20">
             <div className="max-w-2xl">
               <h2 className="font-heading text-2xl text-accent-foreground sm:text-4xl lg:text-5xl">
                 {t("creatorTeaser.title")}

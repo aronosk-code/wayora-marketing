@@ -19,9 +19,9 @@ export default function HowItWorks() {
 
       <ProductTour />
 
-      <section className="bg-background py-12 sm:py-24">
+      <section className="bg-background py-10 sm:py-24">
         <div className="mx-auto max-w-6xl px-6">
-          <div className="grid gap-8 sm:gap-14 lg:grid-cols-2">
+          <div className="grid gap-6 sm:gap-14 lg:grid-cols-2">
             <Reveal>
               <h2 className="font-heading text-2xl text-foreground sm:text-4xl">
                 {t("pages.feelTitle")}

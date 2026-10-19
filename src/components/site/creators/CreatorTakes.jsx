@@ -6,7 +6,7 @@ export default function CreatorTakes() {
   const { t } = useI18n();
 
   return (
-    <section className="bg-accent py-12 sm:py-20">
+    <section className="bg-accent py-10 sm:py-20">
       <div className="mx-auto max-w-3xl px-6">
         <Reveal>
           <h2 className="font-heading text-2xl text-accent-foreground sm:text-4xl">

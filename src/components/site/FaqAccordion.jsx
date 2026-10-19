@@ -13,7 +13,7 @@ export default function FaqAccordion() {
   const items = t("faq.items") || [];
 
   return (
-    <section className="bg-background py-16 sm:py-24">
+    <section className="bg-background py-10 sm:py-24">
       <div className="mx-auto max-w-3xl px-6">
         <Reveal>
           <h2 className="font-heading text-2xl text-foreground sm:text-4xl lg:text-5xl">
@@ -21,7 +21,7 @@ export default function FaqAccordion() {
           </h2>
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 sm:mt-12">
+        <Reveal delay={0.1} className="mt-6 sm:mt-12">
           <Accordion type="single" collapsible className="w-full">
             {items.map((item, i) => (
               <AccordionItem key={i} value={`item-${i}`} className="border-border">

@@ -4,7 +4,7 @@ export default function PageHero({ eyebrow, title, intro, children, compact = fa
   return (
     <section
       className={`border-b border-border bg-card ${
-        compact ? "pb-8 pt-28 sm:pb-10 sm:pt-32" : "pb-12 pt-28 sm:pb-16 sm:pt-40"
+        compact ? "pb-8 pt-24 sm:pb-10 sm:pt-32" : "pb-10 pt-24 sm:pb-16 sm:pt-40"
       }`}
     >
       <div className="mx-auto max-w-6xl px-6">

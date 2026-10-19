@@ -8,9 +8,9 @@ export default function ProductTour() {
   const steps = ["s1", "s2", "s3"];
 
   return (
-    <section className="bg-card py-16 sm:py-24">
+    <section className="bg-card py-10 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="grid items-center gap-10 sm:gap-16 lg:grid-cols-2">
+        <div className="grid items-center gap-8 sm:gap-16 lg:grid-cols-2">
           <div>
             <Reveal>
               <h2 className="font-heading text-2xl text-foreground sm:text-4xl lg:text-5xl">
@@ -21,7 +21,7 @@ export default function ProductTour() {
               </p>
             </Reveal>
 
-            <ol className="mt-8 space-y-6 sm:mt-12 sm:space-y-10">
+            <ol className="mt-6 space-y-5 sm:mt-12 sm:space-y-10">
               {steps.map((s, i) => (
                 <Reveal key={s} delay={i * 0.1}>
                   <li className="relative flex gap-4 pb-2 sm:gap-6">

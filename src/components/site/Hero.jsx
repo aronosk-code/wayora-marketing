@@ -9,7 +9,7 @@ export default function Hero() {
   const { t } = useI18n();
 
   return (
-    <section className="relative flex min-h-[94vh] items-end overflow-hidden">
+    <section className="relative flex min-h-[86vh] items-end overflow-hidden sm:min-h-[94vh]">
       <div className="absolute inset-0">
         {HERO_VIDEO_URL ? (
           <video
@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30" />
       </div>
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-36 pt-32">
+      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-20 pt-28 sm:pb-36 sm:pt-32">
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.1 }}
-          className="mt-4 max-w-4xl font-heading text-4xl leading-[1.05] text-white sm:text-5xl lg:text-7xl"
+          className="mt-3 max-w-4xl font-heading text-[2rem] leading-[1.08] text-white sm:mt-4 sm:text-5xl lg:text-7xl"
         >
           {t("hero.title")}
         </motion.h1>
@@ -58,7 +58,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2 }}
-          className="mt-4 max-w-2xl text-lg leading-relaxed text-white/85"
+          className="mt-3 max-w-2xl text-base leading-relaxed text-white/85 sm:mt-4 sm:text-lg"
         >
           {t("hero.subtitle")}
         </motion.p>
@@ -67,14 +67,14 @@ export default function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.3 }}
-          className="mt-7 flex flex-wrap items-center gap-3"
+          className="mt-6 flex flex-col gap-3 sm:mt-7 sm:flex-row sm:flex-wrap sm:items-center"
         >
-          <ComingSoonButton className="rounded-full bg-primary px-7 text-primary-foreground shadow-lg shadow-black/20 hover:bg-primary/90">
+          <ComingSoonButton className="w-full justify-center rounded-full bg-primary px-7 text-primary-foreground shadow-lg shadow-black/20 hover:bg-primary/90 sm:w-auto">
             {t("common.getTheApp")}
           </ComingSoonButton>
           <Link
             to="/how-it-works"
-            className="rounded-full border border-white/40 px-7 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10"
+            className="rounded-full border border-white/40 px-7 py-3 text-center text-sm font-medium text-white transition-colors hover:bg-white/10"
           >
             {t("common.seeHowItWorks")}
           </Link>
@@ -84,7 +84,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.9, delay: 0.45 }}
-          className="mt-6 text-sm font-medium text-white/85"
+          className="mt-5 text-sm font-medium text-white/85 sm:mt-6"
         >
           {t("common.firstTourFree")}
         </motion.p>

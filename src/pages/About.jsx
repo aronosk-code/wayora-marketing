@@ -16,7 +16,7 @@ export default function About() {
     <>
       <PageHero eyebrow={t("nav.about")} title={t("pages.aboutTitle")} />
 
-      <section className="bg-background py-12 sm:py-20">
+      <section className="bg-background py-10 sm:py-20">
         <div className="mx-auto max-w-6xl px-6">
           <Reveal>
             <p className="max-w-3xl font-heading text-xl leading-snug text-foreground sm:text-3xl">
@@ -24,7 +24,7 @@ export default function About() {
             </p>
           </Reveal>
 
-          <div className="mt-10 grid gap-8 sm:mt-16 sm:gap-10 md:grid-cols-2">
+          <div className="mt-8 grid gap-6 sm:mt-16 sm:gap-10 md:grid-cols-2">
             {blocks.map((b, i) => (
               <Reveal key={b.title} delay={i * 0.1}>
                 <div className="border-t border-border pt-6 sm:pt-8">

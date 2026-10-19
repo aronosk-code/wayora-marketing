@@ -43,7 +43,7 @@ export default function Contact() {
         intro={t("pages.contactIntro")}
       />
 
-      <section className="bg-background py-12 sm:py-20">
+      <section className="bg-background py-10 sm:py-20">
         <div className="mx-auto max-w-2xl px-6">
           {status === "sent" ? (
             <div className="rounded-2xl border border-border bg-card p-7 text-center sm:rounded-[1.75rem] sm:p-10">

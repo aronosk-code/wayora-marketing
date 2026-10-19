@@ -27,7 +27,6 @@ export default function ForCreators() {
           {t("common.startCreating")}
           <ArrowRight className="h-4 w-4" />
         </Link>
-        <p className="mt-6 text-sm text-muted-foreground">{t("pages.creators.trust")}</p>
       </PageHero>
 
       <CreatorEarn />

@@ -16,10 +16,14 @@ export default function CreatorBuilt() {
           </h2>
         </Reveal>
 
-        <ul className="mt-12 grid gap-4 md:grid-cols-2">
+        <ul className="mt-12 flex flex-wrap items-stretch justify-center gap-4">
           {points.map((point, i) => (
-            <Reveal key={point} delay={i * 0.05}>
-              <li className="flex items-start gap-4 rounded-[1.5rem] border border-border bg-card p-6">
+            <Reveal
+              key={point}
+              delay={i * 0.05}
+              className="w-full md:w-[calc(50%-0.5rem)]"
+            >
+              <li className="flex h-full items-start gap-4 rounded-[1.5rem] border border-border bg-card p-6">
                 <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
                   <Check className="h-4 w-4" />
                 </span>

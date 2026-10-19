@@ -5,36 +5,37 @@ export default {
     forCreators: "Fyrir höfunda",
     about: "Um okkur",
     contact: "Hafa samband",
-    getApp: "Sækja appið",
+    getApp: "Ná í appið",
   },
   common: {
-    getTheApp: "Sækja appið",
+    getTheApp: "Ná í appið",
     seeHowItWorks: "Sjá hvernig það virkar",
-    startCreating: "Byrja að búa til",
+    startCreating: "Byrjaðu að búa til",
     comingSoon: "Væntanlegt",
     comingSoonTitle: "Wayora er á leiðinni",
     comingSoonText:
-      "Appið er ekki komið í verslanirnar ennþá. Við látum þig vita um leið og það gerist.",
+      "Appið er ekki komið í verslanirnar ennþá. Bíddu aðeins — það verður þess virði.",
     mostPopular: "Vinsælast",
     close: "Loka",
     trust: "Ókeypis að prófa · Virkar án nets · 7 tungumál",
-    firstTourFree: "Fyrsta ferðin þín er ókeypis — hver saga í henni.",
+    firstTourFree: "Fyrsta ferðin þín er ókeypis — hver einasta saga í henni.",
   },
   hero: {
     eyebrow: "Hljóðleiðsögur sem virkjast þar sem þú ert",
-    title: "Sérhver vegur á sér sögu. Leyfðu Wayora að segja hana.",
+    title: "Hver vegur á sér sögu. Láttu Wayora segja hana.",
     subtitle:
-      "Wayora breytir akstri eða göngu í leiðsögða hljóðferð. Sögurnar hefjast um leið og þú kemur — án handa, augun uppi, ekkert að leita að.",
+      "Wayora breytir akstri eða göngu í leiðsögða hljóðferð. Sögurnar hefjast um leið og þú kemur — hendurnar frjálsar, augun uppi, ekkert að leita að.",
   },
   story: {
     eyebrow: "Fyrstu fimm mínúturnar",
-    title: "Lentu, gakktu út og túrinn bíður þegar",
-    subtitle: "Engin leit, engin skipulagning. Wayora veit hvar þú ert og segir þér hvað er framundan.",
-    c1: "Þú lentir og gengur út úr komusalnum",
-    c2: "Túr bíður þín rétt framundan",
-    c3: "Ein snerting og hann byrjar að spila",
+    title: "Lentu, gakktu út og ferðin bíður þegar þín",
+    subtitle:
+      "Engin leit, engin skipulagning. Wayora veit hvar þú ert og segir þér hvað er framundan.",
+    c1: "Þú lentir og gengur út í komusalinn",
+    c2: "Ferð bíður þín rétt framundan",
+    c3: "Ein snerting og hún byrjar að spila",
     day: "Mánudagur, 19. október",
-    notif: "Túr framundan — Suðurströndin",
+    notif: "Ferð framundan — Suðurströndin",
     notifMeta: "Byrjar eftir 400 m · 2 klst 15 mín",
     tourTitle: "Suðurströndin",
     tourMeta: "2 klst 15 mín · 128 km",
@@ -44,11 +45,11 @@ export default {
     title: "Það veit einfaldlega hvar þú ert",
     subtitle: "Engin leit, engin snerting, engir skjáir. Wayora fylgir þér bara.",
     drive: {
-      title: "Keyrðu, og það segir frá",
-      text: "Sögur spilast sjálfar þegar þú ferð fram hjá stöðunum sem skipta máli.",
+      title: "Keyrðu, og það segir sögurnar",
+      text: "Sögurnar spilast af sjálfu sér þegar þú ferð fram hjá stöðunum sem skipta máli.",
     },
     walk: {
-      title: "Gakktu, og það leiðir",
+      title: "Gakktu, og það leiðir þig",
       text: "Skref fyrir skref að falnum gersemum, saga bíður á hverri stöð.",
     },
     eyes: {
@@ -61,7 +62,7 @@ export default {
     subtitle: "Þrjú skref frá því að opna appið að fyrstu sögunni.",
     s1: { title: "Opnaðu kortið", text: "Sjáðu allar ferðir í kringum þig, í beinni." },
     s2: { title: "Veldu ferð", text: "Frá 20 mínútna göngu að heilsdags akstri." },
-    s3: { title: "Ýttu á play", text: "Leggðu símann frá þér. Wayora tekur við." },
+    s3: { title: "Ýttu á spila", text: "Leggðu símann frá þér. Wayora tekur við." },
   },
   why: {
     title: "Af hverju Wayora",
@@ -83,8 +84,8 @@ export default {
   },
   creatorTeaser: {
     title: "Þín borg. Þínar sögur. Þínar tekjur.",
-    text: "Wayora borgar höfundum hlut í hvert sinn sem einhver heyrir söguna þína.",
-    cta: "Byrja að búa til",
+    text: "Wayora greiðir höfundum hlut í hvert sinn sem einhver heyrir söguna þína.",
+    cta: "Byrjaðu að búa til",
   },
   pricing: {
     eyebrow: "Áskriftir",
@@ -95,7 +96,7 @@ export default {
         name: "Ókeypis",
         price: "$0",
         period: "",
-        tagline: "Fyrsta ferðin þín er ókeypis — hver saga í henni.",
+        tagline: "Fyrsta ferðin þín er ókeypis — hver einasta saga í henni.",
         features: ["Fyrsta ferðin ókeypis", "Kort án nets", "7 tungumál"],
         popular: false,
       },
@@ -125,7 +126,7 @@ export default {
         name: "Ótakmarkað",
         price: "$19.99",
         period: "/mán",
-        tagline: "Hver saga, hver ferð.",
+        tagline: "Hver einasta saga, hver einasta ferð.",
         features: [
           "Ótakmarkaðar sögur",
           "Búðu til og birtu þínar eigin ferðir",
@@ -146,24 +147,24 @@ export default {
     ],
     payoutsTitle: "Hvernig greiðslur til höfunda virka",
     payoutsText:
-      "Höfundar fá hlut af áskriftartekjum, skipt eftir því hversu margar sögur þeirra eru spilaðar, auk styrkja í heild. Greiðslur eru gefnar út mánaðarlega; staða undir $20 færist yfir á næsta mánuð.",
+      "Höfundar fá hlut af áskriftartekjum sem skiptist eftir því hversu oft sögur þeirra eru spilaðar, auk styrkja í heild sinni. Greiðslur eru gefnar út mánaðarlega; staða undir $20 færist yfir á næsta mánuð.",
   },
   testimonials: {
     title: "Ummæli ferðalanga",
     items: [
       {
         quote:
-          "Við keyrðum alla suðurströndina án þess að opna kort einu sinni. Sögurnar komu á nákvæmlega réttum tíma.",
+          "Við keyrðum alla suðurströndina án þess að opna kort einu sinni. Sögurnar komu á nákvæmlega réttum augnablikum.",
         name: "Sýnishorn",
         place: "Reykjavík",
       },
       {
-        quote: "Ég gekk um borg sem ég hélt að ég þekkti og heyrði hana í fyrsta sinn.",
+        quote: "Ég gekk um borg sem ég hélt að ég þekkti — og heyrði hana í fyrsta sinn.",
         name: "Sýnishorn",
         place: "Lissabon",
       },
       {
-        quote: "Niðurhalið bjargaði okkur á vegi þar sem ekkert samband var í klukkutíma.",
+        quote: "Niðurhalið bjargaði okkur á vegi þar sem ekkert samband var í klukkustundum.",
         name: "Sýnishorn",
         place: "Alparnir",
       },
@@ -174,19 +175,19 @@ export default {
     items: [
       {
         q: "Hvernig virka sögurnar?",
-        a: "Fyrsta ferðin þín er ókeypis, hver saga í henni. Eftir það færðu mánaðarlega þann sögukvóta sem fylgir áskriftinni þinni — Unlimited hefur engan. Endurspilun er ókeypis sama mánuð og ónotaðar sögur flytjast ekki yfir.",
+        a: "Fyrsta ferðin þín er ókeypis, hver einasta saga í henni. Eftir það færðu mánaðarlega þann sögukvóta sem fylgir áskriftinni þinni — Ótakmarkað hefur engan. Endurspilun er ókeypis sama mánuð og ónotaðar sögur flytjast ekki yfir.",
       },
       {
         q: "Þarf ég að skipuleggja eitthvað fyrirfram?",
-        a: "Nei. Opnaðu kortið, veldu ferð og ýttu á play. Wayora virkjar hverja sögu út frá staðsetningu þinni þegar þú kemur.",
+        a: "Nei. Opnaðu kortið, veldu ferð og ýttu á spila. Wayora virkjar hverja sögu út frá staðsetningu þinni þegar þú kemur.",
       },
       {
         q: "Virkar það án sambands?",
-        a: "Já. Halaðu ferð niður áður en þú ferð og hún spilast algjörlega án nets, GPS meðtalið.",
+        a: "Já. Halaðu ferð niður áður en þú leggur af stað og hún spilast algjörlega án nets, GPS meðtalið.",
       },
       {
         q: "Get ég notað það gangandi og akandi?",
-        a: "Bæði. Margar ferðir sameina akstur og stuttar göngur við stöðvarnar.",
+        a: "Já, bæði. Margar ferðir sameina akstur og stuttar göngur við stöðvarnar.",
       },
       {
         q: "Hvaða tungumál eru í boði?",
@@ -194,32 +195,32 @@ export default {
       },
       {
         q: "Hvernig fá höfundar greitt?",
-        a: "Höfundar fá hlut af áskriftartekjum, skipt eftir því hversu margar sögur þeirra eru spilaðar, auk styrkja í heild. Staða undir $20 færist yfir á næsta mánuð.",
+        a: "Höfundar fá hlut af áskriftartekjum sem skiptist eftir því hversu oft sögur þeirra eru spilaðar, auk styrkja í heild sinni. Staða undir $20 færist yfir á næsta mánuð.",
       },
     ],
   },
   finalCta: {
-    title: "Næsti akstur gæti verið ferð.",
+    title: "Næsti akstur gæti orðið að ferð.",
     subtitle: "Wayora kemur á iOS og Android. Við látum þig vita um leið og það gerist.",
   },
   footer: {
     tagline: "Hljóðleiðsögur sem spila sig sjálfar.",
     product: "Vara",
     company: "Fyrirtæki",
-    legal: "Lagalegt",
+    legal: "Lög og reglur",
     language: "Tungumál",
     rights: "Öll réttindi áskilin.",
   },
   pages: {
     howTitle: "Hvernig það virkar",
     howIntro:
-      "Wayora sér um skipulagið svo þú getir horft. Hér er öll ferðin, frá því að þú opnar appið að sögunni sem spilast þegar þú kemur.",
-    feelTitle: "Hvernig það er að upplifa",
+      "Wayora sér um skipulagið svo þú getir notið útsýnisins. Hér er öll ferðin, frá því að þú opnar appið að sögunni sem spilast þegar þú kemur.",
+    feelTitle: "Svona er upplifunin",
     feelText:
-      "Þú setur símann í haldara, leggur af stað og fyrsta sagan hefst þegar bærinn hverfur að baki. Enginn listi að skruna, enginn takki að ýta á. Vegurinn setur taktinn og Wayora heldur í við hann.",
+      "Þú setur símann í símahaldara, leggur af stað og fyrsta sagan hefst þegar bærinn hverfur að baki. Enginn listi að skruna, enginn takki að ýta á. Vegurinn setur taktinn og Wayora heldur í við hann.",
     offlineTitle: "Án nets og GPS, útskýrt",
     offlineText:
-      "Hægt er að hlaða hverri ferð niður áður en þú ferð. Hljóðið, leiðin og virkjunarpunktarnir eru öll í símanum þínum, svo fjallvegur án sambands hljómar nákvæmlega eins og gata í borg. GPS virkar án gagna — Wayora hlustar bara á hvar þú ert.",
+      "Hægt er að hlaða hverri ferð niður áður en þú leggur af stað. Hljóðið, leiðin og virkjunarpunktarnir eru öll í símanum þínum, svo fjallvegur án sambands hljómar nákvæmlega eins og gata í borg. GPS virkar án gagna — Wayora fylgist bara með hvar þú ert.",
     creators: {
       eyebrow: "Fyrir höfunda",
       title: "Breyttu því sem þú veist í ferð.",
@@ -230,7 +231,7 @@ export default {
       earn: [
         {
           title: "Hlutur af áskriftartekjum, skipt eftir spilunum.",
-          text: "Hver áskriftargreiðsla leggur hlut í sjóð höfunda, sem er skipt eftir því hvaða sögur áskrifendur spiluðu í raun í þeim mánuði — hver spiluð saga telur. Því fleiri sem spila þínar, því stærri verður þinn hlutur.",
+          text: "Hver áskriftargreiðsla leggur hlut í sjóð höfunda, sem skiptist eftir því hvaða sögur áskrifendur spiluðu í raun í þeim mánuði — hver spiluð saga telur. Því fleiri sem spila þínar, því stærri verður þinn hlutur.",
         },
         {
           title: "100% af þínum styrkjum.",
@@ -245,7 +246,7 @@ export default {
       steps: [
         {
           title: "Taktu sögurnar upp",
-          text: "Talaðu eðlilega, eða skrifaðu þær. Wayora lagar orðin þín og getur lesið þau fyrir þig á sjö tungumálum.",
+          text: "Talaðu eðlilega, eða skrifaðu þær niður. Wayora lagar orðin þín og getur lesið þau fyrir þig á sjö tungumálum.",
         },
         {
           title: "Festu þær við raunverulega staði",
@@ -256,17 +257,17 @@ export default {
           text: "Deildu ferðinni þinni. Í hvert sinn sem einhver heyrir sögu frá þér telur það í þinn hlut af sjóðnum.",
         },
       ],
-      builtTitle: "Byggt fyrir fólk sem þekkir stað",
+      builtTitle: "Byggt fyrir fólk sem þekkir staðinn",
       built: [
-        "Leiðbeint upptaka breytir raddskilaboðum í fullbúna sögu",
-        "Sjálfvirk upplestur á sjö tungumálum, í þeirri rödd sem þú velur",
+        "Leiðbeind upptaka breytir raddskilaboðum í fullbúna sögu",
+        "Sjálfvirkur upplestur á sjö tungumálum, í þeirri rödd sem þú velur",
         "Kortverkfæri til að setja stöðvar og stilla virkjunarfjarlægð",
         "Upplýsingar í rauntíma um hvaða sögur eru heyrðar",
         "Styrkir beint frá þakklátum ferðalöngum",
       ],
       takesTitle: "Hvað þarf til",
       takesText:
-        "Þú þarft ekki að vera atvinnumaður. Þú þarft að þekkja stað og þykja vænt um hann. Bestu ferðirnar eru einlæg þekking eins manns á sínum eigin horni heimsins, sögð hreint út.",
+        "Þú þarft ekki að vera atvinnumaður. Þú þarft að þekkja stað og þykja vænt um hann. Bestu ferðirnar eru einlæg þekking eins manns á sínum eigin krók heimsins, sögð hreint út.",
       faqTitle: "Algengar spurningar",
       faq: [
         {
@@ -275,7 +276,7 @@ export default {
         },
         {
           q: "Þarf ég að vera áskrifandi til að búa til?",
-          a: "Já. Að búa til og birta er innifalið í Traveler og Unlimited.",
+          a: "Já. Að búa til og birta er innifalið í áskriftunum Ferðalangur og Ótakmarkað.",
         },
         {
           q: "Hvað ef enginn hlustar?",
@@ -287,15 +288,15 @@ export default {
         },
       ],
     },
-    aboutTitle: "Við bjuggum Wayora svo ferðalag hljómiði eins og saga, ekki leit.",
+    aboutTitle: "Við bjuggum Wayora svo að ferðalag hljómi eins og saga, ekki leit.",
     aboutMission:
-      "Flest ferðaöpp rétta þér lista og óska þér góðs gengis. Við vildum hið gagnstæða: að staðurinn sjálfur segi þér hvað hér gerðist, á þeirri stundu sem skiptir máli. Þess vegna hlustar Wayora á hvar þú ert og talar þegar þú kemur.",
+      "Flest ferðaöpp rétta þér lista og óska þér góðs gengis. Við vildum hið gagnstæða: að staðurinn sjálfur segi þér hvað hér gerðist, á þeirri stundu sem skiptir máli. Þess vegna fylgist Wayora með hvar þú ert og talar þegar þú kemur.",
     aboutGpsTitle: "Af hverju hljóð sem virkjast af GPS",
     aboutGpsText:
-      "Að fletta upp hlutum rýfur töfrana. Þegar sagan kemur af sjálfu sér heldur vegurinn áfram að vera fyrir framan þig og staðurinn talar. Ekkert að leita að, ekkert að halda á.",
+      "Að fletta upp hlutum rýfur töfrana. Þegar sagan kemur af sjálfu sér heldur vegurinn áfram fyrir framan þig og staðurinn talar. Ekkert að leita að, ekkert að halda á.",
     aboutVoicesTitle: "Að styðja staðbundnar raddir",
     aboutVoicesText:
-      "Bestu leiðsögumennirnir eru fólkið sem býr þar. Wayora borgar þeim beint fyrir sögurnar sem þau taka upp, svo ferðirnar sem þú heyrir koma frá raunverulegri þekkingu og haldast á sínum stað.",
+      "Bestu leiðsögumennirnir eru fólkið sem býr á staðnum. Wayora borgar þeim beint fyrir sögurnar sem þau taka upp, svo ferðirnar sem þú heyrir koma frá raunverulegri þekkingu og haldast á sínum stað.",
     contactTitle: "Segðu hæ",
     contactIntro:
       "Spurningar, hugmyndir eða saga sem er þess virði að segja? Sendu okkur skilaboð og við svörum.",
@@ -303,11 +304,11 @@ export default {
     email: "Netfang",
     message: "Skilaboð",
     send: "Senda skilaboð",
-    sending: "Sendi…",
+    sending: "Sendir…",
     sentTitle: "Takk fyrir — skilaboðin þín eru á leiðinni.",
-    sentText: "Við lesum hver skilaboð og svörum eins fljótt og við getum.",
-    sendAnother: "Senda önnur skilaboð",
-    help: "Vantar hjálp með appið?",
+    sentText: "Við lesum hvert einasta skilaboð og svörum eins fljótt og við getum.",
+    sendAnother: "Senda ný skilaboð",
+    help: "Vantar þig hjálp með appið?",
     privacyTitle: "Persónuverndarstefna",
     termsTitle: "Þjónustuskilmálar",
     updated: "Síðast uppfært: október 2026",

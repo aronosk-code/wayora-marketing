@@ -1,11 +1,15 @@
 import React from "react";
+import { Image } from "@/components/ui/image";
+
+export const LOGO_URL =
+  "https://media.base44.com/images/public/6ad5627944e69b6847343e56/7b15f523a_apple-touch-icon.png";
 
 export default function LogoMark({ className = "h-9 w-9" }) {
   return (
-    <svg viewBox="0 0 32 32" className={className} aria-hidden="true">
-      <rect width="32" height="32" rx="9" fill="#1F7264" />
-      <circle cx="16" cy="16" r="9.6" fill="none" stroke="#FFFFFF" strokeWidth="1.7" />
-      <path d="M16 7.6 L21.6 16 L16 24.4 L10.4 16 Z" fill="#FFFFFF" />
-    </svg>
+    <Image
+      src={LOGO_URL}
+      alt=""
+      className={`${className} shrink-0 overflow-hidden rounded-[22%]`}
+    />
   );
 }

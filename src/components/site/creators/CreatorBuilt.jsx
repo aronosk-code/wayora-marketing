@@ -21,7 +21,7 @@ export default function CreatorBuilt() {
             <Reveal
               key={point}
               delay={i * 0.05}
-              className="w-full md:w-[calc(50%-0.5rem)]"
+              className="w-full md:w-[calc(50%_-_0.5rem)]"
             >
               <li className="flex h-full items-start gap-4 rounded-[1.5rem] border border-border bg-card p-6">
                 <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">

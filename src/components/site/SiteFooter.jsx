@@ -48,7 +48,7 @@ export default function SiteFooter() {
           </div>
 
           {columns.map((col) => (
-            <div key={col.title}>
+            <div key={col.title} className="hidden lg:block">
               <h3 className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
                 {col.title}
               </h3>

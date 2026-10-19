@@ -9,7 +9,7 @@ export default function Hero() {
   const { t } = useI18n();
 
   return (
-    <section className="relative flex min-h-[76vh] items-end overflow-hidden">
+    <section className="relative flex min-h-[94vh] items-end overflow-hidden">
       <div className="absolute inset-0">
         {HERO_VIDEO_URL ? (
           <video
@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30" />
       </div>
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-44 pt-28">
+      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-36 pt-32">
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

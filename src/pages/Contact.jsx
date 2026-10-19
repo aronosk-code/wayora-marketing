@@ -43,10 +43,10 @@ export default function Contact() {
         intro={t("pages.contactIntro")}
       />
 
-      <section className="bg-background py-20">
+      <section className="bg-background py-12 sm:py-20">
         <div className="mx-auto max-w-2xl px-6">
           {status === "sent" ? (
-            <div className="rounded-[1.75rem] border border-border bg-card p-10 text-center">
+            <div className="rounded-2xl border border-border bg-card p-7 text-center sm:rounded-[1.75rem] sm:p-10">
               <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent/10 text-accent">
                 <Check className="h-7 w-7" />
               </span>
@@ -65,9 +65,9 @@ export default function Contact() {
           ) : (
             <form
               onSubmit={handleSubmit}
-              className="rounded-[1.75rem] border border-border bg-card p-8 sm:p-10"
+              className="rounded-2xl border border-border bg-card p-5 sm:rounded-[1.75rem] sm:p-10"
             >
-              <div className="space-y-6">
+              <div className="space-y-5 sm:space-y-6">
                 <div className="space-y-2">
                   <Label htmlFor="name">{t("pages.name")}</Label>
                   <Input

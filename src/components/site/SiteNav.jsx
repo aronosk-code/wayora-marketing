@@ -136,8 +136,7 @@ export default function SiteNav() {
               ))}
             </div>
 
-            <div className="mt-1 flex items-center gap-3">
-              <Globe className="h-4 w-4 shrink-0 text-muted-foreground" />
+            <div className="mt-1">
               <Select value={lang} onValueChange={setLang}>
                 <SelectTrigger className="h-11 w-full rounded-full border-border bg-card text-sm text-foreground">
                   <SelectValue />

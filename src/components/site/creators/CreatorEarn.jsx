@@ -10,27 +10,27 @@ export default function CreatorEarn() {
   const items = t("pages.creators.earn") || [];
 
   return (
-    <section className="bg-background py-24">
+    <section className="bg-background py-12 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
-          <h2 className="font-heading text-3xl text-foreground sm:text-4xl lg:text-5xl">
+          <h2 className="font-heading text-2xl text-foreground sm:text-4xl lg:text-5xl">
             {t("pages.creators.earnTitle")}
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:mt-12 sm:gap-6 md:grid-cols-3">
           {items.map((item, i) => {
             const Icon = ICONS[i] || Coins;
             return (
               <Reveal key={item.title} delay={i * 0.08}>
-                <div className="h-full rounded-[1.75rem] border border-border bg-card p-8">
-                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-accent/10 text-accent">
-                    <Icon className="h-6 w-6" />
+                <div className="h-full rounded-2xl border border-border bg-card p-5 sm:rounded-[1.75rem] sm:p-8">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10 text-accent sm:h-12 sm:w-12 sm:rounded-2xl">
+                    <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
                   </span>
-                  <h3 className="mt-6 font-heading text-xl leading-snug text-foreground">
+                  <h3 className="mt-4 font-heading text-lg leading-snug text-foreground sm:mt-6 sm:text-xl">
                     {item.title}
                   </h3>
-                  <p className="mt-3 leading-relaxed text-muted-foreground">{item.text}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground sm:mt-3 sm:text-base">{item.text}</p>
                 </div>
               </Reveal>
             );

@@ -33,8 +33,8 @@ export default function SiteFooter() {
 
   return (
     <footer className="border-t border-border bg-card">
-      <div className="mx-auto max-w-6xl px-6 py-16">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
+      <div className="mx-auto max-w-6xl px-6 py-8 lg:py-16">
+        <div className="hidden gap-12 lg:grid lg:grid-cols-5">
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3">
               <LogoMark className="h-10 w-10" />
@@ -68,7 +68,7 @@ export default function SiteFooter() {
           ))}
         </div>
 
-        <p className="mt-14 border-t border-border pt-8 text-xs text-muted-foreground">
+        <p className="text-center text-xs text-muted-foreground lg:mt-14 lg:border-t lg:border-border lg:pt-8 lg:text-left">
           © {new Date().getFullYear()} Wayora. {t("footer.rights")}
         </p>
       </div>

@@ -19,22 +19,22 @@ export default function HowItWorks() {
 
       <ProductTour />
 
-      <section className="bg-background py-24">
+      <section className="bg-background py-12 sm:py-24">
         <div className="mx-auto max-w-6xl px-6">
-          <div className="grid gap-14 lg:grid-cols-2">
+          <div className="grid gap-8 sm:gap-14 lg:grid-cols-2">
             <Reveal>
-              <h2 className="font-heading text-3xl text-foreground sm:text-4xl">
+              <h2 className="font-heading text-2xl text-foreground sm:text-4xl">
                 {t("pages.feelTitle")}
               </h2>
-              <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
+              <p className="mt-3 text-base leading-relaxed text-muted-foreground sm:mt-5 sm:text-lg">
                 {t("pages.feelText")}
               </p>
             </Reveal>
             <Reveal delay={0.1}>
-              <h2 className="font-heading text-3xl text-foreground sm:text-4xl">
+              <h2 className="font-heading text-2xl text-foreground sm:text-4xl">
                 {t("pages.offlineTitle")}
               </h2>
-              <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
+              <p className="mt-3 text-base leading-relaxed text-muted-foreground sm:mt-5 sm:text-lg">
                 {t("pages.offlineText")}
               </p>
             </Reveal>

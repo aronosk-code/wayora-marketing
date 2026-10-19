@@ -1,0 +1,127 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { Check } from "lucide-react";
+import { base44 } from "@/api/base44Client";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { useI18n } from "@/lib/i18n/LanguageContext";
+import PageHero from "@/components/site/PageHero";
+
+export default function Contact() {
+  const { t } = useI18n();
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [status, setStatus] = useState("idle");
+  const [error, setError] = useState("");
+
+  const update = (key) => (e) => setForm((f) => ({ ...f, [key]: e.target.value }));
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    setStatus("sending");
+    try {
+      await base44.entities.ContactMessage.create({
+        name: form.name.trim(),
+        email: form.email.trim(),
+        message: form.message.trim(),
+      });
+      setForm({ name: "", email: "", message: "" });
+      setStatus("sent");
+    } catch (err) {
+      setStatus("idle");
+      setError(t("pages.formError"));
+    }
+  };
+
+  return (
+    <>
+      <PageHero
+        eyebrow={t("nav.contact")}
+        title={t("pages.contactTitle")}
+        intro={t("pages.contactIntro")}
+      />
+
+      <section className="bg-background py-20">
+        <div className="mx-auto max-w-2xl px-6">
+          {status === "sent" ? (
+            <div className="rounded-[1.75rem] border border-border bg-card p-10 text-center">
+              <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent/10 text-accent">
+                <Check className="h-7 w-7" />
+              </span>
+              <h2 className="mt-6 font-heading text-2xl text-foreground">
+                {t("pages.sentTitle")}
+              </h2>
+              <p className="mt-3 text-muted-foreground">{t("pages.sentText")}</p>
+              <Button
+                variant="outline"
+                onClick={() => setStatus("idle")}
+                className="mt-8 rounded-full border-border px-6"
+              >
+                {t("pages.sendAnother")}
+              </Button>
+            </div>
+          ) : (
+            <form
+              onSubmit={handleSubmit}
+              className="rounded-[1.75rem] border border-border bg-card p-8 sm:p-10"
+            >
+              <div className="space-y-6">
+                <div className="space-y-2">
+                  <Label htmlFor="name">{t("pages.name")}</Label>
+                  <Input
+                    id="name"
+                    value={form.name}
+                    onChange={update("name")}
+                    required
+                    className="h-12 rounded-xl border-border bg-background"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="email">{t("pages.email")}</Label>
+                  <Input
+                    id="email"
+                    type="email"
+                    value={form.email}
+                    onChange={update("email")}
+                    required
+                    className="h-12 rounded-xl border-border bg-background"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="message">{t("pages.message")}</Label>
+                  <Textarea
+                    id="message"
+                    value={form.message}
+                    onChange={update("message")}
+                    required
+                    rows={6}
+                    className="rounded-xl border-border bg-background"
+                  />
+                </div>
+              </div>
+
+              {error && <p className="mt-5 text-sm text-destructive">{error}</p>}
+
+              <Button
+                type="submit"
+                disabled={status === "sending"}
+                className="mt-8 w-full rounded-full bg-primary py-6 text-primary-foreground hover:bg-primary/90"
+              >
+                {status === "sending" ? t("pages.sending") : t("pages.send")}
+              </Button>
+            </form>
+          )}
+
+          <p className="mt-8 text-center text-sm text-muted-foreground">
+            {t("pages.help")}{" "}
+            <Link to="/how-it-works" className="font-medium text-primary hover:underline">
+              {t("nav.howItWorks")}
+            </Link>
+          </p>
+        </div>
+      </section>
+    </>
+  );
+}

@@ -175,7 +175,7 @@ export default {
       },
       {
         q: "Which languages are available?",
-        a: "Seven: English, Icelandic, Spanish, Portuguese, German, French and Chinese.",
+        a: "English, Icelandic, Spanish, Portuguese, German, French and Chinese.",
       },
       {
         q: "How do creators get paid?",

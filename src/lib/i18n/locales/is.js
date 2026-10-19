@@ -175,7 +175,7 @@ export default {
       },
       {
         q: "Hvaða tungumál eru í boði?",
-        a: "Sjö: enska, íslenska, spænska, portúgalska, þýska, franska og kínverska.",
+        a: "Enska, íslenska, spænska, portúgalska, þýska, franska og kínverska.",
       },
       {
         q: "Hvernig fá höfundar greitt?",

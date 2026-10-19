@@ -17,7 +17,7 @@ export default function FeaturedTours() {
   const { t } = useI18n();
 
   return (
-    <section className="bg-secondary/50 py-24">
+    <section className="bg-card py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <h2 className="font-heading text-3xl text-foreground sm:text-4xl lg:text-5xl">

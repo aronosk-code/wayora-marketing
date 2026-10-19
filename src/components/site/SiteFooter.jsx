@@ -32,7 +32,7 @@ export default function SiteFooter() {
   ];
 
   return (
-    <footer className="border-t border-border bg-secondary/60">
+    <footer className="border-t border-border bg-card">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">

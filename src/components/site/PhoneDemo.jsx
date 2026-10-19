@@ -17,14 +17,14 @@ export default function PhoneDemo() {
       <div className="relative h-[520px] overflow-hidden rounded-[2.25rem] bg-secondary">
         {/* Map canvas */}
         <svg viewBox="0 0 260 520" className="absolute inset-0 h-full w-full">
-          <rect width="260" height="520" fill="#F4F1EA" />
-          <g stroke="#E7E3D9" strokeWidth="10" fill="none" strokeLinecap="round">
+          <rect width="260" height="520" fill="#EAF7F2" />
+          <g stroke="#D8ECE5" strokeWidth="10" fill="none" strokeLinecap="round">
             <path d="M-10 120 L270 96" />
             <path d="M-10 300 L270 340" />
             <path d="M60 -10 L96 530" />
             <path d="M200 -10 L176 530" />
           </g>
-          <g stroke="#D9D4C6" strokeWidth="4" fill="none" strokeLinecap="round">
+          <g stroke="#C9E2D9" strokeWidth="4" fill="none" strokeLinecap="round">
             <path d="M-10 220 L270 200" />
             <path d="M130 -10 L140 530" />
           </g>
@@ -32,7 +32,7 @@ export default function PhoneDemo() {
           <motion.path
             d="M40 460 C 80 400, 70 340, 118 300 S 190 200, 168 120"
             fill="none"
-            stroke="#E05738"
+            stroke="#187160"
             strokeWidth="5"
             strokeLinecap="round"
             initial={{ pathLength: 0 }}
@@ -50,8 +50,8 @@ export default function PhoneDemo() {
               cx={p.x}
               cy={p.y}
               r="7"
-              fill={i === 0 ? "#1A7A6C" : "#E05738"}
-              stroke="#FDFCF8"
+              fill={i === 0 ? "#187160" : "#3AAE8F"}
+              stroke="#FFFFFF"
               strokeWidth="3"
               animate={{ scale: stage > i ? [1, 1.25, 1] : 1 }}
               transition={{ duration: 1.2, repeat: Infinity, repeatDelay: 1.4 }}

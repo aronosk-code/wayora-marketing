@@ -8,7 +8,7 @@ export default function ProductTour() {
   const steps = ["s1", "s2", "s3"];
 
   return (
-    <section className="bg-secondary/50 py-24">
+    <section className="bg-card py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div>

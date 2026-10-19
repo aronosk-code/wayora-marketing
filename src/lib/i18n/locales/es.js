@@ -200,20 +200,73 @@ export default {
     offlineTitle: "Sin conexión y GPS, explicado",
     offlineText:
       "Cada ruta se puede descargar antes de salir. El audio, el recorrido y los puntos de activación viven en tu móvil, así que un puerto de montaña sin cobertura suena exactamente igual que una calle de ciudad. El GPS funciona sin datos: Wayora solo escucha dónde estás.",
-    creatorsTitle: "Convierte lo que sabes en una ruta.",
-    creatorsIntro:
-      "Si vives en un lugar, ya conoces las historias que merece la pena contar. Wayora te da el estudio para grabarlas, marcar las paradas y publicarlas, y te paga cada vez que alguien escucha.",
-    creatorsSteps: [
-      { title: "Graba", text: "Usa tu móvil. Una historia por parada, tan corta o larga como necesite ser." },
-      { title: "Marca las paradas", text: "Coloca cada historia en el mapa y fija el punto donde debe empezar." },
-      { title: "Publica", text: "Elige tus idiomas, pon un precio y tu ruta se publica para quien escuche cerca." },
-    ],
-    earnTitle: "Lo que ganas",
-    earnText:
-      "Los creadores reciben una parte de los ingresos por suscripción cada vez que se escucha su historia. No hay importe mínimo y los pagos llegan cada mes: cuanto más se reproduce tu ruta, más ganas.",
-    studioTitle: "Las herramientas del Studio",
-    studioText:
-      "Graba y edita audio, arrastra las paradas por el mapa, previsualiza la ruta como la oiría un oyente y publícala en los siete idiomas. Todo en un mismo lugar, en tu móvil o en el navegador.",
+    creators: {
+      eyebrow: "Para creadores",
+      title: "Convierte lo que sabes en una ruta.",
+      intro:
+        "Conoces las historias que tu ciudad no cuenta. Grábalas, anótalas en los lugares reales y cobra cada vez que alguien escuche.",
+      trust: "Gratis para crear · Funciona con tu móvil · Pago mensual",
+      earnTitle: "Cómo ganas",
+      earn: [
+        {
+          title: "30% de los ingresos por suscripción, repartido por escuchas.",
+          text: "Cada pago de suscripción destina un 30% a un fondo para creadores. Ese fondo se reparte según las historias que la gente escuchó de verdad ese mes. Cuanta más gente escuche las tuyas, mayor será tu parte.",
+        },
+        {
+          title: "100% de tus propinas.",
+          text: "Cuando un viajero quiere dar las gracias tras una ruta, esa propina es enteramente tuya. Sin comisión, sin reparto.",
+        },
+        {
+          title: "Sin comisión por ruta.",
+          text: "Nunca se te cobra por crear o vender una ruta. Tus historias generan ingresos mientras la gente escuche.",
+        },
+      ],
+      stepsTitle: "Cómo funciona",
+      steps: [
+        {
+          title: "Graba tus historias",
+          text: "Habla con naturalidad, o escríbelas. Wayora ordena tus palabras y puede locutarlas por ti en siete idiomas.",
+        },
+        {
+          title: "Anótalas en lugares reales",
+          text: "Coloca cada historia en el mapa donde corresponde y define a qué distancia debe estar un viajero para oírla.",
+        },
+        {
+          title: "Publica y gana",
+          text: "Comparte tu ruta. Cada vez que alguien escucha una historia tuya, cuenta para tu parte del fondo.",
+        },
+      ],
+      builtTitle: "Hecho para quien conoce un lugar",
+      built: [
+        "La grabación guiada convierte una nota de voz en una historia acabada",
+        "Narración automática en siete idiomas, con la voz que elijas",
+        "Herramientas de mapa para colocar paradas y ajustar la distancia de activación",
+        "Datos en vivo sobre qué historias se escuchan",
+        "Propinas directas de viajeros agradecidos",
+      ],
+      takesTitle: "Qué hace falta",
+      takesText:
+        "No necesitas ser profesional. Necesitas conocer un lugar y que te importe. Las mejores rutas son el conocimiento sincero de una persona sobre su propio rincón del mundo, contado sin adornos.",
+      faqTitle: "Preguntas frecuentes",
+      faq: [
+        {
+          q: "¿Cuándo cobro?",
+          a: "Los pagos se liberan cada mes, una vez confirmado tu saldo.",
+        },
+        {
+          q: "¿Necesito ser miembro para crear?",
+          a: "Sí. Crear y publicar está incluido en Traveler y Unlimited.",
+        },
+        {
+          q: "¿Y si nadie escucha?",
+          a: "Ganas del fondo cuando tus historias se escuchan. Las que nadie escucha no generan nada ese mes.",
+        },
+        {
+          q: "¿Puedo tener mi ruta en otras plataformas?",
+          a: "Tus historias son tuyas. Wayora es donde se escuchan en el lugar.",
+        },
+      ],
+    },
     aboutTitle: "Creamos Wayora para que viajar suene a historia, no a búsqueda.",
     aboutMission:
       "La mayoría de las apps de viaje te dan una lista y buena suerte. Nosotros queríamos lo contrario: que el propio lugar te cuente qué pasó aquí, en el momento que importa. Por eso Wayora escucha dónde estás y habla cuando llegas.",

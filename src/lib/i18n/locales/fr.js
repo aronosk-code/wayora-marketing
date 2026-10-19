@@ -200,20 +200,73 @@ export default {
     offlineTitle: "Hors ligne et GPS, expliqués",
     offlineText:
       "Chaque visite peut être téléchargée avant de partir. L'audio, l'itinéraire et les points de déclenchement vivent sur votre téléphone, donc un col sans réseau sonne exactement comme une rue de ville. Le GPS fonctionne sans données — Wayora écoute seulement où vous êtes.",
-    creatorsTitle: "Transformez ce que vous savez en visite.",
-    creatorsIntro:
-      "Si vous vivez quelque part, vous connaissez déjà les histoires qui valent la peine d'être racontées. Wayora vous donne le studio pour les enregistrer, placer les arrêts et publier — et vous paie chaque fois que quelqu'un écoute.",
-    creatorsSteps: [
-      { title: "Enregistrez", text: "Utilisez votre téléphone. Une histoire par arrêt, aussi courte ou longue que nécessaire." },
-      { title: "Placez les arrêts", text: "Déposez chaque histoire sur la carte et définissez le point où elle doit commencer." },
-      { title: "Publiez", text: "Choisissez vos langues, fixez un prix, et votre visite est en ligne pour les auditeurs proches." },
-    ],
-    earnTitle: "Ce que vous gagnez",
-    earnText:
-      "Les créateurs reçoivent une part des revenus d'abonnement chaque fois que leur histoire est écoutée. Aucun montant minimum, et les paiements arrivent chaque mois — plus votre visite est écoutée, plus vous gagnez.",
-    studioTitle: "Les outils du Studio",
-    studioText:
-      "Enregistrez et montez l'audio, déplacez les arrêts sur la carte, prévisualisez la visite comme un auditeur l'entendrait et publiez dans les sept langues. Tout au même endroit, sur votre téléphone ou dans le navigateur.",
+    creators: {
+      eyebrow: "Pour les créateurs",
+      title: "Transformez ce que vous savez en visite.",
+      intro:
+        "Vous connaissez les histoires que votre ville ne raconte pas. Enregistrez-les, ancrez-les aux lieux réels et soyez payé chaque fois que quelqu'un écoute.",
+      trust: "Gratuit pour créer · Fonctionne avec votre téléphone · Paiement mensuel",
+      earnTitle: "Ce que vous gagnez",
+      earn: [
+        {
+          title: "30 % des revenus d'abonnement, répartis selon les écoutes.",
+          text: "Chaque abonnement place 30 % dans une cagnotte pour les créateurs. Cette cagnotte est répartie selon les histoires réellement écoutées ce mois-là. Plus on écoute les vôtres, plus votre part grandit.",
+        },
+        {
+          title: "100 % de vos pourboires.",
+          text: "Quand un voyageur veut vous remercier après une visite, ce pourboire vous revient entièrement. Aucune commission, aucun partage.",
+        },
+        {
+          title: "Aucune commission par visite.",
+          text: "Créer ou vendre une visite ne vous coûte jamais rien. Vos histoires rapportent tant qu'on les écoute.",
+        },
+      ],
+      stepsTitle: "Comment ça marche",
+      steps: [
+        {
+          title: "Enregistrez vos histoires",
+          text: "Parlez naturellement, ou écrivez-les. Wayora met vos mots en forme et peut les dire pour vous en sept langues.",
+        },
+        {
+          title: "Ancrez-les aux lieux réels",
+          text: "Déposez chaque histoire sur la carte, là où elle appartient, et définissez la distance à laquelle un voyageur doit se trouver pour l'entendre.",
+        },
+        {
+          title: "Publiez et gagnez",
+          text: "Partagez votre visite. Chaque fois que quelqu'un écoute une de vos histoires, cela compte pour votre part de la cagnotte.",
+        },
+      ],
+      builtTitle: "Conçu pour ceux qui connaissent un lieu",
+      built: [
+        "L'enregistrement guidé transforme une note vocale en histoire aboutie",
+        "Narration automatique en sept langues, avec la voix de votre choix",
+        "Des outils de carte pour placer les arrêts et régler la distance de déclenchement",
+        "Des statistiques en direct sur les histoires écoutées",
+        "Les pourboires directement des voyageurs reconnaissants",
+      ],
+      takesTitle: "Ce qu'il faut",
+      takesText:
+        "Pas besoin d'être un professionnel. Il faut connaître un lieu et y tenir. Les meilleures visites sont la connaissance sincère d'une personne sur son propre coin du monde, racontée simplement.",
+      faqTitle: "Questions fréquentes",
+      faq: [
+        {
+          q: "Quand suis-je payé ?",
+          a: "Les paiements sont versés chaque mois, dès que votre solde est confirmé.",
+        },
+        {
+          q: "Faut-il être membre pour créer ?",
+          a: "Oui. Créer et publier est inclus dans Traveler et Unlimited.",
+        },
+        {
+          q: "Et si personne n'écoute ?",
+          a: "Vous gagnez sur la cagnotte quand vos histoires sont écoutées. Celles que personne n'écoute ne rapportent rien ce mois-là.",
+        },
+        {
+          q: "Puis-je garder ma visite sur d'autres plateformes ?",
+          a: "Vos histoires vous appartiennent. Wayora est l'endroit où elles sont écoutées sur place.",
+        },
+      ],
+    },
     aboutTitle: "Nous avons créé Wayora pour que voyager sonne comme une histoire, pas comme une recherche.",
     aboutMission:
       "La plupart des apps de voyage vous donnent une liste et bonne chance. Nous voulions l'inverse : que le lieu lui-même vous raconte ce qui s'est passé ici, au moment qui compte. C'est pourquoi Wayora écoute où vous êtes et parle quand vous arrivez.",

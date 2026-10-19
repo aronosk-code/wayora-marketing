@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function PageHero({ eyebrow, title, intro }) {
+export default function PageHero({ eyebrow, title, intro, children }) {
   return (
     <section className="border-b border-border bg-card pb-16 pt-40">
       <div className="mx-auto max-w-6xl px-6">
@@ -15,6 +15,7 @@ export default function PageHero({ eyebrow, title, intro }) {
         {intro && (
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">{intro}</p>
         )}
+        {children}
       </div>
     </section>
   );

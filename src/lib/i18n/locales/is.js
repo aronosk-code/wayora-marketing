@@ -200,20 +200,73 @@ export default {
     offlineTitle: "Án nets og GPS, útskýrt",
     offlineText:
       "Hægt er að hlaða hverri ferð niður áður en þú ferð. Hljóðið, leiðin og virkjunarpunktarnir eru öll í símanum þínum, svo fjallvegur án sambands hljómar nákvæmlega eins og gata í borg. GPS virkar án gagna — Wayora hlustar bara á hvar þú ert.",
-    creatorsTitle: "Breyttu því sem þú veist í ferð.",
-    creatorsIntro:
-      "Ef þú býrð á einhvers stað þekkir þú þegar sögurnar sem eru þess virði að segja. Wayora gefur þér vinnustofuna til að taka þær upp, kortleggja stöðvarnar og birta — og borgar þér í hvert sinn sem einhver hlustar.",
-    creatorsSteps: [
-      { title: "Taktu upp", text: "Notaðu símann. Ein saga á hverri stöð, eins stutt eða löng og þarf." },
-      { title: "Kortleggðu stöðvarnar", text: "Settu hverja sögu á kortið og stilltu virkjunarpunktinn þar sem hún á að byrja." },
-      { title: "Birtu", text: "Veldu tungumál, settu verð og ferðin þín fer í loftið fyrir hlustendur í nágrenninu." },
-    ],
-    earnTitle: "Hvað þú færð greitt",
-    earnText:
-      "Höfundar fá hlut af áskriftartekjum í hvert sinn sem saga þeirra er heyrð. Engin lágmarksupphæð og greiðslur koma mánaðarlega — því meira sem ferðin þín er spiluð, því meira færðu.",
-    studioTitle: "Vinnustofuverkfærin",
-    studioText:
-      "Taktu upp og klipptu hljóð, dragðu stöðvar um kortið, forskoðaðu ferðina eins og hlustandi myndi heyra hana og birtu á öllum sjö tungumálum. Allt á einum stað, í símanum eða í vafranum.",
+    creators: {
+      eyebrow: "Fyrir höfunda",
+      title: "Breyttu því sem þú veist í ferð.",
+      intro:
+        "Þú þekkir sögurnar sem bærinn þinn segir ekki frá. Taktu þær upp, festu þær við raunverulega staði og fáðu greitt í hvert sinn sem einhver hlustar.",
+      trust: "Ókeypis að búa til · Virkar með símanum þínum · Greitt mánaðarlega",
+      earnTitle: "Hvernig þú færð greitt",
+      earn: [
+        {
+          title: "30% af áskriftartekjum, skipt eftir hlustun.",
+          text: "Hver gjaldskrárgreiðsla leggur 30% í sjóð höfunda. Sjóðnum er skipt eftir því hvaða sögur fólk heyrði í raun í þeim mánuði. Því fleiri sem hlusta á þínar, því stærri verður þinn hlutur.",
+        },
+        {
+          title: "100% af þínum styrkjum.",
+          text: "Þegar ferðalangur vill þakka fyrir sig eftir ferð er sá styrkur algjörlega þinn. Enginn skerfur, engin skipting.",
+        },
+        {
+          title: "Engin skerðing á hverri ferð.",
+          text: "Þér er aldrei rukkað fyrir að búa til eða selja ferð. Sögurnar þínar skila tekjum svo lengi sem fólk hlustar.",
+        },
+      ],
+      stepsTitle: "Hvernig það virkar",
+      steps: [
+        {
+          title: "Taktu sögurnar upp",
+          text: "Talaðu eðlilega, eða skrifaðu þær. Wayora lagar orðin þín og getur lesið þau fyrir þig á sjö tungumálum.",
+        },
+        {
+          title: "Festu þær við raunverulega staði",
+          text: "Settu hverja sögu á kortið þar sem hún á heima og stilltu hversu nálægt ferðalangur þarf að vera til að heyra hana.",
+        },
+        {
+          title: "Birtu og þénuðu",
+          text: "Deildu ferðinni þinni. Í hvert sinn sem einhver heyrir sögu frá þér telur það í þinn hlut af sjóðnum.",
+        },
+      ],
+      builtTitle: "Byggt fyrir fólk sem þekkir stað",
+      built: [
+        "Leiðbeint upptaka breytir raddskilaboðum í fullbúna sögu",
+        "Sjálfvirk upplestur á sjö tungumálum, í þeirri rödd sem þú velur",
+        "Kortverkfæri til að setja stöðvar og stilla virkjunarfjarlægð",
+        "Upplýsingar í rauntíma um hvaða sögur eru heyrðar",
+        "Styrkir beint frá þakklátum ferðalöngum",
+      ],
+      takesTitle: "Hvað þarf til",
+      takesText:
+        "Þú þarft ekki að vera atvinnumaður. Þú þarft að þekkja stað og þykja vænt um hann. Bestu ferðirnar eru einlæg þekking eins manns á sínum eigin horni heimsins, sögð hreint út.",
+      faqTitle: "Algengar spurningar",
+      faq: [
+        {
+          q: "Hvenær fæ ég greitt?",
+          a: "Greiðslur eru gefnar út mánaðarlega þegar staða þín er staðfest.",
+        },
+        {
+          q: "Þarf ég að vera áskrifandi til að búa til?",
+          a: "Já. Að búa til og birta er innifalið í Traveler og Unlimited.",
+        },
+        {
+          q: "Hvað ef enginn hlustar?",
+          a: "Þú þénar úr sjóðnum þegar sögurnar þínar eru heyrðar. Sögur sem enginn heyrir skila engu í þeim mánuði.",
+        },
+        {
+          q: "Má ég hafa ferðina mína á öðrum vettvangi líka?",
+          a: "Sögurnar eru þínar. Wayora er staðurinn þar sem þær eru heyrðar á staðnum.",
+        },
+      ],
+    },
     aboutTitle: "Við bjuggum Wayora svo ferðalag hljómiði eins og saga, ekki leit.",
     aboutMission:
       "Flest ferðaöpp rétta þér lista og óska þér góðs gengis. Við vildum hið gagnstæða: að staðurinn sjálfur segi þér hvað hér gerðist, á þeirri stundu sem skiptir máli. Þess vegna hlustar Wayora á hvar þú ert og talar þegar þú kemur.",

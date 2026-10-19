@@ -200,20 +200,73 @@ export default {
     offlineTitle: "Offline e GPS, explicados",
     offlineText:
       "Cada percurso pode ser descarregado antes de saíres. O áudio, a rota e os pontos de ativação vivem no teu telemóvel, por isso uma estrada de montanha sem rede soa exatamente como uma rua da cidade. O GPS funciona sem dados — a Wayora só ouve onde estás.",
-    creatorsTitle: "Transforma o que sabes num percurso.",
-    creatorsIntro:
-      "Se vives num lugar, já conheces as histórias que vale a pena contar. A Wayora dá-te o estúdio para as gravar, marcar as paragens e publicar — e paga-te sempre que alguém ouve.",
-    creatorsSteps: [
-      { title: "Grava", text: "Usa o telemóvel. Uma história por paragem, tão curta ou longa quanto precisar." },
-      { title: "Marca as paragens", text: "Coloca cada história no mapa e define o ponto onde deve começar." },
-      { title: "Publica", text: "Escolhe os idiomas, define um preço e o teu percurso fica disponível para quem ouve por perto." },
-    ],
-    earnTitle: "O que ganhas",
-    earnText:
-      "Os criadores recebem uma parte das receitas de subscrição sempre que a sua história é ouvida. Não há valor mínimo e os pagamentos chegam mensalmente — quanto mais o teu percurso é reproduzido, mais ganhas.",
-    studioTitle: "As ferramentas do Studio",
-    studioText:
-      "Grava e edita áudio, arrasta as paragens pelo mapa, pré-visualiza o percurso como um ouvinte o ouviria e publica nos sete idiomas. Tudo num só lugar, no telemóvel ou no navegador.",
+    creators: {
+      eyebrow: "Para criadores",
+      title: "Transforma o que sabes num percurso.",
+      intro:
+        "Conheces as histórias que a tua terra não conta. Grava-as, coloca-as nos lugares reais e recebe sempre que alguém ouvir.",
+      trust: "Grátis para criar · Funciona com o teu telemóvel · Pago mensalmente",
+      earnTitle: "Como ganhas",
+      earn: [
+        {
+          title: "30% das receitas de subscrição, distribuídos por audições.",
+          text: "Cada pagamento de subscrição coloca 30% num fundo para criadores. Esse fundo é dividido pelas histórias que as pessoas ouviram nesse mês. Quanto mais gente ouvir as tuas, maior é a tua parte.",
+        },
+        {
+          title: "100% das tuas gorjetas.",
+          text: "Quando um viajante quer agradecer depois de um percurso, essa gorjeta é totalmente tua. Sem comissão, sem partilha.",
+        },
+        {
+          title: "Sem comissão por percurso.",
+          text: "Nunca pagas por criar ou vender um percurso. As tuas histórias rendem enquanto houver quem ouça.",
+        },
+      ],
+      stepsTitle: "Como funciona",
+      steps: [
+        {
+          title: "Grava as tuas histórias",
+          text: "Fala naturalmente, ou escreve-as. A Wayora trata das tuas palavras e pode narrá-las por ti em sete idiomas.",
+        },
+        {
+          title: "Coloca-as em lugares reais",
+          text: "Põe cada história no mapa onde pertence e define a que distância um viajante precisa de estar para a ouvir.",
+        },
+        {
+          title: "Publica e ganha",
+          text: "Partilha o teu percurso. Sempre que alguém ouve uma história tua, conta para a tua parte do fundo.",
+        },
+      ],
+      builtTitle: "Feito para quem conhece um lugar",
+      built: [
+        "A gravação guiada transforma uma nota de voz numa história acabada",
+        "Narração automática em sete idiomas, na voz que escolheres",
+        "Ferramentas de mapa para colocar paragens e ajustar a distância de ativação",
+        "Informação em tempo real sobre que histórias são ouvidas",
+        "Gorjetas diretas de viajantes agradecidos",
+      ],
+      takesTitle: "O que é preciso",
+      takesText:
+        "Não precisas de ser profissional. Precisas de conhecer um lugar e de te importares com ele. Os melhores percursos são o conhecimento genuíno de uma pessoa sobre o seu próprio canto do mundo, contado com simplicidade.",
+      faqTitle: "Perguntas frequentes",
+      faq: [
+        {
+          q: "Quando recebo?",
+          a: "Os pagamentos são liberados mensalmente, assim que o teu saldo é confirmado.",
+        },
+        {
+          q: "Preciso de ser membro para criar?",
+          a: "Sim. Criar e publicar está incluído nos planos Traveler e Unlimited.",
+        },
+        {
+          q: "E se ninguém ouvir?",
+          a: "Ganhas do fundo quando as tuas histórias são ouvidas. As que ninguém ouve não rendem nesse mês.",
+        },
+        {
+          q: "Posso manter o meu percurso noutras plataformas?",
+          a: "As tuas histórias são tuas. A Wayora é onde são ouvidas no lugar.",
+        },
+      ],
+    },
     aboutTitle: "Criámos a Wayora para que viajar soe a história, não a pesquisa.",
     aboutMission:
       "A maioria das apps de viagem dá-te uma lista e boa sorte. Queríamos o contrário: que o próprio lugar te conte o que aqui aconteceu, no momento que importa. É por isso que a Wayora ouve onde estás e fala quando chegas.",

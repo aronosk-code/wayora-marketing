@@ -200,20 +200,73 @@ export default {
     offlineTitle: "Offline and GPS, explained",
     offlineText:
       "Every tour can be downloaded before you leave. The audio, the route and the trigger points all live on your phone, so a mountain pass with no signal sounds exactly the same as a city street. GPS works without data — Wayora only listens to where you are.",
-    creatorsTitle: "Turn what you know into a tour.",
-    creatorsIntro:
-      "If you live somewhere, you already know the stories worth telling. Wayora gives you the studio to record them, map the stops and publish — and pays you every time someone listens.",
-    creatorsSteps: [
-      { title: "Record", text: "Use your phone. One story per stop, as short or as long as it needs to be." },
-      { title: "Map the stops", text: "Drop each story on the map and set the trigger point where it should begin." },
-      { title: "Publish", text: "Choose your languages, set a price, and your tour goes live to listeners nearby." },
-    ],
-    earnTitle: "What you earn",
-    earnText:
-      "Creators earn a share of subscription revenue every time their story is heard. There is no minimum threshold, and payouts arrive monthly — the more your tour is played, the more you earn.",
-    studioTitle: "The Studio tools",
-    studioText:
-      "Record and edit audio, drag stops around the map, preview the tour as a listener would hear it, and publish in all seven languages. Everything lives in one place, on your phone or in the browser.",
+    creators: {
+      eyebrow: "For creators",
+      title: "Turn what you know into a tour.",
+      intro:
+        "You know the stories your town doesn't tell. Record them, pin them to the real places, and get paid every time someone listens.",
+      trust: "Free to create · Works with your phone · Paid monthly",
+      earnTitle: "How you earn",
+      earn: [
+        {
+          title: "30% of subscription revenue, shared by listens.",
+          text: "Every membership payment puts 30% into a creator pool. That pool is split by whose stories people actually heard that month. The more people listen to yours, the bigger your share.",
+        },
+        {
+          title: "100% of your tips.",
+          text: "When a traveller wants to say thank you after a tour, that tip is entirely yours. No cut, no share.",
+        },
+        {
+          title: "No per-tour cut.",
+          text: "You're never charged for making or selling a tour. Your stories earn for as long as people listen.",
+        },
+      ],
+      stepsTitle: "How it works",
+      steps: [
+        {
+          title: "Record your stories",
+          text: "Speak naturally, or type them. Wayora tidies your words and can voice them for you in seven languages.",
+        },
+        {
+          title: "Pin them to real places",
+          text: "Drop each story on the map where it belongs and set how close a traveller needs to be to hear it.",
+        },
+        {
+          title: "Publish and earn",
+          text: "Share your tour. Every time someone hears a story of yours, it counts toward your share of the pool.",
+        },
+      ],
+      builtTitle: "Built for people who know a place",
+      built: [
+        "Guided recording turns a voice note into a finished story",
+        "Automatic narration in seven languages, in your choice of voice",
+        "Map tools to place stops and tune the trigger distance",
+        "Live insights showing which stories get heard",
+        "Tips straight from grateful travellers",
+      ],
+      takesTitle: "What it takes",
+      takesText:
+        "You don't need to be a professional. You need to know a place and care about it. The best tours are one person's genuine knowledge of their own corner of the world, told plainly.",
+      faqTitle: "FAQ",
+      faq: [
+        {
+          q: "When do I get paid?",
+          a: "Payouts are released monthly once your balance is confirmed.",
+        },
+        {
+          q: "Do I need to be a member to create?",
+          a: "Yes. Creating and publishing is included on Traveler and Unlimited.",
+        },
+        {
+          q: "What if nobody listens?",
+          a: "You earn from the pool when your stories are heard. Unheard stories don't earn that month.",
+        },
+        {
+          q: "Can I keep my tour on other platforms?",
+          a: "Your stories are yours. Wayora is where they get heard in place.",
+        },
+      ],
+    },
     aboutTitle: "We built Wayora so travel could sound like a story, not a search.",
     aboutMission:
       "Most travel apps hand you a list and wish you luck. We wanted the opposite: the place itself telling you what happened here, at the moment it matters. That is why Wayora listens to where you are and speaks when you arrive.",

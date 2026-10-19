@@ -200,20 +200,73 @@ export default {
     offlineTitle: "Offline und GPS, erklärt",
     offlineText:
       "Jede Tour lässt sich vorher herunterladen. Audio, Route und Auslösepunkte liegen auf deinem Handy, deshalb klingt ein Pass ohne Empfang genau wie eine Stadtstraße. GPS funktioniert ohne Daten — Wayora hört nur, wo du bist.",
-    creatorsTitle: "Mach aus deinem Wissen eine Tour.",
-    creatorsIntro:
-      "Wenn du irgendwo lebst, kennst du schon die Geschichten, die es wert sind, erzählt zu werden. Wayora gibt dir das Studio, um sie aufzunehmen, die Stopps zu setzen und zu veröffentlichen — und zahlt dir jedes Mal, wenn jemand zuhört.",
-    creatorsSteps: [
-      { title: "Aufnehmen", text: "Nutze dein Handy. Eine Geschichte pro Stopp, so kurz oder lang wie nötig." },
-      { title: "Stopps setzen", text: "Lege jede Geschichte auf die Karte und bestimme den Punkt, an dem sie beginnt." },
-      { title: "Veröffentlichen", text: "Wähle deine Sprachen, setze einen Preis, und deine Tour geht live für Zuhörer in der Nähe." },
-    ],
-    earnTitle: "Was du verdienst",
-    earnText:
-      "Creator erhalten einen Anteil an den Abo-Einnahmen, jedes Mal wenn ihre Geschichte gehört wird. Es gibt keinen Mindestbetrag und die Auszahlungen kommen monatlich — je öfter deine Tour läuft, desto mehr verdienst du.",
-    studioTitle: "Die Studio-Tools",
-    studioText:
-      "Nimm Audio auf und bearbeite es, ziehe Stopps über die Karte, sieh dir die Tour so an, wie ein Zuhörer sie hören würde, und veröffentliche in allen sieben Sprachen. Alles an einem Ort, auf dem Handy oder im Browser.",
+    creators: {
+      eyebrow: "Für Creator",
+      title: "Mach aus deinem Wissen eine Tour.",
+      intro:
+        "Du kennst die Geschichten, die deine Stadt nicht erzählt. Nimm sie auf, verankere sie an den echten Orten und werde bezahlt, jedes Mal wenn jemand zuhört.",
+      trust: "Kostenlos erstellen · Funktioniert mit deinem Handy · Monatliche Auszahlung",
+      earnTitle: "Wie du verdienst",
+      earn: [
+        {
+          title: "30 % der Abo-Einnahmen, nach Hörern verteilt.",
+          text: "Jede Mitgliedschaft legt 30 % in einen Creator-Pool. Dieser Pool wird danach aufgeteilt, wessen Geschichten in dem Monat tatsächlich gehört wurden. Je mehr Menschen deine hören, desto größer dein Anteil.",
+        },
+        {
+          title: "100 % deiner Trinkgelder.",
+          text: "Wenn ein Reisender nach einer Tour Danke sagen möchte, gehört dieses Trinkgeld ganz dir. Kein Abzug, keine Teilung.",
+        },
+        {
+          title: "Kein Abzug pro Tour.",
+          text: "Für das Erstellen oder Verkaufen einer Tour zahlst du nie. Deine Geschichten verdienen, solange Menschen zuhören.",
+        },
+      ],
+      stepsTitle: "So funktioniert es",
+      steps: [
+        {
+          title: "Nimm deine Geschichten auf",
+          text: "Sprich einfach frei, oder tippe sie. Wayora glättet deine Worte und kann sie in sieben Sprachen für dich einsprechen.",
+        },
+        {
+          title: "Verankere sie an echten Orten",
+          text: "Lege jede Geschichte auf der Karte dort ab, wo sie hingehört, und bestimme, wie nah ein Reisender sein muss, um sie zu hören.",
+        },
+        {
+          title: "Veröffentlichen und verdienen",
+          text: "Teile deine Tour. Jedes Mal, wenn jemand eine deiner Geschichten hört, zählt das für deinen Anteil am Pool.",
+        },
+      ],
+      builtTitle: "Gemacht für Menschen, die einen Ort kennen",
+      built: [
+        "Geführte Aufnahme macht aus einer Sprachnotiz eine fertige Geschichte",
+        "Automatische Vertonung in sieben Sprachen, in deiner gewählten Stimme",
+        "Kartenwerkzeuge zum Setzen der Stopps und Einstellen der Auslöse-Distanz",
+        "Live-Einblicke, welche Geschichten gehört werden",
+        "Trinkgelder direkt von dankbaren Reisenden",
+      ],
+      takesTitle: "Was es braucht",
+      takesText:
+        "Du musst kein Profi sein. Du musst einen Ort kennen und dich um ihn kümmern. Die besten Touren sind das ehrliche Wissen eines Menschen über seine eigene Ecke der Welt, schlicht erzählt.",
+      faqTitle: "Häufige Fragen",
+      faq: [
+        {
+          q: "Wann werde ich bezahlt?",
+          a: "Auszahlungen erfolgen monatlich, sobald dein Guthaben bestätigt ist.",
+        },
+        {
+          q: "Muss ich Mitglied sein, um zu erstellen?",
+          a: "Ja. Erstellen und Veröffentlichen ist in Traveler und Unlimited enthalten.",
+        },
+        {
+          q: "Was, wenn niemand zuhört?",
+          a: "Du verdienst am Pool, wenn deine Geschichten gehört werden. Ungenutzte Geschichten bringen in dem Monat nichts.",
+        },
+        {
+          q: "Darf ich meine Tour auch auf anderen Plattformen anbieten?",
+          a: "Deine Geschichten gehören dir. Wayora ist der Ort, an dem sie vor Ort gehört werden.",
+        },
+      ],
+    },
     aboutTitle: "Wir haben Wayora gebaut, damit Reisen wie eine Geschichte klingt, nicht wie eine Suche.",
     aboutMission:
       "Die meisten Reise-Apps geben dir eine Liste und wünschen Glück. Wir wollten das Gegenteil: dass der Ort selbst dir erzählt, was hier passiert ist, im richtigen Moment. Deshalb hört Wayora, wo du bist, und spricht, wenn du ankommst.",

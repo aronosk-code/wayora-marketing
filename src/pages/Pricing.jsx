@@ -18,7 +18,7 @@ export default function Pricing() {
         intro={t("pricing.subtitle")}
       />
 
-      <section className="bg-background py-20">
+      <section className="bg-background pb-20 pt-32">
         <div className="mx-auto max-w-6xl px-6">
           <Reveal>
             <PricingPlans />

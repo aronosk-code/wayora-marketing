@@ -7,7 +7,7 @@ export default function StoryPhone({ beat }) {
   const { t } = useI18n();
 
   return (
-    <div className="relative h-[392px] w-[190px] rounded-[2.4rem] border-[7px] border-foreground/85 bg-foreground/85 shadow-2xl">
+    <div className="relative h-[392px] w-[190px] origin-top scale-[0.82] rounded-[2.4rem] border-[7px] border-foreground/85 bg-foreground/85 shadow-2xl sm:scale-100">
       <div className="relative h-full w-full overflow-hidden rounded-[1.9rem] bg-background">
         <div className="absolute left-1/2 top-2.5 z-20 h-4 w-20 -translate-x-1/2 rounded-full bg-foreground/85" />
 

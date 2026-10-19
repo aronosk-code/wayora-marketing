@@ -15,21 +15,21 @@ export default function TravelerStory() {
   }, [beat]);
 
   return (
-    <section className="bg-background py-24">
+    <section className="bg-background py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-accent">
             {t("story.eyebrow")}
           </p>
-          <h2 className="mt-4 max-w-2xl font-heading text-3xl leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
+          <h2 className="mt-4 max-w-2xl font-heading text-2xl leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
             {t("story.title")}
           </h2>
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground">
+          <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground sm:mt-5 sm:text-lg">
             {t("story.subtitle")}
           </p>
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-12">
+        <Reveal delay={0.1} className="mt-8 sm:mt-12">
           <StoryStage beat={beat} />
         </Reveal>
       </div>

@@ -72,6 +72,7 @@ export default {
     cta: "开始创作",
   },
   pricing: {
+    eyebrow: "方案",
     title: "价格",
     subtitle: "免费开始，需要更多时再升级。",
     plans: [

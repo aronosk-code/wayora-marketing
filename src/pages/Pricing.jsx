@@ -13,7 +13,7 @@ export default function Pricing() {
   return (
     <>
       <PageHero
-        eyebrow={t("nav.pricing")}
+        eyebrow={t("pricing.eyebrow")}
         title={t("pricing.title")}
         intro={t("pricing.subtitle")}
       />

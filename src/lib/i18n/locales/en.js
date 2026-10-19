@@ -73,6 +73,7 @@ export default {
     cta: "Start creating",
   },
   pricing: {
+    eyebrow: "Plans",
     title: "Pricing",
     subtitle: "Start free. Upgrade when you want more.",
     plans: [

@@ -73,6 +73,7 @@ export default {
     cta: "Byrja að búa til",
   },
   pricing: {
+    eyebrow: "Áskriftir",
     title: "Verð",
     subtitle: "Byrjaðu ókeypis. Uppfærðu þegar þú vilt meira.",
     plans: [

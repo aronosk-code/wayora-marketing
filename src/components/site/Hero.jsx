@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30" />
       </div>
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-24 pt-40">
+      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-36 pt-32">
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.1 }}
-          className="mt-5 max-w-4xl font-heading text-4xl leading-[1.05] text-white sm:text-5xl lg:text-7xl"
+          className="mt-4 max-w-4xl font-heading text-4xl leading-[1.05] text-white sm:text-5xl lg:text-7xl"
         >
           {t("hero.title")}
         </motion.h1>
@@ -58,7 +58,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2 }}
-          className="mt-6 max-w-2xl text-lg leading-relaxed text-white/85"
+          className="mt-4 max-w-2xl text-lg leading-relaxed text-white/85"
         >
           {t("hero.subtitle")}
         </motion.p>
@@ -67,7 +67,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 22 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.3 }}
-          className="mt-9 flex flex-wrap items-center gap-3"
+          className="mt-7 flex flex-wrap items-center gap-3"
         >
           <ComingSoonButton className="rounded-full bg-primary px-7 text-primary-foreground shadow-lg shadow-black/20 hover:bg-primary/90">
             {t("common.getTheApp")}

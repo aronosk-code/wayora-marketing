@@ -18,6 +18,7 @@ export default {
     mostPopular: "Am beliebtesten",
     close: "Schließen",
     trust: "Kostenlos testen · Offline verfügbar · 7 Sprachen",
+    firstTourFree: "Deine erste Tour ist gratis — jede Geschichte darin.",
   },
   hero: {
     eyebrow: "Audio-Touren, ausgelöst durch deinen Standort",
@@ -79,8 +80,8 @@ export default {
         name: "Free",
         price: "$0",
         period: "",
-        tagline: "Eine komplette Tour zum Testen, für immer.",
-        features: ["Eine komplette Tour", "Offline-Karten", "7 Sprachen"],
+        tagline: "Deine erste Tour ist gratis — jede Geschichte darin.",
+        features: ["Erste Tour gratis", "Offline-Karten", "7 Sprachen"],
         popular: false,
       },
       {
@@ -95,10 +96,10 @@ export default {
         name: "Traveler",
         price: "$9.99",
         period: "/Mon.",
-        tagline: "75 Geschichten pro Monat, und du kannst eigene Touren erstellen.",
+        tagline: "75 Geschichten pro Monat, und du kannst eigene Touren erstellen und veröffentlichen.",
         features: [
           "75 Geschichten pro Monat",
-          "Eigene Touren erstellen",
+          "Eigene Touren erstellen und veröffentlichen",
           "Alle Touren in der Nähe",
           "Offline",
           "Prioritäts-Support",
@@ -107,12 +108,12 @@ export default {
       },
       {
         name: "Unlimited",
-        price: "$14.99",
+        price: "$19.99",
         period: "/Mon.",
         tagline: "Jede Geschichte, jede Tour.",
         features: [
           "Unbegrenzte Geschichten",
-          "Eigene Touren erstellen",
+          "Eigene Touren erstellen und veröffentlichen",
           "Alle Touren weltweit",
           "Offline",
           "Prioritäts-Support",
@@ -122,7 +123,7 @@ export default {
     ],
     compareTitle: "Pläne vergleichen",
     rows: [
-      { label: "Geschichten pro Monat", free: "1", explorer: "25", traveler: "75", unlimited: "Unbegrenzt" },
+      { label: "Geschichten pro Monat", free: "Erste Tour gratis", explorer: "25", traveler: "75", unlimited: "Unbegrenzt" },
       { label: "Eigene Touren erstellen", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "Alle Touren in der Nähe", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Offline-Karten", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
@@ -130,7 +131,7 @@ export default {
     ],
     payoutsTitle: "So funktionieren Creator-Auszahlungen",
     payoutsText:
-      "Creator erhalten einen Anteil an den Abo-Einnahmen, jedes Mal wenn ihre Geschichte gehört wird. Die Auszahlungen werden monatlich berechnet und Anfang des Folgemonats ausgezahlt, ohne Mindestbetrag.",
+      "Creator erhalten einen Anteil an den Einnahmen der Abos, verteilt danach, wie viele ihrer Geschichten abgespielt werden, plus Trinkgelder in voller Höhe. Auszahlungen erfolgen monatlich; Guthaben unter $20 wird auf den nächsten Monat übertragen.",
   },
   testimonials: {
     title: "Von Reisenden geliebt",
@@ -157,6 +158,10 @@ export default {
     title: "Häufige Fragen",
     items: [
       {
+        q: "Wie funktionieren die Geschichten?",
+        a: "Deine erste Tour ist gratis, mit allen Geschichten darin. Danach bekommst du monatlich das Geschichten-Kontingent deines Abos — Unlimited hat keines. Wiederholtes Hören ist im selben Monat gratis, und ungenutzte Geschichten verfallen.",
+      },
+      {
         q: "Muss ich vorher etwas planen?",
         a: "Nein. Karte öffnen, Tour wählen und Play drücken. Wayora löst jede Geschichte über deinen Standort aus, wenn du ankommst.",
       },
@@ -174,7 +179,7 @@ export default {
       },
       {
         q: "Wie werden Creator bezahlt?",
-        a: "Creator erhalten einen Anteil an den Abo-Einnahmen, jedes Mal wenn ihre Geschichte gehört wird, monatlich ausgezahlt.",
+        a: "Creator erhalten einen Anteil an den Einnahmen der Abos, verteilt danach, wie viele ihrer Geschichten abgespielt werden, plus Trinkgelder in voller Höhe. Guthaben unter $20 wird auf den nächsten Monat übertragen.",
       },
     ],
   },
@@ -209,8 +214,8 @@ export default {
       earnTitle: "Wie du verdienst",
       earn: [
         {
-          title: "30 % der Abo-Einnahmen, nach Hörern verteilt.",
-          text: "Jede Mitgliedschaft legt 30 % in einen Creator-Pool. Dieser Pool wird danach aufgeteilt, wessen Geschichten in dem Monat tatsächlich gehört wurden. Je mehr Menschen deine hören, desto größer dein Anteil.",
+          title: "Ein Anteil an den Abo-Einnahmen, nach Abspielungen verteilt.",
+          text: "Jede Abo-Zahlung legt einen Anteil in einen Creator-Pool, der danach verteilt wird, wessen Geschichten Abonnenten in dem Monat tatsächlich abgespielt haben — jede abgespielte Geschichte zählt. Je mehr Menschen deine abspielen, desto größer dein Anteil.",
         },
         {
           title: "100 % deiner Trinkgelder.",
@@ -251,7 +256,7 @@ export default {
       faq: [
         {
           q: "Wann werde ich bezahlt?",
-          a: "Auszahlungen erfolgen monatlich, sobald dein Guthaben bestätigt ist.",
+          a: "Auszahlungen erfolgen monatlich, sobald dein Guthaben bestätigt ist. Guthaben unter $20 wird auf den nächsten Monat übertragen.",
         },
         {
           q: "Muss ich Mitglied sein, um zu erstellen?",

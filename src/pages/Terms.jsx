@@ -40,7 +40,7 @@ const SECTIONS = [
     body: [
       "Creators on the Traveler or Unlimited plan can publish tours. You keep the rights to your content and give Wayora a licence to host, translate, voice with AI and offer it to listeners while it is published.",
       "You must have the rights to everything you publish (texts, recordings, photos, music) and your tours must be accurate, legal and safe. No hateful, misleading or dangerous content.",
-      "Your share of plan revenue and tips is shown in the Studio and paid out to you. You cannot delete your account while earnings are still waiting to be paid out.",
+      "Your share of plan revenue and tips is shown in the Studio and paid out to you. Balances under $20 roll over to the next month, so nothing is lost. You cannot delete your account while earnings are still waiting to be paid out.",
       "We may take down a tour that breaks these terms or is reported, and close accounts that misuse Wayora.",
     ],
   },

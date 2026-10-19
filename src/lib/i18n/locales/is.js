@@ -18,6 +18,7 @@ export default {
     mostPopular: "Vinsælast",
     close: "Loka",
     trust: "Ókeypis að prófa · Virkar án nets · 7 tungumál",
+    firstTourFree: "Fyrsta ferðin þín er ókeypis — hver saga í henni.",
   },
   hero: {
     eyebrow: "Hljóðleiðsögur sem virkjast þar sem þú ert",
@@ -79,8 +80,8 @@ export default {
         name: "Ókeypis",
         price: "$0",
         period: "",
-        tagline: "Ein heil ferð til að prófa, að eilífu.",
-        features: ["Ein heil ferð", "Kort án nets", "7 tungumál"],
+        tagline: "Fyrsta ferðin þín er ókeypis — hver saga í henni.",
+        features: ["Fyrsta ferðin ókeypis", "Kort án nets", "7 tungumál"],
         popular: false,
       },
       {
@@ -95,10 +96,10 @@ export default {
         name: "Ferðalangur",
         price: "$9.99",
         period: "/mán",
-        tagline: "75 sögur á mánuði, og þú getur búið til þínar eigin ferðir.",
+        tagline: "75 sögur á mánuði, og þú getur búið til og birt þínar eigin ferðir.",
         features: [
           "75 sögur á mánuði",
-          "Búðu til þínar eigin ferðir",
+          "Búðu til og birtu þínar eigin ferðir",
           "Allar ferðir í nágrenninu",
           "Virkar án nets",
           "Forgangsþjónusta",
@@ -107,12 +108,12 @@ export default {
       },
       {
         name: "Ótakmarkað",
-        price: "$14.99",
+        price: "$19.99",
         period: "/mán",
         tagline: "Hver saga, hver ferð.",
         features: [
           "Ótakmarkaðar sögur",
-          "Búðu til þínar eigin ferðir",
+          "Búðu til og birtu þínar eigin ferðir",
           "Allar ferðir um allan heim",
           "Virkar án nets",
           "Forgangsþjónusta",
@@ -122,7 +123,7 @@ export default {
     ],
     compareTitle: "Bera saman áskriftirnar",
     rows: [
-      { label: "Sögur á mánuði", free: "1", explorer: "25", traveler: "75", unlimited: "Ótakmarkað" },
+      { label: "Sögur á mánuði", free: "Fyrsta ferð ókeypis", explorer: "25", traveler: "75", unlimited: "Ótakmarkað" },
       { label: "Búa til eigin ferðir", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "Allar ferðir í nágrenninu", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Kort án nets", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
@@ -130,7 +131,7 @@ export default {
     ],
     payoutsTitle: "Hvernig greiðslur til höfunda virka",
     payoutsText:
-      "Höfundar fá hlut af áskriftartekjum í hvert sinn sem saga þeirra er heyrð. Greiðslur eru reiknaðar mánaðarlega og greiddar í byrjun næsta mánaðar, án lágmarksupphæðar.",
+      "Höfundar fá hlut af áskriftartekjum, skipt eftir því hversu margar sögur þeirra eru spilaðar, auk styrkja í heild. Greiðslur eru gefnar út mánaðarlega; staða undir $20 færist yfir á næsta mánuð.",
   },
   testimonials: {
     title: "Ummæli ferðalanga",
@@ -157,6 +158,10 @@ export default {
     title: "Spurningar og svör",
     items: [
       {
+        q: "Hvernig virka sögurnar?",
+        a: "Fyrsta ferðin þín er ókeypis, hver saga í henni. Eftir það færðu mánaðarlega þann sögukvóta sem fylgir áskriftinni þinni — Unlimited hefur engan. Endurspilun er ókeypis sama mánuð og ónotaðar sögur flytjast ekki yfir.",
+      },
+      {
         q: "Þarf ég að skipuleggja eitthvað fyrirfram?",
         a: "Nei. Opnaðu kortið, veldu ferð og ýttu á play. Wayora virkjar hverja sögu út frá staðsetningu þinni þegar þú kemur.",
       },
@@ -174,7 +179,7 @@ export default {
       },
       {
         q: "Hvernig fá höfundar greitt?",
-        a: "Höfundar fá hlut af áskriftartekjum í hvert sinn sem saga þeirra er heyrð, greitt mánaðarlega.",
+        a: "Höfundar fá hlut af áskriftartekjum, skipt eftir því hversu margar sögur þeirra eru spilaðar, auk styrkja í heild. Staða undir $20 færist yfir á næsta mánuð.",
       },
     ],
   },
@@ -209,8 +214,8 @@ export default {
       earnTitle: "Hvernig þú færð greitt",
       earn: [
         {
-          title: "30% af áskriftartekjum, skipt eftir hlustun.",
-          text: "Hver gjaldskrárgreiðsla leggur 30% í sjóð höfunda. Sjóðnum er skipt eftir því hvaða sögur fólk heyrði í raun í þeim mánuði. Því fleiri sem hlusta á þínar, því stærri verður þinn hlutur.",
+          title: "Hlutur af áskriftartekjum, skipt eftir spilunum.",
+          text: "Hver áskriftargreiðsla leggur hlut í sjóð höfunda, sem er skipt eftir því hvaða sögur áskrifendur spiluðu í raun í þeim mánuði — hver spiluð saga telur. Því fleiri sem spila þínar, því stærri verður þinn hlutur.",
         },
         {
           title: "100% af þínum styrkjum.",
@@ -251,7 +256,7 @@ export default {
       faq: [
         {
           q: "Hvenær fæ ég greitt?",
-          a: "Greiðslur eru gefnar út mánaðarlega þegar staða þín er staðfest.",
+          a: "Greiðslur eru gefnar út mánaðarlega þegar staða þín er staðfest. Staða undir $20 færist yfir á næsta mánuð.",
         },
         {
           q: "Þarf ég að vera áskrifandi til að búa til?",

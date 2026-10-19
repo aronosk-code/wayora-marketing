@@ -79,6 +79,15 @@ export default function Hero() {
             {t("common.seeHowItWorks")}
           </Link>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.9, delay: 0.45 }}
+          className="mt-6 text-sm font-medium text-white/85"
+        >
+          {t("common.firstTourFree")}
+        </motion.p>
       </div>
     </section>
   );

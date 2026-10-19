@@ -18,6 +18,7 @@ export default {
     mostPopular: "Más popular",
     close: "Cerrar",
     trust: "Gratis para explorar · Funciona sin conexión · 7 idiomas",
+    firstTourFree: "Tu primera ruta es gratis: todas sus historias.",
   },
   hero: {
     eyebrow: "Audioguías que se activan según dónde estás",
@@ -79,8 +80,8 @@ export default {
         name: "Gratis",
         price: "$0",
         period: "",
-        tagline: "Una ruta completa para probar, para siempre.",
-        features: ["Una ruta completa", "Mapas sin conexión", "7 idiomas"],
+        tagline: "Tu primera ruta es gratis: todas sus historias.",
+        features: ["Tu primera ruta gratis", "Mapas sin conexión", "7 idiomas"],
         popular: false,
       },
       {
@@ -95,10 +96,10 @@ export default {
         name: "Traveler",
         price: "$9.99",
         period: "/mes",
-        tagline: "75 historias al mes y puedes crear tus propias rutas.",
+        tagline: "75 historias al mes y puedes crear y publicar tus propias rutas.",
         features: [
           "75 historias al mes",
-          "Crea tus propias rutas",
+          "Crea y publica tus propias rutas",
           "Todas las rutas cercanas",
           "Sin conexión",
           "Soporte prioritario",
@@ -107,12 +108,12 @@ export default {
       },
       {
         name: "Unlimited",
-        price: "$14.99",
+        price: "$19.99",
         period: "/mes",
         tagline: "Todas las historias, todas las rutas.",
         features: [
           "Historias ilimitadas",
-          "Crea tus propias rutas",
+          "Crea y publica tus propias rutas",
           "Todas las rutas del mundo",
           "Sin conexión",
           "Soporte prioritario",
@@ -122,7 +123,7 @@ export default {
     ],
     compareTitle: "Compara los planes",
     rows: [
-      { label: "Historias al mes", free: "1", explorer: "25", traveler: "75", unlimited: "Ilimitadas" },
+      { label: "Historias al mes", free: "Primera ruta gratis", explorer: "25", traveler: "75", unlimited: "Ilimitadas" },
       { label: "Crea tus propias rutas", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "Todas las rutas cercanas", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Mapas sin conexión", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
@@ -130,7 +131,7 @@ export default {
     ],
     payoutsTitle: "Cómo funcionan los pagos a creadores",
     payoutsText:
-      "Los creadores reciben una parte de los ingresos por suscripción cada vez que se escucha su historia. Los pagos se calculan cada mes y se abonan a principios del mes siguiente, sin importe mínimo.",
+      "Los creadores reciben una parte de los ingresos de los planes, repartida según cuántas de sus historias se reproducen, más las propinas íntegras. Los pagos se abonan cada mes; los saldos inferiores a $20 se trasladan al mes siguiente.",
   },
   testimonials: {
     title: "Los viajeros lo adoran",
@@ -157,6 +158,10 @@ export default {
     title: "Preguntas frecuentes",
     items: [
       {
+        q: "¿Cómo funcionan las historias?",
+        a: "Tu primera ruta es gratis, con todas sus historias. Después recibes cada mes la asignación de historias de tu plan: Unlimited no tiene límite. Las repeticiones son gratis en el mismo mes y las historias no usadas no se acumulan.",
+      },
+      {
         q: "¿Tengo que planear algo antes de salir?",
         a: "No. Abre el mapa, elige una ruta y pulsa play. Wayora activa cada historia según tu ubicación cuando llegas.",
       },
@@ -174,7 +179,7 @@ export default {
       },
       {
         q: "¿Cómo cobran los creadores?",
-        a: "Los creadores reciben una parte de los ingresos por suscripción cada vez que se escucha su historia, con pagos mensuales.",
+        a: "Los creadores reciben una parte de los ingresos de los planes, repartida según cuántas de sus historias se reproducen, más las propinas íntegras. Los saldos inferiores a $20 se trasladan al mes siguiente.",
       },
     ],
   },
@@ -209,8 +214,8 @@ export default {
       earnTitle: "Cómo ganas",
       earn: [
         {
-          title: "30% de los ingresos por suscripción, repartido por escuchas.",
-          text: "Cada pago de suscripción destina un 30% a un fondo para creadores. Ese fondo se reparte según las historias que la gente escuchó de verdad ese mes. Cuanta más gente escuche las tuyas, mayor será tu parte.",
+          title: "Una parte de los ingresos de los planes, repartida por reproducciones.",
+          text: "Cada pago de un plan aporta una parte a un fondo para creadores, que se reparte según las historias que los suscriptores reprodujeron realmente ese mes: cada historia reproducida cuenta. Cuanta más gente reproduzca las tuyas, mayor será tu parte.",
         },
         {
           title: "100% de tus propinas.",
@@ -251,7 +256,7 @@ export default {
       faq: [
         {
           q: "¿Cuándo cobro?",
-          a: "Los pagos se liberan cada mes, una vez confirmado tu saldo.",
+          a: "Los pagos se liberan cada mes, una vez confirmado tu saldo. Los saldos inferiores a $20 se trasladan al mes siguiente.",
         },
         {
           q: "¿Necesito ser miembro para crear?",

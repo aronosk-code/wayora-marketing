@@ -18,6 +18,7 @@ export default {
     mostPopular: "Le plus populaire",
     close: "Fermer",
     trust: "Gratuit à explorer · Fonctionne hors ligne · 7 langues",
+    firstTourFree: "Votre première visite est gratuite — toutes ses histoires.",
   },
   hero: {
     eyebrow: "Des visites audio déclenchées par votre position",
@@ -79,8 +80,8 @@ export default {
         name: "Gratuit",
         price: "$0",
         period: "",
-        tagline: "Une visite complète à essayer, pour toujours.",
-        features: ["Une visite complète", "Cartes hors ligne", "7 langues"],
+        tagline: "Votre première visite est gratuite — toutes ses histoires.",
+        features: ["Première visite gratuite", "Cartes hors ligne", "7 langues"],
         popular: false,
       },
       {
@@ -95,10 +96,10 @@ export default {
         name: "Traveler",
         price: "$9.99",
         period: "/mois",
-        tagline: "75 histoires par mois, et vous pouvez créer vos propres visites.",
+        tagline: "75 histoires par mois, et vous pouvez créer et publier vos propres visites.",
         features: [
           "75 histoires par mois",
-          "Créez vos propres visites",
+          "Créez et publiez vos propres visites",
           "Toutes les visites à proximité",
           "Hors ligne",
           "Support prioritaire",
@@ -107,12 +108,12 @@ export default {
       },
       {
         name: "Unlimited",
-        price: "$14.99",
+        price: "$19.99",
         period: "/mois",
         tagline: "Toutes les histoires, toutes les visites.",
         features: [
           "Histoires illimitées",
-          "Créez vos propres visites",
+          "Créez et publiez vos propres visites",
           "Toutes les visites du monde",
           "Hors ligne",
           "Support prioritaire",
@@ -122,7 +123,7 @@ export default {
     ],
     compareTitle: "Comparer les offres",
     rows: [
-      { label: "Histoires par mois", free: "1", explorer: "25", traveler: "75", unlimited: "Illimité" },
+      { label: "Histoires par mois", free: "Première visite gratuite", explorer: "25", traveler: "75", unlimited: "Illimité" },
       { label: "Créer vos propres visites", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "Toutes les visites à proximité", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Cartes hors ligne", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
@@ -130,7 +131,7 @@ export default {
     ],
     payoutsTitle: "Comment fonctionnent les paiements aux créateurs",
     payoutsText:
-      "Les créateurs reçoivent une part des revenus d'abonnement chaque fois que leur histoire est écoutée. Les paiements sont calculés chaque mois et versés au début du mois suivant, sans montant minimum.",
+      "Les créateurs reçoivent une part des revenus des abonnements, répartie selon le nombre de leurs histoires écoutées, plus l'intégralité des pourboires. Les paiements sont versés chaque mois ; les soldes inférieurs à $20 sont reportés au mois suivant.",
   },
   testimonials: {
     title: "Aimé par les voyageurs",
@@ -157,6 +158,10 @@ export default {
     title: "Questions fréquentes",
     items: [
       {
+        q: "Comment fonctionnent les histoires ?",
+        a: "Votre première visite est gratuite, avec toutes ses histoires. Ensuite, vous recevez chaque mois le quota d'histoires de votre offre — Unlimited n'en a aucun. Les réécoutes sont gratuites le même mois et les histoires non utilisées ne sont pas reportées.",
+      },
+      {
         q: "Dois-je préparer quelque chose avant de partir ?",
         a: "Non. Ouvrez la carte, choisissez une visite et appuyez sur play. Wayora déclenche chaque histoire selon votre position à votre arrivée.",
       },
@@ -174,7 +179,7 @@ export default {
       },
       {
         q: "Comment les créateurs sont-ils payés ?",
-        a: "Les créateurs reçoivent une part des revenus d'abonnement chaque fois que leur histoire est écoutée, versée chaque mois.",
+        a: "Les créateurs reçoivent une part des revenus des abonnements, répartie selon le nombre de leurs histoires écoutées, plus l'intégralité des pourboires. Les soldes inférieurs à $20 sont reportés au mois suivant.",
       },
     ],
   },
@@ -209,8 +214,8 @@ export default {
       earnTitle: "Ce que vous gagnez",
       earn: [
         {
-          title: "30 % des revenus d'abonnement, répartis selon les écoutes.",
-          text: "Chaque abonnement place 30 % dans une cagnotte pour les créateurs. Cette cagnotte est répartie selon les histoires réellement écoutées ce mois-là. Plus on écoute les vôtres, plus votre part grandit.",
+          title: "Une part des revenus des abonnements, répartie selon les écoutes.",
+          text: "Chaque paiement d'abonnement place une part dans une cagnotte pour les créateurs, répartie selon les histoires réellement écoutées par les abonnés ce mois-là — chaque histoire écoutée compte. Plus on écoute les vôtres, plus votre part grandit.",
         },
         {
           title: "100 % de vos pourboires.",
@@ -251,7 +256,7 @@ export default {
       faq: [
         {
           q: "Quand suis-je payé ?",
-          a: "Les paiements sont versés chaque mois, dès que votre solde est confirmé.",
+          a: "Les paiements sont versés chaque mois, dès que votre solde est confirmé. Les soldes inférieurs à $20 sont reportés au mois suivant.",
         },
         {
           q: "Faut-il être membre pour créer ?",

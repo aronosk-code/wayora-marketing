@@ -18,6 +18,7 @@ export default {
     mostPopular: "Most popular",
     close: "Close",
     trust: "Free to explore · Works offline · 7 languages",
+    firstTourFree: "Your first tour is free — every story in it.",
   },
   hero: {
     eyebrow: "Audio tours, triggered by where you are",
@@ -79,8 +80,8 @@ export default {
         name: "Free",
         price: "$0",
         period: "",
-        tagline: "One full tour to try, forever.",
-        features: ["One full tour", "Offline maps", "7 languages"],
+        tagline: "Your first tour is free — every story in it.",
+        features: ["Your first tour free", "Offline maps", "7 languages"],
         popular: false,
       },
       {
@@ -95,10 +96,10 @@ export default {
         name: "Traveler",
         price: "$9.99",
         period: "/mo",
-        tagline: "75 stories a month, and you can create your own tours.",
+        tagline: "75 stories a month, and you can create and publish your own tours.",
         features: [
           "75 stories a month",
-          "Create your own tours",
+          "Create and publish your own tours",
           "All tours nearby",
           "Offline ready",
           "Priority support",
@@ -107,12 +108,12 @@ export default {
       },
       {
         name: "Unlimited",
-        price: "$14.99",
+        price: "$19.99",
         period: "/mo",
         tagline: "Every story, every tour.",
         features: [
           "Unlimited stories",
-          "Create your own tours",
+          "Create and publish your own tours",
           "Every tour worldwide",
           "Offline ready",
           "Priority support",
@@ -122,7 +123,7 @@ export default {
     ],
     compareTitle: "Compare the plans",
     rows: [
-      { label: "Stories per month", free: "1", explorer: "25", traveler: "75", unlimited: "Unlimited" },
+      { label: "Stories per month", free: "First tour free", explorer: "25", traveler: "75", unlimited: "Unlimited" },
       { label: "Create your own tours", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "All tours nearby", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Offline maps", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
@@ -130,7 +131,7 @@ export default {
     ],
     payoutsTitle: "How creator payouts work",
     payoutsText:
-      "Creators earn a share of subscription revenue every time their story is heard. Payouts are calculated monthly and paid out at the start of the following month, with no minimum threshold to reach.",
+      "Creators earn a share of plan revenue, split by how many of their stories are played, plus tips in full. Payouts are released monthly; balances under $20 roll over to the next month.",
   },
   testimonials: {
     title: "Loved by travellers",
@@ -157,6 +158,10 @@ export default {
     title: "Questions, answered",
     items: [
       {
+        q: "How do the stories work?",
+        a: "Your first tour is free, every story in it. After that you get your plan's monthly story allowance — Unlimited has none. Replays are free in the same month, and unused stories don't carry over.",
+      },
+      {
         q: "Do I need to plan anything before I go?",
         a: "No. Open the map, pick a tour and press play. Wayora triggers each story from your location as you arrive.",
       },
@@ -174,7 +179,7 @@ export default {
       },
       {
         q: "How do creators get paid?",
-        a: "Creators earn a share of subscription revenue each time their story is heard, paid out monthly.",
+        a: "Creators earn a share of plan revenue, split by how many of their stories are played, plus tips in full. Balances under $20 roll over to the next month.",
       },
     ],
   },
@@ -209,8 +214,8 @@ export default {
       earnTitle: "How you earn",
       earn: [
         {
-          title: "30% of subscription revenue, shared by listens.",
-          text: "Every membership payment puts 30% into a creator pool. That pool is split by whose stories people actually heard that month. The more people listen to yours, the bigger your share.",
+          title: "A share of plan revenue, split by plays.",
+          text: "Every plan payment puts a share into a creator pool, split by whose stories subscribers actually played that month — every story played earns. The more people play yours, the bigger your share.",
         },
         {
           title: "100% of your tips.",
@@ -251,7 +256,7 @@ export default {
       faq: [
         {
           q: "When do I get paid?",
-          a: "Payouts are released monthly once your balance is confirmed.",
+          a: "Payouts are released monthly once your balance is confirmed. Balances under $20 roll over to the next month.",
         },
         {
           q: "Do I need to be a member to create?",

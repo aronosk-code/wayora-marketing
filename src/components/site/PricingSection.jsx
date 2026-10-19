@@ -14,6 +14,7 @@ export default function PricingSection() {
             {t("pricing.title")}
           </h2>
           <p className="mt-4 max-w-xl text-lg text-muted-foreground">{t("pricing.subtitle")}</p>
+          <p className="mt-3 text-sm font-semibold text-primary">{t("common.firstTourFree")}</p>
         </Reveal>
         <Reveal delay={0.1} className="mt-14">
           <PricingPlans />

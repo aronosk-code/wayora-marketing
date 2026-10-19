@@ -18,6 +18,7 @@ export default {
     mostPopular: "Mais popular",
     close: "Fechar",
     trust: "Grátis para explorar · Funciona offline · 7 idiomas",
+    firstTourFree: "O teu primeiro percurso é grátis — com todas as histórias que tem.",
   },
   hero: {
     eyebrow: "Audioguias ativados pelo lugar onde estás",
@@ -79,8 +80,8 @@ export default {
         name: "Grátis",
         price: "$0",
         period: "",
-        tagline: "Um percurso completo para experimentar, para sempre.",
-        features: ["Um percurso completo", "Mapas offline", "7 idiomas"],
+        tagline: "O teu primeiro percurso é grátis — com todas as histórias que tem.",
+        features: ["Primeiro percurso grátis", "Mapas offline", "7 idiomas"],
         popular: false,
       },
       {
@@ -95,10 +96,10 @@ export default {
         name: "Traveler",
         price: "$9.99",
         period: "/mês",
-        tagline: "75 histórias por mês e podes criar os teus próprios percursos.",
+        tagline: "75 histórias por mês e podes criar e publicar os teus próprios percursos.",
         features: [
           "75 histórias por mês",
-          "Cria os teus próprios percursos",
+          "Cria e publica os teus próprios percursos",
           "Todos os percursos por perto",
           "Offline",
           "Apoio prioritário",
@@ -107,12 +108,12 @@ export default {
       },
       {
         name: "Unlimited",
-        price: "$14.99",
+        price: "$19.99",
         period: "/mês",
         tagline: "Todas as histórias, todos os percursos.",
         features: [
           "Histórias ilimitadas",
-          "Cria os teus próprios percursos",
+          "Cria e publica os teus próprios percursos",
           "Todos os percursos do mundo",
           "Offline",
           "Apoio prioritário",
@@ -122,7 +123,7 @@ export default {
     ],
     compareTitle: "Compara os planos",
     rows: [
-      { label: "Histórias por mês", free: "1", explorer: "25", traveler: "75", unlimited: "Ilimitadas" },
+      { label: "Histórias por mês", free: "Primeiro percurso grátis", explorer: "25", traveler: "75", unlimited: "Ilimitadas" },
       { label: "Cria os teus percursos", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "Todos os percursos por perto", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Mapas offline", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
@@ -130,7 +131,7 @@ export default {
     ],
     payoutsTitle: "Como funcionam os pagamentos aos criadores",
     payoutsText:
-      "Os criadores recebem uma parte das receitas de subscrição sempre que a sua história é ouvida. Os pagamentos são calculados mensalmente e pagos no início do mês seguinte, sem valor mínimo.",
+      "Os criadores recebem uma parte das receitas dos planos, distribuída pelo número de histórias suas que são reproduzidas, mais as gorjetas na totalidade. Os pagamentos são feitos mensalmente; saldos abaixo de $20 transitam para o mês seguinte.",
   },
   testimonials: {
     title: "Amado pelos viajantes",
@@ -157,6 +158,10 @@ export default {
     title: "Perguntas frequentes",
     items: [
       {
+        q: "Como funcionam as histórias?",
+        a: "O teu primeiro percurso é grátis, com todas as histórias que tem. Depois recebes por mês a quota de histórias do teu plano — o Unlimited não tem limite. As repetições são grátis no mesmo mês e as histórias não usadas não transitam.",
+      },
+      {
         q: "Preciso de planear algo antes de sair?",
         a: "Não. Abre o mapa, escolhe um percurso e carrega em play. A Wayora ativa cada história pela tua localização à medida que chegas.",
       },
@@ -174,7 +179,7 @@ export default {
       },
       {
         q: "Como são pagos os criadores?",
-        a: "Os criadores recebem uma parte das receitas de subscrição sempre que a sua história é ouvida, com pagamentos mensais.",
+        a: "Os criadores recebem uma parte das receitas dos planos, distribuída pelo número de histórias suas que são reproduzidas, mais as gorjetas na totalidade. Saldos abaixo de $20 transitam para o mês seguinte.",
       },
     ],
   },
@@ -209,8 +214,8 @@ export default {
       earnTitle: "Como ganhas",
       earn: [
         {
-          title: "30% das receitas de subscrição, distribuídos por audições.",
-          text: "Cada pagamento de subscrição coloca 30% num fundo para criadores. Esse fundo é dividido pelas histórias que as pessoas ouviram nesse mês. Quanto mais gente ouvir as tuas, maior é a tua parte.",
+          title: "Uma parte das receitas dos planos, distribuída por reproduções.",
+          text: "Cada pagamento de um plano coloca uma parte num fundo para criadores, distribuído pelas histórias que os assinantes realmente reproduziram nesse mês — cada história reproduzida conta. Quanto mais gente reproduzir as tuas, maior será a tua parte.",
         },
         {
           title: "100% das tuas gorjetas.",
@@ -251,7 +256,7 @@ export default {
       faq: [
         {
           q: "Quando recebo?",
-          a: "Os pagamentos são liberados mensalmente, assim que o teu saldo é confirmado.",
+          a: "Os pagamentos são liberados mensalmente, assim que o teu saldo é confirmado. Saldos abaixo de $20 transitam para o mês seguinte.",
         },
         {
           q: "Preciso de ser membro para criar?",

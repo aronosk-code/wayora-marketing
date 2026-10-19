@@ -26,6 +26,21 @@ export default {
     subtitle:
       "Wayora turns your drive or walk into a guided audio tour. Stories begin the moment you arrive — hands-free, eyes up, nothing to search for.",
   },
+  story: {
+    eyebrow: "The first five minutes",
+    title: "Land, walk out, and your tour is already waiting",
+    subtitle:
+      "No searching, no planning. Wayora knows where you are and tells you what lies ahead.",
+    c1: "You land and walk out of arrivals",
+    c2: "A tour is waiting just ahead of you",
+    c3: "One tap and it starts playing",
+    day: "Monday, 19 October",
+    notif: "Tour ahead — South Coast",
+    notifMeta: "Starts in 400 m · 2h 15m",
+    tourTitle: "South Coast",
+    tourMeta: "2h 15m · 128 km",
+    playing: "Now playing",
+  },
   knows: {
     title: "It just knows where you are",
     subtitle: "No searching, no tapping, no screens. Wayora simply follows you.",

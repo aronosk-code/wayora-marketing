@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "@/components/site/Hero";
 import KnowsSection from "@/components/site/KnowsSection";
+import TravelerStory from "@/components/site/story/TravelerStory";
 import ProductTour from "@/components/site/ProductTour";
 import WhySection from "@/components/site/WhySection";
 import FeaturedTours from "@/components/site/FeaturedTours";
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <Hero />
       <KnowsSection />
+      <TravelerStory />
       <ProductTour />
       <WhySection />
       <FeaturedTours />

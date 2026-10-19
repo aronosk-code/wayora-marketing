@@ -26,6 +26,20 @@ export default {
     subtitle:
       "Wayora convierte tu trayecto en coche o a pie en una audioguía. Las historias empiezan en cuanto llegas: sin manos, con la vista al frente y sin buscar nada.",
   },
+  story: {
+    eyebrow: "Los primeros cinco minutos",
+    title: "Aterriza, sal y tu tour ya te está esperando",
+    subtitle: "Sin buscar, sin planear. Wayora sabe dónde estás y te dice qué hay delante.",
+    c1: "Aterrizas y sales de la zona de llegadas",
+    c2: "Un tour te espera justo delante",
+    c3: "Un toque y empieza a sonar",
+    day: "Lunes, 19 de octubre",
+    notif: "Tour cerca — Costa Sur",
+    notifMeta: "Empieza en 400 m · 2 h 15 min",
+    tourTitle: "Costa Sur",
+    tourMeta: "2 h 15 min · 128 km",
+    playing: "Sonando ahora",
+  },
   knows: {
     title: "Sabe dónde estás, sin más",
     subtitle: "Sin buscar, sin tocar, sin pantallas. Wayora simplemente te sigue.",

@@ -26,6 +26,20 @@ export default {
     subtitle:
       "Wayora macht deine Fahrt oder deinen Spaziergang zu einer geführten Audio-Tour. Geschichten beginnen, sobald du ankommst — freihändig, Blick nach vorn, nichts zu suchen.",
   },
+  story: {
+    eyebrow: "Die ersten fünf Minuten",
+    title: "Landen, rausgehen — und deine Tour wartet schon",
+    subtitle: "Kein Suchen, kein Planen. Wayora weiß, wo du bist, und sagt dir, was vor dir liegt.",
+    c1: "Du landest und gehst aus der Ankunftshalle",
+    c2: "Vor dir wartet bereits eine Tour",
+    c3: "Ein Tippen und sie beginnt",
+    day: "Montag, 19. Oktober",
+    notif: "Tour voraus — Südküste",
+    notifMeta: "Startet in 400 m · 2 Std. 15 Min.",
+    tourTitle: "Südküste",
+    tourMeta: "2 Std. 15 Min. · 128 km",
+    playing: "Läuft jetzt",
+  },
   knows: {
     title: "Es weiß einfach, wo du bist",
     subtitle: "Kein Suchen, kein Tippen, keine Bildschirme. Wayora folgt dir einfach.",

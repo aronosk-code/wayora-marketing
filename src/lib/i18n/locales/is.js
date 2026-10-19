@@ -26,6 +26,20 @@ export default {
     subtitle:
       "Wayora breytir akstri eða göngu í leiðsögða hljóðferð. Sögurnar hefjast um leið og þú kemur — án handa, augun uppi, ekkert að leita að.",
   },
+  story: {
+    eyebrow: "Fyrstu fimm mínúturnar",
+    title: "Lentu, gakktu út og túrinn bíður þegar",
+    subtitle: "Engin leit, engin skipulagning. Wayora veit hvar þú ert og segir þér hvað er framundan.",
+    c1: "Þú lentir og gengur út úr komusalnum",
+    c2: "Túr bíður þín rétt framundan",
+    c3: "Ein snerting og hann byrjar að spila",
+    day: "Mánudagur, 19. október",
+    notif: "Túr framundan — Suðurströndin",
+    notifMeta: "Byrjar eftir 400 m · 2 klst 15 mín",
+    tourTitle: "Suðurströndin",
+    tourMeta: "2 klst 15 mín · 128 km",
+    playing: "Spilar núna",
+  },
   knows: {
     title: "Það veit einfaldlega hvar þú ert",
     subtitle: "Engin leit, engin snerting, engir skjáir. Wayora fylgir þér bara.",

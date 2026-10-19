@@ -26,6 +26,20 @@ export default {
     subtitle:
       "Wayora transforme votre trajet en voiture ou à pied en visite audio guidée. Les histoires commencent dès votre arrivée — mains libres, regard levé, rien à chercher.",
   },
+  story: {
+    eyebrow: "Les cinq premières minutes",
+    title: "Atterrissez, sortez, votre visite vous attend déjà",
+    subtitle: "Rien à chercher, rien à prévoir. Wayora sait où vous êtes et vous dit ce qui vous attend.",
+    c1: "Vous atterrissez et sortez des arrivées",
+    c2: "Une visite vous attend juste devant",
+    c3: "Un geste et elle commence",
+    day: "Lundi 19 octobre",
+    notif: "Visite à venir — Côte Sud",
+    notifMeta: "Début dans 400 m · 2 h 15",
+    tourTitle: "Côte Sud",
+    tourMeta: "2 h 15 · 128 km",
+    playing: "Lecture en cours",
+  },
   knows: {
     title: "Il sait simplement où vous êtes",
     subtitle: "Pas de recherche, pas de tapotement, pas d'écran. Wayora vous suit, tout simplement.",

@@ -239,7 +239,7 @@ export default {
         },
         {
           title: "Engin skerðing á hverri ferð.",
-          text: "Þér er aldrei rukkað fyrir að búa til eða selja ferð. Sögurnar þínar skila tekjum svo lengi sem fólk hlustar.",
+          text: "Þú ert aldrei rukkað(ur) fyrir að búa til eða selja ferð. Sögurnar þínar skila tekjum svo lengi sem fólk hlustar.",
         },
       ],
       stepsTitle: "Hvernig það virkar",

@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function PageHero({ eyebrow, title, intro, children }) {
+export default function PageHero({ eyebrow, title, intro, children, compact = false }) {
   return (
-    <section className="border-b border-border bg-card pb-16 pt-40">
+    <section
+      className={`border-b border-border bg-card ${
+        compact ? "pb-10 pt-32" : "pb-16 pt-40"
+      }`}
+    >
       <div className="mx-auto max-w-6xl px-6">
         {eyebrow && (
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-accent">

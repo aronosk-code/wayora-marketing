@@ -13,12 +13,13 @@ export default function Pricing() {
   return (
     <>
       <PageHero
+        compact
         eyebrow={t("pricing.eyebrow")}
         title={t("pricing.title")}
         intro={t("pricing.subtitle")}
       />
 
-      <section className="bg-background pb-20 pt-32">
+      <section className="bg-background pb-20 pt-12">
         <div className="mx-auto max-w-6xl px-6">
           <Reveal>
             <PricingPlans />

@@ -23,14 +23,14 @@ export default function CreatorEarn() {
             const Icon = ICONS[i] || Coins;
             return (
               <Reveal key={item.title} delay={i * 0.08}>
-                <div className="h-full rounded-2xl border border-border bg-card p-5 sm:rounded-[1.75rem] sm:p-8">
-                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10 text-accent sm:h-12 sm:w-12 sm:rounded-2xl">
-                    <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
+                <div className="flex h-full flex-col rounded-2xl border border-border bg-card p-4 sm:rounded-[1.75rem] sm:p-8">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/10 text-accent sm:h-12 sm:w-12 sm:rounded-2xl">
+                    <Icon className="h-4 w-4 sm:h-6 sm:w-6" />
                   </span>
-                  <h3 className="mt-4 font-heading text-lg leading-snug text-foreground sm:mt-6 sm:text-xl">
+                  <h3 className="mt-3 font-heading text-base leading-snug text-foreground sm:mt-6 sm:text-xl">
                     {item.title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground sm:mt-3 sm:text-base">{item.text}</p>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground sm:mt-3 sm:text-base">{item.text}</p>
                 </div>
               </Reveal>
             );

@@ -22,7 +22,7 @@ export default function ForCreators() {
       >
         <Link
           to="/contact"
-          className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 sm:mt-8 sm:px-7 sm:py-3.5"
+          className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 sm:mt-8 sm:w-auto sm:px-7 sm:py-3.5"
         >
           {t("common.startCreating")}
           <ArrowRight className="h-4 w-4" />

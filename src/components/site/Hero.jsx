@@ -79,8 +79,6 @@ export default function Hero() {
             {t("common.seeHowItWorks")}
           </Link>
         </motion.div>
-
-        <p className="mt-9 text-sm text-white/70">{t("common.trust")}</p>
       </div>
     </section>
   );

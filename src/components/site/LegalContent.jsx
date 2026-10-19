@@ -12,7 +12,15 @@ function Paragraph({ item }) {
   );
 }
 
-export default function LegalContent({ updated, sections, contactEmail }) {
+export default function LegalContent({
+  updated,
+  sections,
+  contactEmail,
+  questionsTitle,
+  questionsText,
+}) {
+  const [beforeEmail, afterEmail] = (questionsText || "").split("{email}");
+
   return (
     <section className="bg-background py-20">
       <div className="mx-auto max-w-3xl px-6">
@@ -33,16 +41,16 @@ export default function LegalContent({ updated, sections, contactEmail }) {
 
         {contactEmail && (
           <div className="mt-16 rounded-[1.75rem] border border-border bg-card p-8">
-            <h2 className="font-heading text-2xl text-foreground">Questions?</h2>
+            <h2 className="font-heading text-2xl text-foreground">{questionsTitle}</h2>
             <p className="mt-3 leading-relaxed text-muted-foreground">
-              Write to{" "}
+              {beforeEmail}
               <a
                 href={`mailto:${contactEmail}`}
                 className="font-medium text-primary hover:underline"
               >
                 {contactEmail}
-              </a>{" "}
-              and we will get back to you.
+              </a>
+              {afterEmail}
             </p>
           </div>
         )}

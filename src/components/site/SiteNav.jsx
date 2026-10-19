@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import { useI18n } from "@/lib/i18n/LanguageContext";
+import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
 import ComingSoonButton from "./ComingSoonButton";
 import LogoMark from "./Logo";
 
@@ -28,7 +28,7 @@ function Logo({ light }) {
 }
 
 export default function SiteNav() {
-  const { t } = useI18n();
+  const { t, lang, setLang } = useI18n();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -86,20 +86,42 @@ export default function SiteNav() {
       </div>
 
       {open && (
-        <div className="border-t border-border bg-background px-6 py-6 lg:hidden">
-          <div className="flex flex-col gap-5">
+        <div className="max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-border bg-background px-6 py-6 lg:hidden">
+          <div className="flex flex-col gap-4">
             {LINKS.map((l) => (
               <Link
                 key={l.to}
                 to={l.to}
-                className="font-heading text-xl text-foreground"
+                className="font-heading text-lg text-foreground"
               >
                 {t(l.key)}
               </Link>
             ))}
-            <ComingSoonButton className="w-full rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
+            <ComingSoonButton className="mt-1 w-full rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
               {t("nav.getApp")}
             </ComingSoonButton>
+          </div>
+
+          <div className="mt-6 border-t border-border pt-5">
+            <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
+              {t("footer.language")}
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {LANGUAGES.map((l) => (
+                <button
+                  key={l.code}
+                  type="button"
+                  onClick={() => setLang(l.code)}
+                  className={`rounded-full border px-3 py-1.5 text-sm transition-colors ${
+                    lang === l.code
+                      ? "border-primary bg-primary/10 font-semibold text-primary"
+                      : "border-border text-muted-foreground"
+                  }`}
+                >
+                  {l.label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}

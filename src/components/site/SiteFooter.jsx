@@ -68,7 +68,7 @@ export default function SiteFooter() {
           ))}
         </div>
 
-        <div className="mt-14 border-t border-border pt-8">
+        <div className="mt-14 hidden border-t border-border pt-8 lg:block">
           <p className="font-body text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
             {t("footer.language")}
           </p>

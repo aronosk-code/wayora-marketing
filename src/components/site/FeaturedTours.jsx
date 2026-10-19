@@ -31,7 +31,7 @@ export default function FeaturedTours() {
         <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-6 lg:grid-cols-3">
           {TOURS.map((tour, i) => (
             <Reveal key={tour.id} delay={(i % 3) * 0.08}>
-              <article className="group overflow-hidden rounded-2xl border border-border bg-card shadow-[0_20px_50px_-40px_rgba(18,18,18,0.45)] sm:rounded-[1.75rem]">
+              <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-[0_20px_50px_-40px_rgba(18,18,18,0.45)] sm:rounded-[1.75rem]">
                 <div className="relative aspect-[4/3] overflow-hidden sm:aspect-auto sm:h-56">
                   <img
                     src={tour.image}
@@ -40,14 +40,14 @@ export default function FeaturedTours() {
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
                   />
                 </div>
-                <div className="p-3 transition-transform duration-500 group-hover:-translate-y-0.5 sm:p-6">
+                <div className="flex flex-1 flex-col p-3 transition-transform duration-500 group-hover:-translate-y-0.5 sm:p-6">
                   <p className="text-[9px] font-semibold uppercase tracking-[0.12em] text-accent sm:text-xs sm:tracking-[0.18em]">
                     {tour.city}
                   </p>
                   <h3 className="mt-1 font-heading text-xs leading-snug text-foreground sm:mt-2 sm:text-xl">
                     {TITLES[tour.id]}
                   </h3>
-                  <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[10px] text-muted-foreground sm:mt-4 sm:gap-x-5 sm:gap-y-2 sm:text-sm">
+                  <div className="mt-auto flex flex-wrap items-center gap-x-2 gap-y-0.5 pt-1.5 text-[10px] text-muted-foreground sm:gap-x-5 sm:gap-y-2 sm:pt-4 sm:text-sm">
                     <span className="flex items-center gap-1 sm:gap-1.5">
                       <Clock className="h-3 w-3 sm:h-4 sm:w-4" />
                       {tour.duration}

@@ -294,7 +294,7 @@ export default {
         },
       ],
     },
-    aboutTitle: "Við bjuggum Wayora svo að ferðalag hljómi eins og saga, ekki leit.",
+    aboutTitle: "Við bjuggum Wayora til svo að ferðalagið hljómi eins og saga, ekki leit.",
     aboutMission:
       "Flest ferðaöpp rétta þér lista og óska þér góðs gengis. Við vildum hið gagnstæða: að staðurinn sjálfur segi þér hvað hér gerðist, á þeirri stundu sem skiptir máli. Þess vegna fylgist Wayora með hvar þú ert og talar þegar þú kemur.",
     aboutGpsTitle: "Af hverju hljóð sem virkjast af GPS",

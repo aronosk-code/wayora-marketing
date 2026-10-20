@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Check, Globe, Menu, Moon, Sun, X } from "lucide-react";
+import { Globe, Menu, Moon, Sun, X } from "lucide-react";
 import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
 import { useTheme } from "@/lib/useTheme";
 import { Switch } from "@/components/ui/switch";
 import { APP_URL } from "@/lib/siteConfig";
 import LogoMark from "./Logo";
+import MobileLanguagePicker from "./MobileLanguagePicker";
 import {
   Select,
   SelectContent,
@@ -140,30 +141,7 @@ export default function SiteNav() {
             </div>
 
             <div className="mt-1 border-t border-border pt-5">
-              <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-                <Globe className="h-3.5 w-3.5" />
-                {t("footer.language")}
-              </p>
-              <div className="mt-3 grid grid-cols-2 gap-2">
-                {LANGUAGES.map((l) => {
-                  const active = lang === l.code;
-                  return (
-                    <button
-                      key={l.code}
-                      type="button"
-                      onClick={() => setLang(l.code)}
-                      className={`flex items-center justify-between rounded-xl border px-4 py-3 text-sm font-medium transition-colors ${
-                        active
-                          ? "border-primary bg-primary/10 text-primary"
-                          : "border-border bg-card text-muted-foreground"
-                      }`}
-                    >
-                      {l.label}
-                      {active && <Check className="h-4 w-4 shrink-0" />}
-                    </button>
-                  );
-                })}
-              </div>
+              <MobileLanguagePicker />
 
               <div className="mt-4 flex items-center justify-between rounded-xl border border-border bg-card px-4 py-3">
                 <span className="flex items-center gap-2 text-sm font-medium text-foreground">

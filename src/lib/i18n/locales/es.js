@@ -17,6 +17,7 @@ export default {
       "La app todavía no está en las tiendas. Déjanoslo a nosotros: merecerá la pena la espera.",
     mostPopular: "Más popular",
     close: "Cerrar",
+    darkMode: "Modo oscuro",
     trust: "Gratis para explorar · Funciona sin conexión · 7 idiomas",
     firstTourFree: "Tu primera ruta es gratis: todas sus historias.",
   },

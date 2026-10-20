@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Globe, Menu, X } from "lucide-react";
+import { Check, Globe, Menu, Moon, Sun, X } from "lucide-react";
 import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
+import { useTheme } from "@/lib/useTheme";
+import { Switch } from "@/components/ui/switch";
 import { APP_URL } from "@/lib/siteConfig";
 import LogoMark from "./Logo";
 import {
@@ -42,6 +44,7 @@ function Logo({ light }) {
 
 export default function SiteNav() {
   const { t, lang, setLang } = useI18n();
+  const { isDark, toggleTheme } = useTheme();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -136,19 +139,39 @@ export default function SiteNav() {
               ))}
             </div>
 
-            <div className="mt-1">
-              <Select value={lang} onValueChange={setLang}>
-                <SelectTrigger className="h-11 w-full rounded-full border-border bg-card text-sm text-foreground">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  {LANGUAGES.map((l) => (
-                    <SelectItem key={l.code} value={l.code}>
+            <div className="mt-1 border-t border-border pt-5">
+              <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                <Globe className="h-3.5 w-3.5" />
+                {t("footer.language")}
+              </p>
+              <div className="mt-3 grid grid-cols-2 gap-2">
+                {LANGUAGES.map((l) => {
+                  const active = lang === l.code;
+                  return (
+                    <button
+                      key={l.code}
+                      type="button"
+                      onClick={() => setLang(l.code)}
+                      className={`flex items-center justify-between rounded-xl border px-4 py-3 text-sm font-medium transition-colors ${
+                        active
+                          ? "border-primary bg-primary/10 text-primary"
+                          : "border-border bg-card text-muted-foreground"
+                      }`}
+                    >
                       {l.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+                      {active && <Check className="h-4 w-4 shrink-0" />}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="mt-4 flex items-center justify-between rounded-xl border border-border bg-card px-4 py-3">
+                <span className="flex items-center gap-2 text-sm font-medium text-foreground">
+                  {isDark ? <Moon className="h-4 w-4 text-accent" /> : <Sun className="h-4 w-4 text-accent" />}
+                  {t("common.darkMode")}
+                </span>
+                <Switch checked={isDark} onCheckedChange={toggleTheme} />
+              </div>
             </div>
 
             <a

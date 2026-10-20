@@ -17,6 +17,7 @@ export default {
       "Appið er ekki komið í verslanirnar ennþá. Bíddu aðeins — það verður þess virði.",
     mostPopular: "Vinsælast",
     close: "Loka",
+    darkMode: "Dökkt þema",
     trust: "Ókeypis að prófa · Virkar án nets · 7 tungumál",
     firstTourFree: "Fyrsta ferðin þín er ókeypis — hver einasta saga í henni.",
   },

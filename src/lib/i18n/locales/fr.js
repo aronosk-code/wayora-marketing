@@ -17,6 +17,7 @@ export default {
       "L'app n'est pas encore dans les stores. Laissez-nous faire — l'attente en vaudra la peine.",
     mostPopular: "Le plus populaire",
     close: "Fermer",
+    darkMode: "Mode sombre",
     trust: "Gratuit à explorer · Fonctionne hors ligne · 7 langues",
     firstTourFree: "Votre première visite est gratuite — toutes ses histoires.",
   },

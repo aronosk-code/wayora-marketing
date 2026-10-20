@@ -17,6 +17,7 @@ export default {
       "A app ainda não está nas lojas. Deixa connosco — vai valer a pena a espera.",
     mostPopular: "Mais popular",
     close: "Fechar",
+    darkMode: "Modo escuro",
     trust: "Grátis para explorar · Funciona offline · 7 idiomas",
     firstTourFree: "O teu primeiro percurso é grátis — com todas as histórias que tem.",
   },

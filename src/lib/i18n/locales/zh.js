@@ -16,6 +16,7 @@ export default {
     comingSoonText: "应用尚未上架应用商店。请再耐心等待，一切都会值得。",
     mostPopular: "最受欢迎",
     close: "关闭",
+    darkMode: "深色模式",
     trust: "免费探索 · 支持离线 · 7 种语言",
     firstTourFree: "首条路线免费 —— 其中每个故事都包含。",
   },

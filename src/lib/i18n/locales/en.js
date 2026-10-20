@@ -17,6 +17,7 @@ export default {
       "The app is not in the stores just yet. Leave it with us — it will be worth the wait.",
     mostPopular: "Most popular",
     close: "Close",
+    darkMode: "Dark mode",
     trust: "Free to explore · Works offline · 7 languages",
     firstTourFree: "Your first tour is free — every story in it.",
   },

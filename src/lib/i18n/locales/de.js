@@ -17,6 +17,7 @@ export default {
       "Die App ist noch nicht in den Stores. Überlass es uns — das Warten wird sich lohnen.",
     mostPopular: "Am beliebtesten",
     close: "Schließen",
+    darkMode: "Dunkelmodus",
     trust: "Kostenlos testen · Offline verfügbar · 7 Sprachen",
     firstTourFree: "Deine erste Tour ist gratis — jede Geschichte darin.",
   },

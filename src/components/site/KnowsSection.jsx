@@ -16,7 +16,7 @@ export default function KnowsSection() {
     <section className="bg-background py-10 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
-          <h2 className="max-w-2xl font-heading text-2xl text-foreground sm:text-4xl lg:text-5xl">
+          <h2 className="max-w-2xl font-heading text-xl text-foreground sm:text-3xl lg:text-4xl">
             {t("knows.title")}
           </h2>
           <p className="mt-3 max-w-xl text-base text-muted-foreground sm:mt-4 sm:text-lg">

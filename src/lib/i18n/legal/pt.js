@@ -46,7 +46,6 @@ export default {
     {
       title: "Com quem os partilhamos",
       body: [
-        "A Base44 aloja a app, a sua base de dados e as contas, e executa as funcionalidades de IA (escrita de histórias, traduções e vozes) através dos seus fornecedores de IA.",
         "A Stripe processa pagamentos, subscrições e reembolsos.",
         "A Google Maps Platform responde a pesquisas de locais e calcula rotas. A MapTiler e a OpenStreetMap fornecem as imagens do mapa; o teu telemóvel descarrega-as diretamente.",
         "Estes fornecedores tratam dados em nosso nome. Alguns estão fora do EEE; aplicam as garantias exigidas pelo RGPD, como as cláusulas contratuais-tipo.",

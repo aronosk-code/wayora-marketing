@@ -46,7 +46,6 @@ export default {
     {
       title: "Who we share it with",
       body: [
-        "Base44 hosts the app, its database and accounts, and runs the AI features (story writing, translations and voices) through its AI providers.",
         "Stripe processes payments, subscriptions and refunds.",
         "Google Maps Platform answers place searches and calculates routes. MapTiler and OpenStreetMap provide the map images; your phone fetches them directly.",
         "These providers process data on our behalf. Some of them are outside the EEA; they use the safeguards the GDPR requires, such as standard contractual clauses.",

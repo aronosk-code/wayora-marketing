@@ -46,7 +46,6 @@ export default {
     {
       title: "我们与谁共享",
       body: [
-        "Base44 托管应用、数据库和账号，并通过其 AI 服务商运行 AI 功能（故事撰写、翻译和配音）。",
         "Stripe 处理支付、订阅和退款。",
         "Google Maps Platform 处理地点搜索并计算路线。MapTiler 和 OpenStreetMap 提供地图图像；你的手机直接加载它们。",
         "这些服务商代表我们处理数据。其中一些位于欧洲经济区之外；它们采用 GDPR 要求的保障措施，例如标准合同条款。",

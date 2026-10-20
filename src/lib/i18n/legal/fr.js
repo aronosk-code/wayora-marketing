@@ -46,7 +46,6 @@ export default {
     {
       title: "Avec qui nous les partageons",
       body: [
-        "Base44 héberge l'application, sa base de données et les comptes, et fait fonctionner les fonctions d'IA (rédaction des histoires, traductions et voix) via ses fournisseurs d'IA.",
         "Stripe traite les paiements, les abonnements et les remboursements.",
         "Google Maps Platform répond aux recherches de lieux et calcule les itinéraires. MapTiler et OpenStreetMap fournissent les images de carte ; votre téléphone les télécharge directement.",
         "Ces fournisseurs traitent les données pour notre compte. Certains se trouvent hors de l'EEE ; ils appliquent les garanties exigées par le RGPD, comme les clauses contractuelles types.",

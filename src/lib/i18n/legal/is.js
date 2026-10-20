@@ -46,7 +46,6 @@ export default {
     {
       title: "Hverjir fá aðgang að þeim",
       body: [
-        "Base44 hýsir appið, gagnagrunninn og reikningana, og rekur AI-eiginleikana (söguskrif, þýðingar og raddir) í gegnum AI-þjónustuaðila sína.",
         "Stripe vinnur úr greiðslum, áskriftum og endurgreiðslum.",
         "Google Maps Platform annast staðaleit og reiknar leiðir. MapTiler og OpenStreetMap veita kortamyndirnar; síminn þinn sækir þær beint.",
         "Þessir aðilar vinna úr gögnunum fyrir okkur. Sumir þeirra eru utan EES; þeir nota þær verndarráðstafanir sem GDPR krefst, svo sem staðlaða samningsskilmála.",

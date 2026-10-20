@@ -46,7 +46,6 @@ export default {
     {
       title: "Mit wem wir sie teilen",
       body: [
-        "Base44 hostet die App, ihre Datenbank und die Konten und betreibt die KI-Funktionen (Geschichten schreiben, Übersetzungen und Stimmen) über seine KI-Anbieter.",
         "Stripe verarbeitet Zahlungen, Abos und Rückerstattungen.",
         "Google Maps Platform beantwortet Ortssuchen und berechnet Routen. MapTiler und OpenStreetMap liefern die Kartenbilder; dein Handy lädt sie direkt.",
         "Diese Anbieter verarbeiten Daten in unserem Auftrag. Einige von ihnen sitzen außerhalb des EWR; sie nutzen die von der DSGVO geforderten Garantien, etwa Standardvertragsklauseln.",

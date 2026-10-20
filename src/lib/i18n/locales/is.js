@@ -42,7 +42,7 @@ export default {
     playing: "Spilar núna",
   },
   knows: {
-    title: "Það veit einfaldlega hvar þú ert",
+    title: "Appið veit einfaldlega hvar þú ert",
     subtitle: "Engin leit, engin snerting, engir skjáir. Wayora fylgir þér bara.",
     drive: {
       title: "Keyrðu, og það segir sögurnar",

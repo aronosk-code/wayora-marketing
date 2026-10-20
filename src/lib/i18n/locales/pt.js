@@ -217,7 +217,7 @@ export default {
     rights: "Todos os direitos reservados.",
   },
   pages: {
-    howTitle: "Como funciona",
+    howTitle: "Como funciona a app",
     howIntro:
       "A Wayora trata do planeamento para que tu possas olhar. Aqui está todo o percurso, desde o momento em que abres a app até à história que toca quando chegas.",
     feelTitle: "Como se sente",

@@ -1,6 +1,6 @@
 export default {
   nav: {
-    howItWorks: "Hvernig það virkar",
+    howItWorks: "Hvernig virkar appið",
     pricing: "Verð",
     forCreators: "Fyrir höfunda",
     about: "Um okkur",
@@ -46,7 +46,7 @@ export default {
     subtitle: "Engin leit, engin snerting, engir skjáir. Wayora fylgir þér bara.",
     drive: {
       title: "Keyrðu, og það segir sögurnar",
-      text: "Sögurnar spilast af sjálfu sér þegar þú ferð fram hjá stöðunum sem skipta máli.",
+      text: "Sögurnar spilast sjálfkrafa þegar þú ferð fram hjá stöðunum sem skipta máli.",
     },
     walk: {
       title: "Gakktu, og það leiðir þig",
@@ -58,7 +58,7 @@ export default {
     },
   },
   how: {
-    title: "Hvernig það virkar",
+    title: "Hvernig virkar appið",
     subtitle: "Þrjú skref frá því að opna appið að fyrstu sögunni.",
     s1: { title: "Opnaðu kortið", text: "Sjáðu allar ferðir í kringum þig, í beinni." },
     s2: { title: "Veldu ferð", text: "Frá 20 mínútna göngu að heilsdags akstri." },
@@ -77,7 +77,7 @@ export default {
   },
   tours: {
     title: "Valdar ferðir",
-    subtitle: "Smá sýnishorn af því sem bíður í kringum þig.",
+    subtitle: "Smá sýnishorn af því sem bíður þín.",
     duration: "Tímalengd",
     distance: "Vegalengd",
     rating: "Einkunn",
@@ -218,7 +218,7 @@ export default {
     rights: "Öll réttindi áskilin.",
   },
   pages: {
-    howTitle: "Hvernig það virkar",
+    howTitle: "Hvernig appið virkar",
     howIntro:
       "Wayora sér um skipulagið svo þú getir notið útsýnisins. Hér er öll ferðin, frá því að þú opnar appið að sögunni sem spilast þegar þú kemur.",
     feelTitle: "Svona er upplifunin",

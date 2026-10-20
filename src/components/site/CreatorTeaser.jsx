@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n/LanguageContext";
+import { APP_URL } from "@/lib/siteConfig";
 import Reveal from "./Reveal";
 
 export default function CreatorTeaser() {
@@ -19,13 +19,13 @@ export default function CreatorTeaser() {
               <p className="mt-3 text-base leading-relaxed text-accent-foreground/85 sm:mt-5 sm:text-lg">
                 {t("creatorTeaser.text")}
               </p>
-              <Link
-                to="/for-creators"
+              <a
+                href={APP_URL}
                 className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 sm:mt-9 sm:px-7 sm:py-3.5"
               >
                 {t("creatorTeaser.cta")}
                 <ArrowRight className="h-4 w-4" />
-              </Link>
+              </a>
             </div>
           </div>
         </Reveal>

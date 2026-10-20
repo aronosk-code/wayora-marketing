@@ -203,7 +203,7 @@ export default {
     rights: "保留所有权利。",
   },
   pages: {
-    howTitle: "工作原理",
+    howTitle: "应用如何运作",
     howIntro:
       "Wayora 负责规划，你只需欣赏。这里是整个旅程，从你打开应用的那一刻，到你抵达时响起的故事。",
     feelTitle: "它是什么感觉",

@@ -217,7 +217,7 @@ export default {
     rights: "Todos los derechos reservados.",
   },
   pages: {
-    howTitle: "Cómo funciona",
+    howTitle: "Cómo funciona la app",
     howIntro:
       "Wayora se encarga de la planificación para que tú puedas mirar. Aquí está todo el recorrido, desde que abres la app hasta la historia que suena al llegar.",
     feelTitle: "Qué se siente",

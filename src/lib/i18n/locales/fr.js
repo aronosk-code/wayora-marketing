@@ -217,7 +217,7 @@ export default {
     rights: "Tous droits réservés.",
   },
   pages: {
-    howTitle: "Comment ça marche",
+    howTitle: "Comment fonctionne l'application",
     howIntro:
       "Wayora s'occupe de l'organisation pour que vous puissiez regarder. Voici tout le parcours, de l'ouverture de l'app à l'histoire qui se lance à votre arrivée.",
     feelTitle: "Ce que ça fait",

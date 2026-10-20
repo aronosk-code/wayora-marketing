@@ -27,23 +27,21 @@ export default function PricingPlans() {
                   : "border-border shadow-[0_20px_50px_-45px_rgba(18,18,18,0.45)]"
               }`}
             >
-              <div className="flex flex-col items-start gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
-                <h3 className="font-heading text-sm text-foreground sm:text-xl md:text-2xl">
-                  {plan.name}
-                </h3>
-                <div className="flex flex-wrap items-center gap-1 sm:gap-1.5">
-                  {plan.popular && (
-                    <span className="rounded-full bg-primary/10 px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wide text-primary sm:px-3 sm:py-1 sm:text-[11px]">
-                      {t("common.mostPopular")}
-                    </span>
-                  )}
-                  {CREATOR_PLANS.includes(key) && (
-                    <span className="rounded-full bg-accent/10 px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wide text-accent sm:px-3 sm:py-1 sm:text-[11px]">
-                      {t("nav.forCreators")}
-                    </span>
-                  )}
-                </div>
+              <div className="flex min-h-[14px] flex-wrap items-center gap-1 sm:min-h-[26px] sm:gap-1.5">
+                {plan.popular && (
+                  <span className="rounded-full bg-primary/10 px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wide text-primary sm:px-3 sm:py-1 sm:text-[11px]">
+                    {t("common.mostPopular")}
+                  </span>
+                )}
+                {CREATOR_PLANS.includes(key) && (
+                  <span className="rounded-full bg-accent/10 px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wide text-accent sm:px-3 sm:py-1 sm:text-[11px]">
+                    {t("nav.forCreators")}
+                  </span>
+                )}
               </div>
+              <h3 className="mt-1.5 font-heading text-sm text-foreground sm:mt-2 sm:text-xl md:text-2xl">
+                {plan.name}
+              </h3>
 
               <p className="mt-2 flex items-baseline gap-1 sm:mt-4 md:mt-6">
                 <span className="font-heading text-xl text-foreground sm:text-3xl md:text-4xl">

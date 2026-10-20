@@ -1,7 +1,7 @@
 export default {
   updated: "Última atualização: 14 out 2026",
   questionsTitle: "Dúvidas?",
-  questionsText: "Escreve para {email} e respondemos-te.",
+  questionsText: "{email}",
   privacy: [
     {
       title: "Quem somos",

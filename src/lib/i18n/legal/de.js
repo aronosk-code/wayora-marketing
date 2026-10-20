@@ -1,7 +1,7 @@
 export default {
   updated: "Zuletzt aktualisiert am 14. Okt. 2026",
   questionsTitle: "Fragen?",
-  questionsText: "Schreib an {email} und wir melden uns bei dir.",
+  questionsText: "{email}",
   privacy: [
     {
       title: "Wer wir sind",

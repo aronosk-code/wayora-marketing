@@ -303,7 +303,6 @@ export default {
     aboutVoicesTitle: "Supporting local voices",
     aboutVoicesText:
       "The best guides are the people who live there. Wayora pays them directly for the stories they record, so the tours you hear come from real knowledge and stay in the place they belong.",
-    contactTitle: "Say hello",
     contactIntro:
       "Questions, ideas or a story worth telling? Send us a message and we will get back to you.",
     name: "Name",

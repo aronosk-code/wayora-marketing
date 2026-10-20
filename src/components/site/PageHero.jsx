@@ -13,7 +13,7 @@ export default function PageHero({ eyebrow, title, intro, children, compact = fa
             {eyebrow}
           </p>
         )}
-        <h1 className="mt-3 max-w-3xl font-heading text-3xl leading-[1.12] text-foreground sm:mt-4 sm:text-5xl lg:text-6xl">
+        <h1 className="mt-3 max-w-3xl font-heading text-3xl leading-[1.25] text-foreground sm:mt-4 sm:text-5xl lg:text-6xl">
           {title}
         </h1>
         {intro && (

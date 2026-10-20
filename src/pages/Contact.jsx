@@ -39,7 +39,6 @@ export default function Contact() {
     <>
       <PageHero
         eyebrow={t("nav.contact")}
-        title={t("pages.contactTitle")}
         intro={t("pages.contactIntro")}
       />
 

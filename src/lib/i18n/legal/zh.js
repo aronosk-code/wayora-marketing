@@ -1,7 +1,7 @@
 export default {
   updated: "最后更新：2026 年 10 月 14 日",
   questionsTitle: "有疑问？",
-  questionsText: "请发邮件至 {email}，我们会回复你。",
+  questionsText: "{email}",
   privacy: [
     {
       title: "我们是谁",

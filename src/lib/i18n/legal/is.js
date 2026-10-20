@@ -1,7 +1,7 @@
 export default {
   updated: "Síðast uppfært 14. október 2026",
   questionsTitle: "Spurningar?",
-  questionsText: "Skrifaðu til {email} og við svörum.",
+  questionsText: "{email}",
   privacy: [
     {
       title: "Hver við erum",

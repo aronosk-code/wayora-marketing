@@ -303,7 +303,6 @@ export default {
     aboutVoicesTitle: "Að styðja staðbundnar raddir",
     aboutVoicesText:
       "Bestu leiðsögumennirnir eru fólkið sem býr á staðnum. Wayora borgar þeim beint fyrir sögurnar sem þau taka upp, svo ferðirnar sem þú heyrir koma frá raunverulegri þekkingu og haldast á sínum stað.",
-    contactTitle: "Segðu hæ",
     contactIntro:
       "Spurningar, hugmyndir eða saga sem er þess virði að segja? Sendu okkur skilaboð og við svörum.",
     name: "Nafn",

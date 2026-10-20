@@ -288,7 +288,6 @@ export default {
     aboutVoicesTitle: "支持本地声音",
     aboutVoicesText:
       "最好的向导就是住在那里的人。Wayora 直接为他们录制的故事付费，因此你听到的路线来自真实的知识，并留在它们所属的地方。",
-    contactTitle: "打个招呼",
     contactIntro: "有问题、想法，或一个值得讲述的故事？给我们留言，我们会尽快回复。",
     name: "姓名",
     email: "电子邮箱",

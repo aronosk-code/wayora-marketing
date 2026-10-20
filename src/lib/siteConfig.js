@@ -1,3 +1,7 @@
+export const APP_URL = "https://app.wayoratour.com";
+
+export const subscribeUrl = (plan) => `${APP_URL}/subscribe?plan=${plan}`;
+
 export const HERO_VIDEO_URL =
   "https://media.base44.com/videos/public/6ad5627944e69b6847343e56/4e1cbe62f_Hero_Video.mp4";
 

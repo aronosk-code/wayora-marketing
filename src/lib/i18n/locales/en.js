@@ -137,6 +137,12 @@ export default {
         popular: false,
       },
     ],
+    ctas: {
+      explorer: "Choose Explorer",
+      traveler: "Choose Traveler",
+      unlimited: "Choose Unlimited",
+    },
+    planNote: "You'll choose and manage your plan in the app.",
     compareTitle: "Compare the plans",
     rows: [
       { label: "Stories per month", free: "First tour free", explorer: "25", traveler: "75", unlimited: "Unlimited" },

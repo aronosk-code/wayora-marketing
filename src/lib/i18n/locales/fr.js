@@ -136,6 +136,12 @@ export default {
         popular: false,
       },
     ],
+    ctas: {
+      explorer: "Choisir Explorer",
+      traveler: "Choisir Traveler",
+      unlimited: "Choisir Unlimited",
+    },
+    planNote: "Vous choisirez et gérerez votre offre dans l'app.",
     compareTitle: "Comparer les offres",
     rows: [
       { label: "Histoires par mois", free: "Première visite gratuite", explorer: "25", traveler: "75", unlimited: "Illimité" },

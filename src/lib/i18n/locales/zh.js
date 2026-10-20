@@ -123,6 +123,12 @@ export default {
         popular: false,
       },
     ],
+    ctas: {
+      explorer: "选择探索者",
+      traveler: "选择旅行者",
+      unlimited: "选择无限",
+    },
+    planNote: "你将在应用中选择和管理你的套餐。",
     compareTitle: "比较各方案",
     rows: [
       { label: "每月故事数", free: "首条路线免费", explorer: "25", traveler: "75", unlimited: "无限" },

@@ -137,6 +137,12 @@ export default {
         popular: false,
       },
     ],
+    ctas: {
+      explorer: "Veldu Könnuð",
+      traveler: "Veldu Ferðalang",
+      unlimited: "Veldu Ótakmarkað",
+    },
+    planNote: "Þú velur og stýrir áskriftinni þinni í appinu.",
     compareTitle: "Bera saman áskriftirnar",
     rows: [
       { label: "Sögur á mánuði", free: "Fyrsta ferð ókeypis", explorer: "25", traveler: "75", unlimited: "Ótakmarkað" },

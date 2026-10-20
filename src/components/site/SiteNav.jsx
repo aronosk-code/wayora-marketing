@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Globe, Menu, X } from "lucide-react";
 import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
-import ComingSoonButton from "./ComingSoonButton";
+import { APP_URL } from "@/lib/siteConfig";
 import LogoMark from "./Logo";
 import {
   Select,
@@ -97,12 +97,12 @@ export default function SiteNav() {
             </SelectContent>
           </Select>
 
-          <ComingSoonButton
-            size="sm"
-            className="rounded-full bg-primary px-5 text-primary-foreground hover:bg-primary/90"
+          <a
+            href={APP_URL}
+            className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
           >
             {t("nav.getApp")}
-          </ComingSoonButton>
+          </a>
         </nav>
 
         <button
@@ -151,9 +151,12 @@ export default function SiteNav() {
               </Select>
             </div>
 
-            <ComingSoonButton className="mt-1 w-full rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
+            <a
+              href={APP_URL}
+              className="mt-1 w-full rounded-full bg-primary py-3 text-center text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+            >
               {t("nav.getApp")}
-            </ComingSoonButton>
+            </a>
           </div>
         </div>
       )}

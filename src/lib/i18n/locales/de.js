@@ -136,6 +136,12 @@ export default {
         popular: false,
       },
     ],
+    ctas: {
+      explorer: "Explorer wählen",
+      traveler: "Traveler wählen",
+      unlimited: "Unlimited wählen",
+    },
+    planNote: "Du wählst und verwaltest deinen Plan in der App.",
     compareTitle: "Pläne vergleichen",
     rows: [
       { label: "Geschichten pro Monat", free: "Erste Tour gratis", explorer: "25", traveler: "75", unlimited: "Unbegrenzt" },

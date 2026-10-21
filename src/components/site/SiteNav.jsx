@@ -4,9 +4,9 @@ import { Globe, Menu, Moon, Sun, X } from "lucide-react";
 import { useI18n, LANGUAGES } from "@/lib/i18n/LanguageContext";
 import { useTheme } from "@/lib/useTheme";
 import { Switch } from "@/components/ui/switch";
-import { APP_URL } from "@/lib/siteConfig";
 import LogoMark from "./Logo";
 import MobileLanguagePicker from "./MobileLanguagePicker";
+import GetAppButton from "./GetAppButton";
 import {
   Select,
   SelectContent,
@@ -101,12 +101,9 @@ export default function SiteNav() {
             </SelectContent>
           </Select>
 
-          <a
-            href={APP_URL}
-            className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
-          >
+          <GetAppButton className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
             {t("nav.getApp")}
-          </a>
+          </GetAppButton>
         </nav>
 
         <button
@@ -152,12 +149,9 @@ export default function SiteNav() {
               </div>
             </div>
 
-            <a
-              href={APP_URL}
-              className="mt-1 w-full rounded-full bg-primary py-3 text-center text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
-            >
+            <GetAppButton className="mt-1 w-full rounded-full bg-primary py-3 text-center text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
               {t("nav.getApp")}
-            </a>
+            </GetAppButton>
           </div>
         </div>
       )}

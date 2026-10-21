@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n/LanguageContext";
-import { APP_URL, HERO_POSTER, HERO_VIDEO_URL } from "@/lib/siteConfig";
+import { HERO_POSTER, HERO_VIDEO_URL } from "@/lib/siteConfig";
+import GetAppButton from "./GetAppButton";
 
 export default function Hero() {
   const { t } = useI18n();
@@ -68,12 +69,9 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.3 }}
           className="mt-6 flex flex-col gap-3 sm:mt-7 sm:flex-row sm:flex-wrap sm:items-center"
         >
-          <a
-            href={APP_URL}
-            className="w-full rounded-full bg-primary px-7 py-3 text-center text-sm font-medium text-primary-foreground shadow-lg shadow-black/20 transition-colors hover:bg-primary/90 sm:w-auto"
-          >
+          <GetAppButton className="w-full rounded-full bg-primary px-7 py-3 text-center text-sm font-medium text-primary-foreground shadow-lg shadow-black/20 transition-colors hover:bg-primary/90 sm:w-auto">
             {t("common.getTheApp")}
-          </a>
+          </GetAppButton>
           <Link
             to="/how-it-works"
             className="rounded-full border border-white/40 px-7 py-3 text-center text-sm font-medium text-white transition-colors hover:bg-white/10"

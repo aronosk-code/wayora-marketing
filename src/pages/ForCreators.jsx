@@ -1,8 +1,8 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n/LanguageContext";
-import { APP_URL } from "@/lib/siteConfig";
 import PageHero from "@/components/site/PageHero";
+import GetAppButton from "@/components/site/GetAppButton";
 import CreatorEarn from "@/components/site/creators/CreatorEarn";
 import CreatorSteps from "@/components/site/creators/CreatorSteps";
 import CreatorBuilt from "@/components/site/creators/CreatorBuilt";
@@ -20,13 +20,10 @@ export default function ForCreators() {
         title={t("pages.creators.title")}
         intro={t("pages.creators.intro")}
       >
-        <a
-          href={APP_URL}
-          className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 sm:mt-8 sm:w-auto sm:px-7 sm:py-3.5"
-        >
+        <GetAppButton className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 sm:mt-8 sm:w-auto sm:px-7 sm:py-3.5">
           {t("common.startCreating")}
           <ArrowRight className="h-4 w-4" />
-        </a>
+        </GetAppButton>
       </PageHero>
 
       <CreatorEarn />

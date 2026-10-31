@@ -55,7 +55,7 @@ export default {
       title: "Com quem os partilhamos",
       body: [
         "A Revolut processa pagamentos, subscrições, reembolsos e pagamentos a criadores. A Revolut é o nosso prestador de pagamentos, não a outra parte na tua compra: a vendedora é a Wayora.",
-        "A Base44 aloja a aplicação e este site e trata do início de sessão e do email.",
+        "O nosso fornecedor de alojamento na nuvem aloja a aplicação e este site e trata do início de sessão e do email.",
         "Se entrares com o Google, o Google confirma quem és.",
         "A Google Maps Platform responde a pesquisas de lugares e calcula rotas. A MapTiler e a OpenStreetMap fornecem as imagens do mapa; o teu telemóvel descarrega-as diretamente.",
         "Estes prestadores tratam os dados em nosso nome. Alguns estão fora do EEE; utilizam as garantias exigidas pelo RGPD, como as cláusulas contratuais-tipo.",

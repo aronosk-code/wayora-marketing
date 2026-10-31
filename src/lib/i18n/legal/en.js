@@ -55,7 +55,7 @@ export default {
       title: "Who we share it with",
       body: [
         "Revolut processes payments, subscriptions, refunds and creator payouts. Revolut is our payment provider, not a party to your purchase: Wayora is the seller.",
-        "Base44 hosts the app and this website and handles sign-in and email.",
+        "Our cloud hosting provider stores the app and this website and handles sign-in and email.",
         "If you sign in with Google, Google confirms who you are.",
         "Google Maps Platform answers place searches and calculates routes. MapTiler and OpenStreetMap provide the map images; your phone fetches them directly.",
         "These providers process data on our behalf. Some of them are outside the EEA; they use the safeguards the GDPR requires, such as standard contractual clauses.",

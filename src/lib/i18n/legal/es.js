@@ -55,7 +55,7 @@ export default {
       title: "Con quién los compartimos",
       body: [
         "Revolut procesa los pagos, las suscripciones, las devoluciones y los pagos a los creadores. Revolut es nuestro proveedor de pagos, no la otra parte de tu compra: el vendedor es Wayora.",
-        "Base44 aloja la app y este sitio web, y gestiona el inicio de sesión y el correo.",
+        "Nuestro proveedor de alojamiento en la nube aloja la app y este sitio web, y gestiona el inicio de sesión y el correo.",
         "Si inicias sesión con Google, Google confirma quién eres.",
         "Google Maps Platform responde a las búsquedas de lugares y calcula las rutas. MapTiler y OpenStreetMap aportan las imágenes del mapa; tu móvil las descarga directamente.",
         "Estos proveedores tratan los datos por nuestra cuenta. Algunos están fuera del EEE; utilizan las garantías que exige el RGPD, como las cláusulas contractuales tipo.",

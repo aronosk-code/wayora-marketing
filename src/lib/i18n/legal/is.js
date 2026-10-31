@@ -55,7 +55,7 @@ export default {
       title: "Hverjir fá aðgang að þeim",
       body: [
         "Revolut sér um greiðslur, áskriftir, endurgreiðslur og útborganir til höfunda. Revolut er greiðsluaðili okkar en ekki söluaðili í kaupunum þínum: Wayora er seljandinn.",
-        "Base44 hýsir appið og þessa vefsíðu og sér um innskráningu og tölvupóst.",
+        "Hýsingaraðili okkar í skýinu geymir appið og þessa vefsíðu og sér um innskráningu og tölvupóst.",
         "Ef þú skráir þig inn með Google staðfestir Google hver þú ert.",
         "Google Maps Platform svarar staðaleit og reiknar leiðir. MapTiler og OpenStreetMap sjá um kortamyndirnar; síminn þinn sækir þær beint.",
         "Þessir aðilar vinna úr upplýsingunum fyrir okkar hönd. Sumir þeirra eru utan EES; þeir nota þær verndarráðstafanir sem persónuverndarreglugerðin krefst, svo sem stöðluð samningsákvæði.",

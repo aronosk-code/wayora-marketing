@@ -55,7 +55,7 @@ export default {
       title: "Mit wem wir sie teilen",
       body: [
         "Revolut verarbeitet Zahlungen, Abos, Rückerstattungen und Auszahlungen an Creator. Revolut ist unser Zahlungsdienstleister, nicht dein Vertragspartner: Verkäufer ist Wayora.",
-        "Base44 hostet die App und diese Website und übernimmt Anmeldung und E-Mail.",
+        "Unser Cloud-Hosting-Anbieter hostet die App und diese Website und übernimmt Anmeldung und E-Mail.",
         "Wenn du dich mit Google anmeldest, bestätigt Google, wer du bist.",
         "Google Maps Platform beantwortet Ortssuchen und berechnet Routen. MapTiler und OpenStreetMap liefern die Kartenbilder; dein Handy ruft sie direkt ab.",
         "Diese Anbieter verarbeiten Daten in unserem Auftrag. Einige sitzen außerhalb des EWR; sie nutzen die von der DSGVO geforderten Garantien, etwa Standardvertragsklauseln.",

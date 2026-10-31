@@ -55,7 +55,7 @@ export default {
       title: "Avec qui nous les partageons",
       body: [
         "Revolut traite les paiements, les abonnements, les remboursements et les paiements aux créateurs. Revolut est notre prestataire de paiement, pas votre cocontractant : Wayora est le vendeur.",
-        "Base44 héberge l'application et ce site web, et gère la connexion et les e-mails.",
+        "Notre hébergeur cloud héberge l'application et ce site web, et gère la connexion et les e-mails.",
         "Si vous vous connectez avec Google, Google confirme votre identité.",
         "Google Maps Platform répond aux recherches de lieux et calcule les itinéraires. MapTiler et OpenStreetMap fournissent les images de carte ; votre téléphone les télécharge directement.",
         "Ces prestataires traitent les données pour notre compte. Certains se trouvent hors de l'EEE ; ils appliquent les garanties exigées par le RGPD, comme les clauses contractuelles types.",

@@ -216,6 +216,8 @@ export default {
     legal: "Mentions légales",
     language: "Langue",
     rights: "Tous droits réservés.",
+    companyId: "ID de l'entreprise",
+    vat: "N° de TVA",
   },
   pages: {
     howTitle: "Comment fonctionne l'application",

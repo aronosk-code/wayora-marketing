@@ -216,6 +216,8 @@ export default {
     legal: "Rechtliches",
     language: "Sprache",
     rights: "Alle Rechte vorbehalten.",
+    companyId: "Unternehmens-ID",
+    vat: "USt-IdNr.",
   },
   pages: {
     howTitle: "So funktioniert die App",

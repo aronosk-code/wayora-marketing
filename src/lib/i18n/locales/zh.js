@@ -202,6 +202,8 @@ export default {
     legal: "法律",
     language: "语言",
     rights: "保留所有权利。",
+    companyId: "公司编号",
+    vat: "增值税号",
   },
   pages: {
     howTitle: "应用如何运作",

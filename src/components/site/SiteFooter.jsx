@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useI18n } from "@/lib/i18n/LanguageContext";
 import LogoMark from "./Logo";
+import { COMPANY } from "@/lib/siteConfig";
 
 export default function SiteFooter() {
   const { t } = useI18n();
@@ -68,9 +69,15 @@ export default function SiteFooter() {
           ))}
         </div>
 
-        <p className="text-center text-xs text-muted-foreground lg:mt-14 lg:border-t lg:border-border lg:pt-8 lg:text-left">
-          © {new Date().getFullYear()} Wayora. {t("footer.rights")}
-        </p>
+        <div className="text-center lg:mt-14 lg:border-t lg:border-border lg:pt-8 lg:text-left">
+          <p className="text-xs text-muted-foreground">
+            © {new Date().getFullYear()} Wayora. {t("footer.rights")}
+          </p>
+          <p className="mt-2 text-xs text-muted-foreground">
+            {COMPANY.name} · {t("footer.companyId")}: {COMPANY.id} · {COMPANY.address} ·{" "}
+            {t("footer.vat")}: {COMPANY.vat}
+          </p>
+        </div>
       </div>
     </footer>
   );

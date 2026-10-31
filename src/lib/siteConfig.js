@@ -1,5 +1,16 @@
 export const APP_URL = "https://app.wayoratour.com";
 
+// Placeholders until the company is registered — fill these in once the ehf. exists.
+export const COMPANY = {
+  name: "Wayora",
+  id: "[company ID / kennitala]",
+  address: "[address], Iceland",
+  vat: "[VAT number]",
+};
+
+// Switch to the business email (e.g. hello@wayoratour.com) once it exists.
+export const CONTACT_EMAIL = "wayoraaa@gmail.com";
+
 export const subscribeUrl = (plan) => `${APP_URL}/subscribe?plan=${plan}`;
 
 export const HERO_VIDEO_URL =

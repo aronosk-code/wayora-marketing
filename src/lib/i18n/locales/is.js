@@ -217,6 +217,8 @@ export default {
     legal: "Lög og reglur",
     language: "Tungumál",
     rights: "Öll réttindi áskilin.",
+    companyId: "Kennitala",
+    vat: "VSK-númer",
   },
   pages: {
     howTitle: "Hvernig appið virkar",

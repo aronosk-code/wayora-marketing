@@ -4,7 +4,6 @@ import { useI18n } from "@/lib/i18n/LanguageContext";
 import { APP_URL, subscribeUrl } from "@/lib/siteConfig";
 
 const PLAN_KEYS = ["free", "explorer", "traveler", "unlimited"];
-const CREATOR_PLANS = ["traveler", "unlimited"];
 
 export default function PricingPlans() {
   const { t } = useI18n();
@@ -31,11 +30,6 @@ export default function PricingPlans() {
                 {plan.popular && (
                   <span className="rounded-full bg-primary/10 px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wide text-primary sm:px-3 sm:py-1 sm:text-[11px]">
                     {t("common.mostPopular")}
-                  </span>
-                )}
-                {CREATOR_PLANS.includes(key) && (
-                  <span className="rounded-full bg-accent/10 px-1.5 py-0.5 text-[8px] font-semibold uppercase tracking-wide text-accent sm:px-3 sm:py-1 sm:text-[11px]">
-                    {t("nav.forCreators")}
                   </span>
                 )}
               </div>

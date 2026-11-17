@@ -1,4 +1,9 @@
 export default {
+  notFound: {
+    title: "Page introuvable",
+    text: "Cette page n'existe pas ou a été déplacée.",
+    home: "Retour à l'accueil",
+  },
   nav: {
     howItWorks: "Comment ça marche",
     pricing: "Tarifs",
@@ -97,7 +102,10 @@ export default {
         price: "$0",
         period: "",
         tagline: "Votre première visite est gratuite — toutes ses histoires.",
-        features: ["Première visite gratuite", "Cartes hors ligne", "7 langues"],
+        features: [
+          "Première visite gratuite",
+          "7 langues",
+        ],
         popular: false,
       },
       {
@@ -105,7 +113,12 @@ export default {
         price: "$5.99",
         period: "/mois",
         tagline: "25 histoires par mois.",
-        features: ["25 histoires par mois", "Toutes les visites à proximité", "Hors ligne", "7 langues"],
+        features: [
+          "25 histoires par mois",
+          "Réécoutez les histoires gratuitement tout le mois",
+          "Téléchargements hors ligne",
+          "Résiliable à tout moment",
+        ],
         popular: false,
       },
       {
@@ -115,10 +128,11 @@ export default {
         tagline: "75 histoires par mois, et vous pouvez créer et publier vos propres visites.",
         features: [
           "75 histoires par mois",
+          "Réécoutez les histoires gratuitement tout le mois",
+          "Téléchargements hors ligne",
           "Créez et publiez vos propres visites",
-          "Toutes les visites à proximité",
-          "Hors ligne",
-          "Support prioritaire",
+          "Gagnez sur chaque histoire écoutée par les voyageurs + pourboires",
+          "Résiliable à tout moment",
         ],
         popular: true,
       },
@@ -129,10 +143,11 @@ export default {
         tagline: "Toutes les histoires, toutes les visites.",
         features: [
           "Histoires illimitées",
+          "Réécoutez les histoires gratuitement tout le mois",
+          "Téléchargements hors ligne",
           "Créez et publiez vos propres visites",
-          "Toutes les visites du monde",
-          "Hors ligne",
-          "Support prioritaire",
+          "Gagnez sur chaque histoire écoutée par les voyageurs + pourboires",
+          "Résiliable à tout moment",
         ],
         popular: false,
       },
@@ -146,35 +161,15 @@ export default {
     compareTitle: "Comparer les offres",
     rows: [
       { label: "Histoires par mois", free: "Première visite gratuite", explorer: "25", traveler: "75", unlimited: "Illimité" },
+      { label: "Réécoutez les histoires gratuitement tout le mois", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Téléchargements hors ligne", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Créer vos propres visites", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
-      { label: "Toutes les visites à proximité", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
-      { label: "Cartes hors ligne", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Gagnez sur chaque histoire écoutée par les voyageurs + pourboires", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "7 langues", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
     ],
     payoutsTitle: "Comment fonctionnent les paiements aux créateurs",
     payoutsText:
       "Les créateurs reçoivent une part des revenus des abonnements, répartie selon le nombre de leurs histoires écoutées, plus l'intégralité des pourboires. Les paiements sont versés chaque mois ; les soldes inférieurs à $20 sont reportés au mois suivant.",
-  },
-  testimonials: {
-    title: "Aimé par les voyageurs",
-    items: [
-      {
-        quote:
-          "Nous avons parcouru toute la côte sud sans ouvrir une carte une seule fois. Les histoires arrivaient exactement au bon moment.",
-        name: "Voyageur exemple",
-        place: "Reykjavik",
-      },
-      {
-        quote: "J'ai marché dans une ville que je croyais connaître et je l'ai entendue pour la première fois.",
-        name: "Voyageur exemple",
-        place: "Lisbonne",
-      },
-      {
-        quote: "Le téléchargement hors ligne nous a sauvés sur une route sans réseau pendant des heures.",
-        name: "Voyageur exemple",
-        place: "Les Alpes",
-      },
-    ],
   },
   faq: {
     title: "Questions fréquentes",

@@ -1,4 +1,9 @@
 export default {
+  notFound: {
+    title: "Síða fannst ekki",
+    text: "Þessi síða er ekki til eða hefur verið færð.",
+    home: "Aftur á forsíðu",
+  },
   nav: {
     howItWorks: "Hvernig virkar appið",
     pricing: "Verð",
@@ -98,91 +103,81 @@ export default {
         price: "$0",
         period: "",
         tagline: "Fyrsta ferðin þín er ókeypis — hver einasta saga í henni.",
-        features: ["Fyrsta ferðin ókeypis", "Kort án nets", "7 tungumál"],
+        features: [
+          "Fyrsta ferðin ókeypis",
+          "7 tungumál",
+        ],
         popular: false,
       },
       {
-        name: "Könnuður",
+        name: "Explorer",
         price: "$5.99",
         period: "/mán",
         tagline: "25 sögur á mánuði.",
-        features: ["25 sögur á mánuði", "Allar ferðir í nágrenninu", "Virkar án nets", "7 tungumál"],
+        features: [
+          "25 sögur á mánuði",
+          "Spilaðu sögur aftur frítt allan mánuðinn",
+          "Niðurhal ferða án nettengingar",
+          "Hægt að segja upp hvenær sem er",
+        ],
         popular: false,
       },
       {
-        name: "Ferðalangur",
+        name: "Traveler",
         price: "$9.99",
         period: "/mán",
         tagline: "75 sögur á mánuði, og þú getur búið til og birt þínar eigin ferðir.",
         features: [
           "75 sögur á mánuði",
+          "Spilaðu sögur aftur frítt allan mánuðinn",
+          "Niðurhal ferða án nettengingar",
           "Búðu til og birtu þínar eigin ferðir",
-          "Allar ferðir í nágrenninu",
-          "Virkar án nets",
-          "Forgangsþjónusta",
+          "Fáðu tekjur af hverri sögu sem ferðalangar spila + þjórfé",
+          "Hægt að segja upp hvenær sem er",
         ],
         popular: true,
       },
       {
-        name: "Ótakmarkað",
+        name: "Unlimited",
         price: "$19.99",
         period: "/mán",
         tagline: "Hver einasta saga, hver einasta ferð.",
         features: [
           "Ótakmarkaðar sögur",
+          "Spilaðu sögur aftur frítt allan mánuðinn",
+          "Niðurhal ferða án nettengingar",
           "Búðu til og birtu þínar eigin ferðir",
-          "Allar ferðir um allan heim",
-          "Virkar án nets",
-          "Forgangsþjónusta",
+          "Fáðu tekjur af hverri sögu sem ferðalangar spila + þjórfé",
+          "Hægt að segja upp hvenær sem er",
         ],
         popular: false,
       },
     ],
     ctas: {
-      explorer: "Veldu Könnuð",
-      traveler: "Veldu Ferðalang",
-      unlimited: "Veldu Ótakmarkað",
+      explorer: "Velja Explorer",
+      traveler: "Velja Traveler",
+      unlimited: "Velja Unlimited",
     },
     planNote: "Þú velur og stýrir áskriftinni þinni í appinu.",
     compareTitle: "Bera saman áskriftirnar",
     rows: [
       { label: "Sögur á mánuði", free: "Fyrsta ferð ókeypis", explorer: "25", traveler: "75", unlimited: "Ótakmarkað" },
+      { label: "Spilaðu sögur aftur frítt allan mánuðinn", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Niðurhal ferða án nettengingar", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Búa til eigin ferðir", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
-      { label: "Allar ferðir í nágrenninu", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
-      { label: "Kort án nets", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Fáðu tekjur af hverri sögu sem ferðalangar spila + þjórfé", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "7 tungumál", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
     ],
     payoutsTitle: "Hvernig greiðslur til höfunda virka",
     payoutsText:
       "Höfundar fá hlut af áskriftartekjum sem skiptist eftir því hversu oft sögur þeirra eru spilaðar, auk styrkja í heild sinni. Greiðslur eru gefnar út mánaðarlega; staða undir $20 færist yfir á næsta mánuð.",
   },
-  testimonials: {
-    title: "Ummæli ferðalanga",
-    items: [
-      {
-        quote:
-          "Við keyrðum alla suðurströndina án þess að opna kort einu sinni. Sögurnar komu á nákvæmlega réttum augnablikum.",
-        name: "Sýnishorn",
-        place: "Reykjavík",
-      },
-      {
-        quote: "Ég gekk um borg sem ég hélt að ég þekkti — og heyrði hana í fyrsta sinn.",
-        name: "Sýnishorn",
-        place: "Lissabon",
-      },
-      {
-        quote: "Niðurhalið bjargaði okkur á vegi þar sem ekkert samband var í klukkustundum.",
-        name: "Sýnishorn",
-        place: "Alparnir",
-      },
-    ],
-  },
   faq: {
     title: "Spurningar og svör",
     items: [
       {
         q: "Hvernig virka sögurnar?",
-        a: "Fyrsta ferðin þín er ókeypis, hver einasta saga í henni. Eftir það færðu mánaðarlega þann sögukvóta sem fylgir áskriftinni þinni — Ótakmarkað hefur engan. Endurspilun er ókeypis sama mánuð og ónotaðar sögur flytjast ekki yfir.",
+        a: "Fyrsta ferðin þín er ókeypis, hver einasta saga í henni. Eftir það færðu mánaðarlega þann sögukvóta sem fylgir áskriftinni þinni — Unlimited hefur engan. Endurspilun er ókeypis sama mánuð og ónotaðar sögur flytjast ekki yfir.",
       },
       {
         q: "Þarf ég að skipuleggja eitthvað fyrirfram?",
@@ -283,7 +278,7 @@ export default {
         },
         {
           q: "Þarf ég að vera áskrifandi til að búa til?",
-          a: "Já. Að búa til og birta er innifalið í áskriftunum Ferðalangur og Ótakmarkað.",
+          a: "Já. Að búa til og birta er innifalið í áskriftunum Traveler og Unlimited.",
         },
         {
           q: "Hvað ef enginn hlustar?",

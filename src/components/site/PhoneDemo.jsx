@@ -81,7 +81,7 @@ export default function PhoneDemo() {
                 <MapPin className="h-4 w-4" />
               </span>
               <p className="mt-3 font-heading text-lg text-foreground">South Coast</p>
-              <p className="text-xs text-muted-foreground">12 stories · 128 km · ★ 4.9</p>
+              <p className="text-xs text-muted-foreground">12 stories · 128 km</p>
             </motion.div>
           )}
 

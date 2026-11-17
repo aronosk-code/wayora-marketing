@@ -1,4 +1,9 @@
 export default {
+  notFound: {
+    title: "Página no encontrada",
+    text: "Esta página no existe o se ha movido.",
+    home: "Volver al inicio",
+  },
   nav: {
     howItWorks: "Cómo funciona",
     pricing: "Precios",
@@ -97,7 +102,10 @@ export default {
         price: "$0",
         period: "",
         tagline: "Tu primera ruta es gratis: todas sus historias.",
-        features: ["Tu primera ruta gratis", "Mapas sin conexión", "7 idiomas"],
+        features: [
+          "Tu primera ruta gratis",
+          "7 idiomas",
+        ],
         popular: false,
       },
       {
@@ -105,7 +113,12 @@ export default {
         price: "$5.99",
         period: "/mes",
         tagline: "25 historias al mes.",
-        features: ["25 historias al mes", "Todas las rutas cercanas", "Sin conexión", "7 idiomas"],
+        features: [
+          "25 historias al mes",
+          "Repite historias gratis todo el mes",
+          "Descargas de tours sin conexión",
+          "Cancela cuando quieras",
+        ],
         popular: false,
       },
       {
@@ -115,10 +128,11 @@ export default {
         tagline: "75 historias al mes y puedes crear y publicar tus propias rutas.",
         features: [
           "75 historias al mes",
-          "Crea y publica tus propias rutas",
-          "Todas las rutas cercanas",
-          "Sin conexión",
-          "Soporte prioritario",
+          "Repite historias gratis todo el mes",
+          "Descargas de tours sin conexión",
+          "Crea y publica tus propios tours",
+          "Gana con cada historia que escuchan los viajeros + propinas",
+          "Cancela cuando quieras",
         ],
         popular: true,
       },
@@ -129,10 +143,11 @@ export default {
         tagline: "Todas las historias, todas las rutas.",
         features: [
           "Historias ilimitadas",
-          "Crea y publica tus propias rutas",
-          "Todas las rutas del mundo",
-          "Sin conexión",
-          "Soporte prioritario",
+          "Repite historias gratis todo el mes",
+          "Descargas de tours sin conexión",
+          "Crea y publica tus propios tours",
+          "Gana con cada historia que escuchan los viajeros + propinas",
+          "Cancela cuando quieras",
         ],
         popular: false,
       },
@@ -146,35 +161,15 @@ export default {
     compareTitle: "Compara los planes",
     rows: [
       { label: "Historias al mes", free: "Primera ruta gratis", explorer: "25", traveler: "75", unlimited: "Ilimitadas" },
+      { label: "Repite historias gratis todo el mes", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Descargas de tours sin conexión", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Crea tus propias rutas", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
-      { label: "Todas las rutas cercanas", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
-      { label: "Mapas sin conexión", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Gana con cada historia que escuchan los viajeros + propinas", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "7 idiomas", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
     ],
     payoutsTitle: "Cómo funcionan los pagos a creadores",
     payoutsText:
       "Los creadores reciben una parte de los ingresos de los planes, repartida según cuántas de sus historias se reproducen, más las propinas íntegras. Los pagos se abonan cada mes; los saldos inferiores a $20 se trasladan al mes siguiente.",
-  },
-  testimonials: {
-    title: "Los viajeros lo adoran",
-    items: [
-      {
-        quote:
-          "Recorrimos toda la costa sur sin abrir un mapa ni una vez. Las historias llegaban justo cuando debían.",
-        name: "Viajero de ejemplo",
-        place: "Reikiavik",
-      },
-      {
-        quote: "Caminé por una ciudad que creía conocer y la escuché por primera vez.",
-        name: "Viajero de ejemplo",
-        place: "Lisboa",
-      },
-      {
-        quote: "La descarga sin conexión nos salvó en una carretera sin cobertura durante horas.",
-        name: "Viajero de ejemplo",
-        place: "Los Alpes",
-      },
-    ],
   },
   faq: {
     title: "Preguntas frecuentes",

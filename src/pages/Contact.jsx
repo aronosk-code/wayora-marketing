@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { SUPABASE_KEY, SUPABASE_URL } from "@/lib/siteConfig";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
@@ -10,8 +10,9 @@ import { useI18n } from "@/lib/i18n/LanguageContext";
 import PageHero from "@/components/site/PageHero";
 
 export default function Contact() {
-  const { t } = useI18n();
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const { t, lang } = useI18n();
+  // website: falinn reitur sem aðeins vélmenni fylla út
+  const [form, setForm] = useState({ name: "", email: "", message: "", website: "" });
   const [status, setStatus] = useState("idle");
   const [error, setError] = useState("");
 
@@ -22,14 +23,24 @@ export default function Contact() {
     setError("");
     setStatus("sending");
     try {
-      await base44.entities.ContactMessage.create({
-        name: form.name.trim(),
-        email: form.email.trim(),
-        message: form.message.trim(),
+      // Skilaboðin fara í bakenda appsins (fallið contactMessage), sem vistar
+      // þau og sendir eigandanum tölvupóst
+      const res = await fetch(`${SUPABASE_URL}/functions/v1/contactMessage`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", apikey: SUPABASE_KEY },
+        body: JSON.stringify({
+          name: form.name.trim(),
+          email: form.email.trim(),
+          message: form.message.trim(),
+          website: form.website,
+          language: lang,
+          page: window.location.href,
+        }),
       });
-      setForm({ name: "", email: "", message: "" });
+      if (!res.ok) throw new Error(`contact ${res.status}`);
+      setForm({ name: "", email: "", message: "", website: "" });
       setStatus("sent");
-    } catch (err) {
+    } catch {
       setStatus("idle");
       setError(t("pages.formError"));
     }
@@ -98,6 +109,11 @@ export default function Contact() {
                     rows={6}
                     className="rounded-xl border-border bg-background"
                   />
+                </div>
+                {/* Gildra fyrir vélmenni: falin fyrir fólki og skjálesurum */}
+                <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
+                  <label htmlFor="website">Website</label>
+                  <input id="website" tabIndex={-1} autoComplete="off" value={form.website} onChange={update("website")} />
                 </div>
               </div>
 

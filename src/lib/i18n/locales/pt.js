@@ -1,4 +1,9 @@
 export default {
+  notFound: {
+    title: "Página não encontrada",
+    text: "Esta página não existe ou foi movida.",
+    home: "Voltar à página inicial",
+  },
   nav: {
     howItWorks: "Como funciona",
     pricing: "Preços",
@@ -97,7 +102,10 @@ export default {
         price: "$0",
         period: "",
         tagline: "O teu primeiro percurso é grátis — com todas as histórias que tem.",
-        features: ["Primeiro percurso grátis", "Mapas offline", "7 idiomas"],
+        features: [
+          "Primeiro percurso grátis",
+          "7 idiomas",
+        ],
         popular: false,
       },
       {
@@ -105,7 +113,12 @@ export default {
         price: "$5.99",
         period: "/mês",
         tagline: "25 histórias por mês.",
-        features: ["25 histórias por mês", "Todos os percursos por perto", "Offline", "7 idiomas"],
+        features: [
+          "25 histórias por mês",
+          "Volta a ouvir histórias grátis o mês inteiro",
+          "Transferências de tours offline",
+          "Cancela quando quiseres",
+        ],
         popular: false,
       },
       {
@@ -115,10 +128,11 @@ export default {
         tagline: "75 histórias por mês e podes criar e publicar os teus próprios percursos.",
         features: [
           "75 histórias por mês",
-          "Cria e publica os teus próprios percursos",
-          "Todos os percursos por perto",
-          "Offline",
-          "Apoio prioritário",
+          "Volta a ouvir histórias grátis o mês inteiro",
+          "Transferências de tours offline",
+          "Cria e publica os teus próprios tours",
+          "Ganha com cada história que os viajantes ouvem + gorjetas",
+          "Cancela quando quiseres",
         ],
         popular: true,
       },
@@ -129,10 +143,11 @@ export default {
         tagline: "Todas as histórias, todos os percursos.",
         features: [
           "Histórias ilimitadas",
-          "Cria e publica os teus próprios percursos",
-          "Todos os percursos do mundo",
-          "Offline",
-          "Apoio prioritário",
+          "Volta a ouvir histórias grátis o mês inteiro",
+          "Transferências de tours offline",
+          "Cria e publica os teus próprios tours",
+          "Ganha com cada história que os viajantes ouvem + gorjetas",
+          "Cancela quando quiseres",
         ],
         popular: false,
       },
@@ -146,35 +161,15 @@ export default {
     compareTitle: "Compara os planos",
     rows: [
       { label: "Histórias por mês", free: "Primeiro percurso grátis", explorer: "25", traveler: "75", unlimited: "Ilimitadas" },
+      { label: "Volta a ouvir histórias grátis o mês inteiro", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Transferências de tours offline", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Cria os teus percursos", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
-      { label: "Todos os percursos por perto", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
-      { label: "Mapas offline", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Ganha com cada história que os viajantes ouvem + gorjetas", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "7 idiomas", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
     ],
     payoutsTitle: "Como funcionam os pagamentos aos criadores",
     payoutsText:
       "Os criadores recebem uma parte das receitas dos planos, distribuída pelo número de histórias suas que são reproduzidas, mais as gorjetas na totalidade. Os pagamentos são feitos mensalmente; saldos abaixo de $20 transitam para o mês seguinte.",
-  },
-  testimonials: {
-    title: "Amado pelos viajantes",
-    items: [
-      {
-        quote:
-          "Percorremos toda a costa sul sem abrir um mapa uma única vez. As histórias chegavam exatamente quando deviam.",
-        name: "Viajante de exemplo",
-        place: "Reiquiavique",
-      },
-      {
-        quote: "Caminhei por uma cidade que pensava conhecer e ouvi-a pela primeira vez.",
-        name: "Viajante de exemplo",
-        place: "Lisboa",
-      },
-      {
-        quote: "O download offline salvou-nos numa estrada sem rede durante horas.",
-        name: "Viajante de exemplo",
-        place: "Os Alpes",
-      },
-    ],
   },
   faq: {
     title: "Perguntas frequentes",

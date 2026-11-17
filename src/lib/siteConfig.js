@@ -1,66 +1,25 @@
 export const APP_URL = "https://app.wayoratour.com";
 
+// Bakendi appsins (Supabase). Opinberi lykillinn er ekki leyndarmál — hann
+// birtist líka í appinu sjálfu og les aðeins það sem öllum er heimilt.
+export const SUPABASE_URL = "https://fjkonavbsxckejnzhftm.supabase.co";
+export const SUPABASE_KEY = "sb_publishable_rD2vAaoNsddrmpnf81hX2w_cI1Kl9Uz";
+
 export const subscribeUrl = (plan) => `${APP_URL}/subscribe?plan=${plan}`;
 
 export const HERO_VIDEO_URL =
-  "https://media.base44.com/videos/public/6ad5627944e69b6847343e56/4e1cbe62f_Hero_Video.mp4";
+  "/hero.mp4";
 
 export const HERO_POSTER =
   "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=2000&q=80";
 
-export const TOURS = [
-  {
-    id: "south-coast",
-    city: "Iceland",
-    duration: "2h 15m",
-    distance: "128 km",
-    rating: 4.9,
-    image:
-      "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "canals",
-    city: "Venice",
-    duration: "45m",
-    distance: "3.2 km",
-    rating: 4.8,
-    image:
-      "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "alpine",
-    city: "The Alps",
-    duration: "3h 40m",
-    distance: "210 km",
-    rating: 4.7,
-    image:
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "harbour",
-    city: "Reykjavik",
-    duration: "1h 30m",
-    distance: "18 km",
-    rating: 4.9,
-    image:
-      "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "bridges",
-    city: "Amsterdam",
-    duration: "1h 05m",
-    distance: "4.6 km",
-    rating: 4.8,
-    image:
-      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
-  },
-  {
-    id: "cliffs",
-    city: "Algarve",
-    duration: "1h 10m",
-    distance: "5.4 km",
-    rating: 4.9,
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-  },
+// Valdar ferðir á forsíðunni (raunverulegar ferðir í appinu, í þessari röð).
+// Skiptu um auðkenni hér til að sýna aðrar ferðir.
+export const FEATURED_TOUR_IDS = [
+  "4ca365f85daa13c4de91ea8d1677e453", // Náttúruhamfarir í Grindavík
+  "6ab3380a6c9952786cf22a57", // The Golden Circle Day Tour
+  "6ab3380a6c9952786cf22a55", // Reykjanestá: The Coast and the Lighthouse
+  "6ab3380a6c9952786cf22a54", // Hidden Reykjavík
+  "6ab3380a6c9952786cf22a53", // Geothermal Wonders of Reykjanes
+  "6ab3380a6c9952786cf22a56", // Reykjavík Food Walk
 ];

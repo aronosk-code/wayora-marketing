@@ -1,4 +1,9 @@
 export default {
+  notFound: {
+    title: "Page not found",
+    text: "This page doesn't exist or has moved.",
+    home: "Back to the home page",
+  },
   nav: {
     howItWorks: "How it works",
     pricing: "Pricing",
@@ -98,7 +103,10 @@ export default {
         price: "$0",
         period: "",
         tagline: "Your first tour is free — every story in it.",
-        features: ["Your first tour free", "Offline maps", "7 languages"],
+        features: [
+          "Your first tour free",
+          "7 languages",
+        ],
         popular: false,
       },
       {
@@ -106,7 +114,12 @@ export default {
         price: "$5.99",
         period: "/mo",
         tagline: "25 stories a month.",
-        features: ["25 stories a month", "All tours nearby", "Offline ready", "7 languages"],
+        features: [
+          "25 stories a month",
+          "Replay stories free all month",
+          "Offline tour downloads",
+          "Cancel anytime",
+        ],
         popular: false,
       },
       {
@@ -116,10 +129,11 @@ export default {
         tagline: "75 stories a month, and you can create and publish your own tours.",
         features: [
           "75 stories a month",
+          "Replay stories free all month",
+          "Offline tour downloads",
           "Create and publish your own tours",
-          "All tours nearby",
-          "Offline ready",
-          "Priority support",
+          "Earn from every story travellers play + tips",
+          "Cancel anytime",
         ],
         popular: true,
       },
@@ -130,10 +144,11 @@ export default {
         tagline: "Every story, every tour.",
         features: [
           "Unlimited stories",
+          "Replay stories free all month",
+          "Offline tour downloads",
           "Create and publish your own tours",
-          "Every tour worldwide",
-          "Offline ready",
-          "Priority support",
+          "Earn from every story travellers play + tips",
+          "Cancel anytime",
         ],
         popular: false,
       },
@@ -147,35 +162,15 @@ export default {
     compareTitle: "Compare the plans",
     rows: [
       { label: "Stories per month", free: "First tour free", explorer: "25", traveler: "75", unlimited: "Unlimited" },
+      { label: "Replay stories free all month", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Offline tour downloads", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Create your own tours", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
-      { label: "All tours nearby", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
-      { label: "Offline maps", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Earn from every story travellers play + tips", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "7 languages", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
     ],
     payoutsTitle: "How creator payouts work",
     payoutsText:
       "Creators earn a share of plan revenue, split by how many of their stories are played, plus tips in full. Payouts are released monthly; balances under $20 roll over to the next month.",
-  },
-  testimonials: {
-    title: "Loved by travellers",
-    items: [
-      {
-        quote:
-          "We drove the whole south coast without opening a map once. The stories arrived exactly when they should.",
-        name: "Sample traveller",
-        place: "Reykjavik",
-      },
-      {
-        quote: "I walked a city I thought I knew and heard it for the first time.",
-        name: "Sample traveller",
-        place: "Lisbon",
-      },
-      {
-        quote: "The offline download saved us on a road with no signal for hours.",
-        name: "Sample traveller",
-        place: "The Alps",
-      },
-    ],
   },
   faq: {
     title: "Questions, answered",

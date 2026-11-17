@@ -1,79 +1,44 @@
 import { Toaster } from "@/components/ui/toaster"
-import { QueryClientProvider } from '@tanstack/react-query'
-import { queryClientInstance } from '@/lib/query-client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import PageNotFound from './lib/PageNotFound';
-import { AuthProvider, useAuth } from '@/lib/AuthContext';
-import UserNotRegisteredError from '@/components/UserNotRegisteredError';
-import ScrollToTop from './components/ScrollToTop';
-import { LanguageProvider } from '@/lib/i18n/LanguageContext';
-// Add page imports here
-import SiteLayout from '@/components/site/SiteLayout';
-import Home from '@/pages/Home';
-import HowItWorks from '@/pages/HowItWorks';
-import Pricing from '@/pages/Pricing';
-import ForCreators from '@/pages/ForCreators';
-import About from '@/pages/About';
-import Contact from '@/pages/Contact';
-import Privacy from '@/pages/Privacy';
-import Terms from '@/pages/Terms';
+import { QueryClientProvider } from "@tanstack/react-query"
+import { queryClientInstance } from "@/lib/query-client"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import PageNotFound from "./lib/PageNotFound"
+import ScrollToTop from "./components/ScrollToTop"
+import { LanguageProvider } from "@/lib/i18n/LanguageContext"
+import SiteLayout from "@/components/site/SiteLayout"
+import Home from "@/pages/Home"
+import HowItWorks from "@/pages/HowItWorks"
+import Pricing from "@/pages/Pricing"
+import ForCreators from "@/pages/ForCreators"
+import About from "@/pages/About"
+import Contact from "@/pages/Contact"
+import Privacy from "@/pages/Privacy"
+import Terms from "@/pages/Terms"
 
-const AuthenticatedApp = () => {
-  const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
-
-  // Show loading spinner while checking app public settings or auth
-  if (isLoadingPublicSettings || isLoadingAuth) {
-    return (
-      <div className="fixed inset-0 flex items-center justify-center">
-        <div className="w-8 h-8 border-4 border-slate-200 border-t-slate-800 rounded-full animate-spin"></div>
-      </div>
-    );
-  }
-
-  // Handle authentication errors
-  if (authError) {
-    if (authError.type === 'user_not_registered') {
-      return <UserNotRegisteredError />;
-    } else if (authError.type === 'auth_required') {
-      // Redirect to login automatically
-      navigateToLogin();
-      return null;
-    }
-  }
-
-  // Render the main app
-  return (
-    <Routes>
-      <Route element={<SiteLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/for-creators" element={<ForCreators />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/terms" element={<Terms />} />
-      </Route>
-      <Route path="*" element={<PageNotFound />} />
-    </Routes>
-  );
-};
-
-
+// Kynningarvefurinn: engin innskráning hér — „Sækja appið" fer á app.wayoratour.com
 function App() {
-
   return (
-    <AuthProvider>
-      <QueryClientProvider client={queryClientInstance}>
-        <LanguageProvider>
-          <Router>
-            <ScrollToTop />
-            <AuthenticatedApp />
-          </Router>
-        </LanguageProvider>
-        <Toaster />
-      </QueryClientProvider>
-    </AuthProvider>
+    <QueryClientProvider client={queryClientInstance}>
+      <LanguageProvider>
+        <Router>
+          <ScrollToTop />
+          <Routes>
+            <Route element={<SiteLayout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/how-it-works" element={<HowItWorks />} />
+              <Route path="/pricing" element={<Pricing />} />
+              <Route path="/for-creators" element={<ForCreators />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/terms" element={<Terms />} />
+            </Route>
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </Router>
+      </LanguageProvider>
+      <Toaster />
+    </QueryClientProvider>
   )
 }
 

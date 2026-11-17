@@ -1,4 +1,9 @@
 export default {
+  notFound: {
+    title: "Seite nicht gefunden",
+    text: "Diese Seite gibt es nicht oder sie wurde verschoben.",
+    home: "Zurück zur Startseite",
+  },
   nav: {
     howItWorks: "So funktioniert's",
     pricing: "Preise",
@@ -97,7 +102,10 @@ export default {
         price: "$0",
         period: "",
         tagline: "Deine erste Tour ist gratis — jede Geschichte darin.",
-        features: ["Erste Tour gratis", "Offline-Karten", "7 Sprachen"],
+        features: [
+          "Erste Tour gratis",
+          "7 Sprachen",
+        ],
         popular: false,
       },
       {
@@ -105,7 +113,12 @@ export default {
         price: "$5.99",
         period: "/Mon.",
         tagline: "25 Geschichten pro Monat.",
-        features: ["25 Geschichten pro Monat", "Alle Touren in der Nähe", "Offline", "7 Sprachen"],
+        features: [
+          "25 Geschichten pro Monat",
+          "Geschichten den ganzen Monat gratis wiederholen",
+          "Offline-Downloads von Touren",
+          "Jederzeit kündbar",
+        ],
         popular: false,
       },
       {
@@ -115,10 +128,11 @@ export default {
         tagline: "75 Geschichten pro Monat, und du kannst eigene Touren erstellen und veröffentlichen.",
         features: [
           "75 Geschichten pro Monat",
+          "Geschichten den ganzen Monat gratis wiederholen",
+          "Offline-Downloads von Touren",
           "Eigene Touren erstellen und veröffentlichen",
-          "Alle Touren in der Nähe",
-          "Offline",
-          "Prioritäts-Support",
+          "Verdiene an jeder Geschichte, die Reisende hören + Trinkgeld",
+          "Jederzeit kündbar",
         ],
         popular: true,
       },
@@ -129,10 +143,11 @@ export default {
         tagline: "Jede Geschichte, jede Tour.",
         features: [
           "Unbegrenzte Geschichten",
+          "Geschichten den ganzen Monat gratis wiederholen",
+          "Offline-Downloads von Touren",
           "Eigene Touren erstellen und veröffentlichen",
-          "Alle Touren weltweit",
-          "Offline",
-          "Prioritäts-Support",
+          "Verdiene an jeder Geschichte, die Reisende hören + Trinkgeld",
+          "Jederzeit kündbar",
         ],
         popular: false,
       },
@@ -146,35 +161,15 @@ export default {
     compareTitle: "Pläne vergleichen",
     rows: [
       { label: "Geschichten pro Monat", free: "Erste Tour gratis", explorer: "25", traveler: "75", unlimited: "Unbegrenzt" },
+      { label: "Geschichten den ganzen Monat gratis wiederholen", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Offline-Downloads von Touren", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
       { label: "Eigene Touren erstellen", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
-      { label: "Alle Touren in der Nähe", free: "—", explorer: "✓", traveler: "✓", unlimited: "✓" },
-      { label: "Offline-Karten", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
+      { label: "Verdiene an jeder Geschichte, die Reisende hören + Trinkgeld", free: "—", explorer: "—", traveler: "✓", unlimited: "✓" },
       { label: "7 Sprachen", free: "✓", explorer: "✓", traveler: "✓", unlimited: "✓" },
     ],
     payoutsTitle: "So funktionieren Creator-Auszahlungen",
     payoutsText:
       "Creator erhalten einen Anteil an den Einnahmen der Abos, verteilt danach, wie viele ihrer Geschichten abgespielt werden, plus Trinkgelder in voller Höhe. Auszahlungen erfolgen monatlich; Guthaben unter $20 wird auf den nächsten Monat übertragen.",
-  },
-  testimonials: {
-    title: "Von Reisenden geliebt",
-    items: [
-      {
-        quote:
-          "Wir sind die ganze Südküste gefahren, ohne ein einziges Mal eine Karte zu öffnen. Die Geschichten kamen genau zum richtigen Moment.",
-        name: "Beispielreisende",
-        place: "Reykjavik",
-      },
-      {
-        quote: "Ich bin durch eine Stadt gelaufen, die ich zu kennen glaubte, und habe sie zum ersten Mal gehört.",
-        name: "Beispielreisende",
-        place: "Lissabon",
-      },
-      {
-        quote: "Der Offline-Download hat uns auf einer Straße ohne Empfang stundenlang gerettet.",
-        name: "Beispielreisende",
-        place: "Die Alpen",
-      },
-    ],
   },
   faq: {
     title: "Häufige Fragen",

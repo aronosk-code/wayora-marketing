@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useI18n } from "@/lib/i18n/LanguageContext";
 import ComingSoonDialog from "./ComingSoonDialog";
+import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/siteConfig";
 
 function AppleMark() {
   return (
@@ -20,6 +21,27 @@ function PlayMark() {
   );
 }
 
+function Badge({ href, onSoon, className, soon, mark, name }) {
+  const body = (
+    <>
+      {mark}
+      <span className="leading-tight">
+        {!href && <span className="block text-[11px] uppercase tracking-wide text-muted-foreground">{soon}</span>}
+        <span className="block font-semibold text-foreground">{name}</span>
+      </span>
+    </>
+  );
+  return href ? (
+    <a href={href} className={className}>
+      {body}
+    </a>
+  ) : (
+    <button type="button" onClick={onSoon} className={className}>
+      {body}
+    </button>
+  );
+}
+
 export default function StoreBadges({ className = "" }) {
   const { t } = useI18n();
   const [open, setOpen] = useState(false);
@@ -30,24 +52,9 @@ export default function StoreBadges({ className = "" }) {
   return (
     <>
       <div className={`flex flex-wrap gap-3 ${className}`}>
-        <button type="button" onClick={() => setOpen(true)} className={badge}>
-          <AppleMark />
-          <span className="leading-tight">
-            <span className="block text-[11px] uppercase tracking-wide text-muted-foreground">
-              {t("common.comingSoon")}
-            </span>
-            <span className="block font-semibold text-foreground">App Store</span>
-          </span>
-        </button>
-        <button type="button" onClick={() => setOpen(true)} className={badge}>
-          <PlayMark />
-          <span className="leading-tight">
-            <span className="block text-[11px] uppercase tracking-wide text-muted-foreground">
-              {t("common.comingSoon")}
-            </span>
-            <span className="block font-semibold text-foreground">Google Play</span>
-          </span>
-        </button>
+        {/* Merkið opnar verslunina þegar appið er komið þangað; annars „væntanlegt" */}
+        <Badge href={APP_STORE_URL} onSoon={() => setOpen(true)} className={badge} soon={t("common.comingSoon")} mark={<AppleMark />} name="App Store" />
+        <Badge href={PLAY_STORE_URL} onSoon={() => setOpen(true)} className={badge} soon={t("common.comingSoon")} mark={<PlayMark />} name="Google Play" />
       </div>
       <ComingSoonDialog open={open} onOpenChange={setOpen} />
     </>

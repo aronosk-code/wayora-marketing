@@ -1,15 +1,12 @@
-import React, { useState } from "react";
-import ComingSoonDialog from "./ComingSoonDialog";
+import React from "react";
+import { appLink } from "@/lib/getApp";
 
+// „Sækja appið": verslun símans ef appið er komið þangað, annars vefappið
+// (app.wayoratour.com) — sjá getApp.js
 export default function GetAppButton({ className = "", children }) {
-  const [open, setOpen] = useState(false);
-
   return (
-    <>
-      <button type="button" onClick={() => setOpen(true)} className={className}>
-        {children}
-      </button>
-      <ComingSoonDialog open={open} onOpenChange={setOpen} />
-    </>
+    <a href={appLink()} className={className}>
+      {children}
+    </a>
   );
 }

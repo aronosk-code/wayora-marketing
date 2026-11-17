@@ -5,6 +5,11 @@ export const APP_URL = "https://app.wayoratour.com";
 export const SUPABASE_URL = "https://fjkonavbsxckejnzhftm.supabase.co";
 export const SUPABASE_KEY = "sb_publishable_rD2vAaoNsddrmpnf81hX2w_cI1Kl9Uz";
 
+// Verslanirnar: settu slóðina inn þegar appið er komið í App Store / Google
+// Play. Á meðan opnar „Sækja appið" vefappið (APP_URL) í öllum tækjum.
+export const APP_STORE_URL = null;
+export const PLAY_STORE_URL = null;
+
 export const subscribeUrl = (plan) => `${APP_URL}/subscribe?plan=${plan}`;
 
 export const HERO_VIDEO_URL =

@@ -1,0 +1,11 @@
+// Cloudflare (Workers með static assets): vefurinn wayoratour.com, byggður
+// með `npm run build` í dist/. Allar slóðir sem eru ekki skrár fá index.html
+// (React-síðurnar sjá um /pricing, /contact o.s.frv.).
+{
+  "name": "wayora-marketing",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

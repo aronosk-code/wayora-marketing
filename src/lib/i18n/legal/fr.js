@@ -6,7 +6,7 @@ export default {
     {
       title: "Qui nous sommes",
       body: [
-        "Wayora est une application de visites audio exploitée par Wayora, établie en Islande. Nous sommes responsables des données personnelles décrites ici. Contact : wayoraaa@gmail.com.",
+        "Wayora est une application de visites audio exploitée par Wayora, établie en Islande. Nous sommes responsables des données personnelles décrites ici. Contact : support@wayoratour.com.",
       ],
     },
     {
@@ -64,7 +64,7 @@ export default {
       title: "Vos droits",
       body: [
         "Vous pouvez consulter et modifier votre nom et votre mot de passe dans Profil, et y supprimer votre compte à tout moment.",
-        "Vous avez aussi le droit d'obtenir une copie de vos données, de les corriger, de vous opposer à leur utilisation et de nous demander de les limiter. Écrivez à wayoraaa@gmail.com et nous répondrons dans un délai d'un mois.",
+        "Vous avez aussi le droit d'obtenir une copie de vos données, de les corriger, de vous opposer à leur utilisation et de nous demander de les limiter. Écrivez à support@wayoratour.com et nous répondrons dans un délai d'un mois.",
         "Si vous estimez que nous traitons mal vos données, vous pouvez saisir l'Autorité islandaise de protection des données (Persónuvernd, personuvernd.is) ou l'autorité de votre lieu de résidence.",
       ],
     },
@@ -85,7 +85,7 @@ export default {
     {
       title: "À propos de ces conditions",
       body: [
-        "Ces conditions s'appliquent lorsque vous utilisez Wayora, l'application de visites audio exploitée par Wayora en Islande. En créant un compte ou en utilisant l'application, vous les acceptez. Questions : wayoraaa@gmail.com.",
+        "Ces conditions s'appliquent lorsque vous utilisez Wayora, l'application de visites audio exploitée par Wayora en Islande. En créant un compte ou en utilisant l'application, vous les acceptez. Questions : support@wayoratour.com.",
       ],
     },
     {
@@ -103,7 +103,7 @@ export default {
         "Les offres se renouvellent automatiquement chaque mois jusqu'à leur résiliation. Vous pouvez résilier à tout moment sur la page Offres ; vous conservez votre offre jusqu'à la fin du mois déjà payé et rien de plus n'est facturé. Si vous passez à une offre supérieure, la différence est facturée immédiatement.",
         "Les prix sont indiqués dans l'application avant le paiement et peuvent changer ; un nouveau prix s'applique aux nouvelles offres et à une offre existante à partir de son prochain renouvellement, et nous vous préviendrons avant.",
         "Les créateurs reçoivent une part des revenus des offres, répartie selon le nombre de leurs histoires écoutées par les abonnés. Les pourboires reviennent intégralement au créateur de la visite — Wayora n'en prend aucune part. Les paiements sont traités par Stripe.",
-        "Remboursements : si une visite ne fonctionne pas ou si vous avez été facturé par erreur, écrivez à wayoraaa@gmail.com dans les 14 jours et nous réglerons cela. Vos droits légaux de consommateur ne sont pas affectés. Comme les histoires sont des contenus numériques que vous pouvez écouter immédiatement, vous demandez un accès immédiat en prenant une offre : vous le confirmez avant de payer, et le droit de rétractation de 14 jours s'éteint alors dès que vous commencez à écouter une histoire avec votre offre. Les offres peuvent être résiliées à tout moment comme décrit ci-dessus.",
+        "Remboursements : si une visite ne fonctionne pas ou si vous avez été facturé par erreur, écrivez à support@wayoratour.com dans les 14 jours et nous réglerons cela. Vos droits légaux de consommateur ne sont pas affectés. Comme les histoires sont des contenus numériques que vous pouvez écouter immédiatement, vous demandez un accès immédiat en prenant une offre : vous le confirmez avant de payer, et le droit de rétractation de 14 jours s'éteint alors dès que vous commencez à écouter une histoire avec votre offre. Les offres peuvent être résiliées à tout moment comme décrit ci-dessus.",
       ],
     },
     {

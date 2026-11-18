@@ -14,7 +14,7 @@ export default function Privacy() {
       <LegalContent
         updated={content.updated}
         sections={content.privacy}
-        contactEmail="wayoraaa@gmail.com"
+        contactEmail="support@wayoratour.com"
         questionsTitle={content.questionsTitle}
         questionsText={content.questionsText}
       />

@@ -6,7 +6,7 @@ export default {
     {
       title: "Wer wir sind",
       body: [
-        "Wayora ist eine Audio-Tour-App, betrieben von Wayora mit Sitz in Island. Wir sind für die hier beschriebenen personenbezogenen Daten verantwortlich. Kontakt: wayoraaa@gmail.com.",
+        "Wayora ist eine Audio-Tour-App, betrieben von Wayora mit Sitz in Island. Wir sind für die hier beschriebenen personenbezogenen Daten verantwortlich. Kontakt: support@wayoratour.com.",
       ],
     },
     {
@@ -64,7 +64,7 @@ export default {
       title: "Deine Rechte",
       body: [
         "Du kannst deinen Namen und dein Passwort im Profil sehen und ändern und dein Konto dort jederzeit löschen.",
-        "Du hast außerdem das Recht auf eine Kopie deiner Daten, auf Berichtigung, auf Widerspruch gegen die Nutzung und darauf, die Verarbeitung einschränken zu lassen. Schreib an wayoraaa@gmail.com und wir antworten innerhalb eines Monats.",
+        "Du hast außerdem das Recht auf eine Kopie deiner Daten, auf Berichtigung, auf Widerspruch gegen die Nutzung und darauf, die Verarbeitung einschränken zu lassen. Schreib an support@wayoratour.com und wir antworten innerhalb eines Monats.",
         "Wenn du findest, dass wir deine Daten falsch behandeln, kannst du dich bei der isländischen Datenschutzbehörde (Persónuvernd, personuvernd.is) oder bei der Behörde in deinem Wohnsitzland beschweren.",
       ],
     },
@@ -85,7 +85,7 @@ export default {
     {
       title: "Über diese Bedingungen",
       body: [
-        "Diese Bedingungen gelten, wenn du Wayora nutzt, die Audio-Tour-App, die von Wayora in Island betrieben wird. Mit dem Anlegen eines Kontos oder der Nutzung der App stimmst du ihnen zu. Fragen: wayoraaa@gmail.com.",
+        "Diese Bedingungen gelten, wenn du Wayora nutzt, die Audio-Tour-App, die von Wayora in Island betrieben wird. Mit dem Anlegen eines Kontos oder der Nutzung der App stimmst du ihnen zu. Fragen: support@wayoratour.com.",
       ],
     },
     {
@@ -103,7 +103,7 @@ export default {
         "Abos verlängern sich automatisch jeden Monat, bis du kündigst. Du kannst jederzeit auf der Abo-Seite kündigen; du behältst dein Abo bis zum Ende des bezahlten Monats und es wird nichts weiter berechnet. Wenn du auf ein größeres Abo wechselst, wird die Differenz sofort berechnet.",
         "Preise werden in der App vor der Zahlung angezeigt und können sich ändern; ein neuer Preis gilt für neue Abos und für ein bestehendes Abo ab der nächsten Verlängerung, und wir sagen dir vorher Bescheid.",
         "Creator erhalten einen Teil der Abo-Einnahmen, verteilt danach, wie viele ihrer Geschichten Abonnenten abgespielt haben. Trinkgelder gehen vollständig an den Creator der Tour — Wayora behält davon nichts. Zahlungen werden von Stripe abgewickelt.",
-        "Rückerstattungen: Wenn eine Tour nicht funktioniert oder dir versehentlich etwas berechnet wurde, schreib innerhalb von 14 Tagen an wayoraaa@gmail.com und wir regeln es. Deine gesetzlichen Rechte als Verbraucher bleiben unberührt. Da die Geschichten digitale Inhalte sind, die du sofort abspielen kannst, verlangst du mit dem Abschluss eines Abos sofortigen Zugang: Du bestätigst das vor der Zahlung, und das 14-tägige Widerrufsrecht endet dann, sobald du eine Geschichte mit deinem Abo abspielst. Abos kannst du jederzeit wie oben beschrieben kündigen.",
+        "Rückerstattungen: Wenn eine Tour nicht funktioniert oder dir versehentlich etwas berechnet wurde, schreib innerhalb von 14 Tagen an support@wayoratour.com und wir regeln es. Deine gesetzlichen Rechte als Verbraucher bleiben unberührt. Da die Geschichten digitale Inhalte sind, die du sofort abspielen kannst, verlangst du mit dem Abschluss eines Abos sofortigen Zugang: Du bestätigst das vor der Zahlung, und das 14-tägige Widerrufsrecht endet dann, sobald du eine Geschichte mit deinem Abo abspielst. Abos kannst du jederzeit wie oben beschrieben kündigen.",
       ],
     },
     {

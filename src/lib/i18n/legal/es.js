@@ -6,7 +6,7 @@ export default {
     {
       title: "Quiénes somos",
       body: [
-        "Wayora es una app de audioguías operada por Wayora, con sede en Islandia. Somos responsables de los datos personales que se describen aquí. Contacto: wayoraaa@gmail.com.",
+        "Wayora es una app de audioguías operada por Wayora, con sede en Islandia. Somos responsables de los datos personales que se describen aquí. Contacto: support@wayoratour.com.",
       ],
     },
     {
@@ -64,7 +64,7 @@ export default {
       title: "Tus derechos",
       body: [
         "Puedes ver y cambiar tu nombre y tu contraseña en Perfil, y eliminar tu cuenta allí en cualquier momento.",
-        "También tienes derecho a una copia de tus datos, a corregirlos, a oponerte a su uso y a pedirnos que los limitemos. Escríbenos a wayoraaa@gmail.com y responderemos en el plazo de un mes.",
+        "También tienes derecho a una copia de tus datos, a corregirlos, a oponerte a su uso y a pedirnos que los limitemos. Escríbenos a support@wayoratour.com y responderemos en el plazo de un mes.",
         "Si crees que tratamos mal tus datos, puedes reclamar ante la Autoridad Islandesa de Protección de Datos (Persónuvernd, personuvernd.is) o ante la autoridad de tu país de residencia.",
       ],
     },
@@ -85,7 +85,7 @@ export default {
     {
       title: "Sobre estas condiciones",
       body: [
-        "Estas condiciones se aplican cuando usas Wayora, la app de audioguías operada por Wayora en Islandia. Al crear una cuenta o usar la app, las aceptas. Dudas: wayoraaa@gmail.com.",
+        "Estas condiciones se aplican cuando usas Wayora, la app de audioguías operada por Wayora en Islandia. Al crear una cuenta o usar la app, las aceptas. Dudas: support@wayoratour.com.",
       ],
     },
     {
@@ -103,7 +103,7 @@ export default {
         "Los planes se renuevan automáticamente cada mes hasta que los canceles. Puedes cancelar en cualquier momento en la página de Planes; conservas tu plan hasta el final del mes que ya has pagado y no se cobra nada más. Si cambias a un plan mayor, se cobra la diferencia de inmediato.",
         "Los precios se muestran en la app antes de pagar y pueden cambiar; un precio nuevo se aplica a los planes nuevos y a un plan existente desde su siguiente renovación, y te avisaremos antes de que ocurra.",
         "Los creadores comparten parte de los ingresos de los planes, repartida según cuántas de sus historias escucharon los suscriptores. Las propinas van íntegras al creador de la ruta: Wayora no se queda ninguna parte. Los pagos los procesa Stripe.",
-        "Reembolsos: si una ruta no funciona o te han cobrado por error, escribe a wayoraaa@gmail.com en un plazo de 14 días y lo solucionaremos. Tus derechos legales como consumidor no se ven afectados. Como las historias son contenido digital que puedes reproducir de inmediato, solicitas el acceso al instante cuando contratas un plan: lo confirmas antes de pagar y, desde ese momento, el derecho de desistimiento de 14 días se extingue en cuanto empiezas a reproducir una historia con tu plan. Los planes se pueden cancelar en cualquier momento como se describe arriba.",
+        "Reembolsos: si una ruta no funciona o te han cobrado por error, escribe a support@wayoratour.com en un plazo de 14 días y lo solucionaremos. Tus derechos legales como consumidor no se ven afectados. Como las historias son contenido digital que puedes reproducir de inmediato, solicitas el acceso al instante cuando contratas un plan: lo confirmas antes de pagar y, desde ese momento, el derecho de desistimiento de 14 días se extingue en cuanto empiezas a reproducir una historia con tu plan. Los planes se pueden cancelar en cualquier momento como se describe arriba.",
       ],
     },
     {

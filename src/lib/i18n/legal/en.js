@@ -6,7 +6,7 @@ export default {
     {
       title: "Who we are",
       body: [
-        "Wayora is an audio tour app operated by Wayora, based in Iceland. We are responsible for the personal data described here. Contact us at wayoraaa@gmail.com.",
+        "Wayora is an audio tour app operated by Wayora, based in Iceland. We are responsible for the personal data described here. Contact us at support@wayoratour.com.",
       ],
     },
     {
@@ -64,7 +64,7 @@ export default {
       title: "Your rights",
       body: [
         "You can see and change your name and password in Profile, and delete your account there at any time.",
-        "You also have the right to a copy of your data, to correct it, to object to its use and to ask us to restrict it. Write to wayoraaa@gmail.com and we will answer within one month.",
+        "You also have the right to a copy of your data, to correct it, to object to its use and to ask us to restrict it. Write to support@wayoratour.com and we will answer within one month.",
         "If you think we handle your data wrongly, you can complain to the Icelandic Data Protection Authority (Persónuvernd, personuvernd.is) or the authority where you live.",
       ],
     },
@@ -85,7 +85,7 @@ export default {
     {
       title: "About these terms",
       body: [
-        "These terms apply when you use Wayora, the audio tour app operated by Wayora in Iceland. By creating an account or using the app you agree to them. Questions: wayoraaa@gmail.com.",
+        "These terms apply when you use Wayora, the audio tour app operated by Wayora in Iceland. By creating an account or using the app you agree to them. Questions: support@wayoratour.com.",
       ],
     },
     {
@@ -103,7 +103,7 @@ export default {
         "Plans renew automatically each month until you cancel. You can cancel at any time on the Plans page; you keep your plan until the end of the month you have paid for, and nothing more is charged. If you switch to a bigger plan, the difference is charged straight away.",
         "Prices are shown in the app before you pay and may change; a new price applies to new plans, and to an existing plan from its next renewal, and we will tell you before it does.",
         "Creators share part of plan revenue, split by how many of their stories subscribers played. Tips go in full to the tour's creator — Wayora takes no share of tips. Payments are processed by Stripe.",
-        "Refunds: if a tour does not work or you were charged by mistake, write to wayoraaa@gmail.com within 14 days and we will put it right. Your statutory rights as a consumer are not affected. Because stories are digital content you can play immediately, you ask for access straight away when you get a plan: you confirm this before paying, and the 14-day right of withdrawal then ends once you start playing a story with your plan. Plans can be cancelled at any time as described above.",
+        "Refunds: if a tour does not work or you were charged by mistake, write to support@wayoratour.com within 14 days and we will put it right. Your statutory rights as a consumer are not affected. Because stories are digital content you can play immediately, you ask for access straight away when you get a plan: you confirm this before paying, and the 14-day right of withdrawal then ends once you start playing a story with your plan. Plans can be cancelled at any time as described above.",
       ],
     },
     {

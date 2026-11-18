@@ -14,7 +14,7 @@ export default function Terms() {
       <LegalContent
         updated={content.updated}
         sections={content.terms}
-        contactEmail="wayoraaa@gmail.com"
+        contactEmail="support@wayoratour.com"
         questionsTitle={content.questionsTitle}
         questionsText={content.questionsText}
       />

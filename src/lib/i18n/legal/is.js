@@ -6,7 +6,7 @@ export default {
     {
       title: "Hver við erum",
       body: [
-        "Wayora er hljóðleiðsagnarapp sem rekið er af Wayora á Íslandi. Við berum ábyrgð á þeim persónuupplýsingum sem lýst er hér. Hafa samband: wayoraaa@gmail.com.",
+        "Wayora er hljóðleiðsagnarapp sem rekið er af Wayora á Íslandi. Við berum ábyrgð á þeim persónuupplýsingum sem lýst er hér. Hafa samband: support@wayoratour.com.",
       ],
     },
     {
@@ -64,7 +64,7 @@ export default {
       title: "Réttindi þín",
       body: [
         "Þú getur séð og breytt nafni þínu og lykilorði í Prófílnum, og eytt reikningnum þar hvenær sem er.",
-        "Þú átt líka rétt á afriti af gögnunum þínum, að leiðrétta þau, að mótmæla notkun þeirra og að biðja okkur að takmarka vinnslu þeirra. Skrifaðu til wayoraaa@gmail.com og við svörum innan mánaðar.",
+        "Þú átt líka rétt á afriti af gögnunum þínum, að leiðrétta þau, að mótmæla notkun þeirra og að biðja okkur að takmarka vinnslu þeirra. Skrifaðu til support@wayoratour.com og við svörum innan mánaðar.",
         "Ef þér finnst við fara rangt með gögnin þín geturðu kvartað til Persónuverndar (personuvernd.is) eða eftirlitsstofnunarinnar þar sem þú býrð.",
       ],
     },
@@ -85,7 +85,7 @@ export default {
     {
       title: "Um þessa skilmála",
       body: [
-        "Þessir skilmálar gilda þegar þú notar Wayora, hljóðleiðsagnarappið sem rekið er af Wayora á Íslandi. Með því að stofna reikning eða nota appið samþykkir þú þá. Spurningar: wayoraaa@gmail.com.",
+        "Þessir skilmálar gilda þegar þú notar Wayora, hljóðleiðsagnarappið sem rekið er af Wayora á Íslandi. Með því að stofna reikning eða nota appið samþykkir þú þá. Spurningar: support@wayoratour.com.",
       ],
     },
     {
@@ -103,7 +103,7 @@ export default {
         "Áskriftir endurnýjast sjálfkrafa í hverjum mánuði þar til þú segir upp. Þú getur sagt upp hvenær sem er á Verðsíðunni; þú heldur áskriftinni út þann mánuð sem þú hefur greitt fyrir og ekkert meira er rukkað. Ef þú skiptir yfir í stærri áskrift er mismunurinn rukkaður strax.",
         "Verð er sýnt í appinu áður en þú greiðir og getur breyst; nýtt verð gildir um nýjar áskriftir og um núverandi áskrift frá næstu endurnýjun, og við látum þig vita áður en það tekur gildi.",
         "Höfundar fá hlut af áskriftartekjum sem skiptist eftir því hversu margar sögur þeirra áskrifendur spiluðu. Styrkir renna óskertir til höfundar ferðarinnar — Wayora tekur engan hlut af styrkjum. Greiðslur fara í gegnum Stripe.",
-        "Endurgreiðslur: ef ferð virkar ekki eða þú varst rukkað(ur) fyrir mistök skrifaðu til wayoraaa@gmail.com innan 14 daga og við leiðréttum það. Lögbundin réttindi þín sem neytandi haldast óbreytt. Þar sem sögurnar eru stafrænt efni sem þú getur spilað strax biður þú um tafarlausan aðgang þegar þú tekur áskrift: þú staðfestir það áður en þú greiðir, og 14 daga endurkröfurétturinn fellur þá niður um leið og þú byrjar að spila sögu með áskriftinni. Áskriftum má segja upp hvenær sem er eins og lýst er hér að ofan.",
+        "Endurgreiðslur: ef ferð virkar ekki eða þú varst rukkað(ur) fyrir mistök skrifaðu til support@wayoratour.com innan 14 daga og við leiðréttum það. Lögbundin réttindi þín sem neytandi haldast óbreytt. Þar sem sögurnar eru stafrænt efni sem þú getur spilað strax biður þú um tafarlausan aðgang þegar þú tekur áskrift: þú staðfestir það áður en þú greiðir, og 14 daga endurkröfurétturinn fellur þá niður um leið og þú byrjar að spila sögu með áskriftinni. Áskriftum má segja upp hvenær sem er eins og lýst er hér að ofan.",
       ],
     },
     {
